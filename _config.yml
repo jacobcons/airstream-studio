@@ -8,9 +8,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-  test:
-    title: test
-    output: true
 defaults:
 - scope:
     path: ''
@@ -22,5 +19,6 @@ defaults:
     path: ''
     type: pages
   values:
-    layout: page
+    layout: default
+    title: ''
 permalink: date
