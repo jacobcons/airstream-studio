@@ -20,4 +20,4 @@ defaults:
     type: pages
   values:
     layout: page
-permalink: pretty
+permalink: date

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+      <header>
+        <h1 class="logo">Oakka</h1>
+        {% include nav.html %}
+      </header>
+      {{ content }}
+      <footer>
+        {% include nav.html %}
+      </footer>
+      <script src="main.js"></script>
+    </body>
+</html>
