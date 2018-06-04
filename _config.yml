@@ -20,5 +20,5 @@ defaults:
     type: pages
   values:
     layout: default
-    title: ''
+    title: 
 permalink: date
