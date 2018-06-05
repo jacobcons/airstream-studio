@@ -1,3 +1,15 @@
-h1 {
-	color: blue;
-}
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/placeholders';
+
+@import 'base/base';
+@import 'base/fonts';
+@import 'base/helpers';
+@import 'base/typography';
+
+@import 'components/btn';
+
+@import 'vendor/tiny-slider';
+
+@import 'vendor-extensions/tiny-slider';

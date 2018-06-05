@@ -1,0 +1,27 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}	
+	
+body {
+	color: $white;
+	font-family: 'Open sans', sans-serif;
+	line-height: 1.5em;
+	margin: 0;
+}
+  
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	color: $main-theme-color;
+	@include font-size(42px)
+}
+	
+p {
+	color: $mid-gray;
+	font-weight: light;
+	@include font-size(16px)
+}
+	
+ul {
+	margin: 0;
+  padding: 0;
+}
