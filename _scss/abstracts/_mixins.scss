@@ -37,4 +37,9 @@
 		src: $src;
 	}
 }
+
+@mixin centered-letter-spaced-text($letter-spacing) {
+	letter-spacing: $letter-spacing;
+	padding-left: $letter-spacing;
+}
 	

@@ -1,0 +1,24 @@
+.logo {
+	$letter-spacing: 0.48em;
+	font-family: 'PT Sans', sans-serif;
+	color: $light-gray;
+	text-transform: uppercase;
+	@include font-size(84px)
+	font-weight: normal;
+	margin: calculate-rem(18px) 0;
+	@include centered-letter-spaced-text($letter-spacing)
+	line-height: 100%;
+	@media (max-width: $small) {
+		@include font-size(48px)
+	}
+}
+
+.contact-detail {
+	color: $main-theme-color;
+	text-decoration: underline;
+	font-family: 'Raleway', sans-serif;
+	@include font-size(16px)
+	@media (max-width: $small) {
+		@include font-size(15px);
+	}
+}

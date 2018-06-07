@@ -7,3 +7,9 @@ $dark-gray: rgba($black, 0.53);
 $main-theme-color: rgba(#D6A94A, 0.8);
 
 /* Dimensions */
+
+/* Breakpoints */
+$x-small: calculate-rem(320px);
+$small: calculate-rem(510px);
+$medium: calculate-rem(670px);
+$large: calculate-rem(1140px);

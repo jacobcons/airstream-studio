@@ -1,5 +1,6 @@
-<nav>
-  {% for page in site.pages %}
-    <a href="{{page.url}}">{{page.title}}</a>
+<nav class="{{ include.nav-class }}">
+  {% assign sortedPages = site.pages | sort:"position" %}
+  {% for page in sortedPages %}
+    <a class="{{ include.link-class }}" href="{{ page.url }}">{{ page.title }}</a>
   {% endfor %}
 </nav>
