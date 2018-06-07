@@ -20,7 +20,7 @@ defaults:
     type: pages
   values:
     layout: default
-    Title:
+    Title: 
     title: 
 permalink: date
 contact:
