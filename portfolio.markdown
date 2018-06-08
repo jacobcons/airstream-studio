@@ -7,6 +7,8 @@ slider-images:
 - "/uploads/6032570f_original.jpg"
 - "/uploads/60144941_original.jpg"
 - "/uploads/97d522b8_original.jpg"
+- "/uploads/6032570f_original.jpg"
+- "/uploads/60144941_original.jpg"
 - "/uploads/97d522b8_original.jpg"
 layout: portfolio
 ---
