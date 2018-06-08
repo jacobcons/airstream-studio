@@ -1,5 +1,5 @@
 .wrapper {
-  width: 90%;
+  width: 80%;
   max-width: calculate-rem(1200px);
   margin: 0 auto;
   position: relative;
@@ -37,4 +37,5 @@
 
 .flex--center {
   justify-content: center;
+  align-items: center;
 }

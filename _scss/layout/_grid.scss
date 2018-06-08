@@ -1,0 +1,25 @@
+.the-team-grid {  
+  display: grid;
+  grid-row-gap: calculate-rem(72px);
+  @media (max-width: $medium) {
+    grid-row-gap: calculate-rem(32px);
+  }
+}
+
+.the-team-grid__row {  
+  display: grid;
+  grid-template-columns: repeat(2, 41.67%);
+  justify-content: center;
+  grid-column-gap: calculate-rem(36px);
+  @media (max-width: $medium) {
+    grid-template-columns: repeat(1, 1fr);
+    &:nth-child(1) .the-team-grid__item:nth-child(2) {
+      grid-row: 1;
+    }
+  }
+}
+
+.the-team-grid__item {
+  @extend .flex;
+  @extend .flex--center;
+}

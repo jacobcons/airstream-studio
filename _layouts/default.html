@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.Title }}</title>
+        <title>{{ pages.page-title }}</title>
         <meta name="viewport" content="width=device-width">
         
         <link rel="stylesheet" href="main.css">
@@ -21,9 +21,9 @@
         </div>
         {% include nav.html nav-class="primary-nav flex flex--space-between" link-class="primary-nav__link" %}
         <div class="flex flex--center">
-          <a class="social-icon" href="twitter" target="_blank" rel="noopener">{% include SVGs/twitter.svg %}</a>
-          <a class="social-icon" href="fb" target="_blank" rel="noopener">{% include SVGs/facebook.svg %}</a>
-          <a class="social-icon" href="instagram" target="_blank" rel="noopener">{% include SVGs/instagram.svg %}</a> 
+          <a class="social-icon" href="twitter" target="_blank" rel="noopener">{% include social-icons/twitter.svg %}</a>
+          <a class="social-icon" href="fb" target="_blank" rel="noopener">{% include social-icons/facebook.svg %}</a>
+          <a class="social-icon" href="instagram" target="_blank" rel="noopener">{% include social-icons/instagram.svg %}</a> 
         </div>
       </footer>
       <script src="main.js"></script>

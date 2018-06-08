@@ -8,7 +8,7 @@
 	margin: calculate-rem(18px) 0;
 	@include centered-letter-spaced-text($letter-spacing)
 	line-height: 100%;
-	@media (max-width: $small) {
+	@media (max-width: $medium) {
 		@include font-size(48px)
 	}
 }
@@ -21,4 +21,17 @@
 	@media (max-width: $small) {
 		@include font-size(15px);
 	}
+}
+
+.mission-statement {
+	max-width: calculate-rem(994px);
+	margin: 0 auto;
+	@include font-size(20px);
+	@media (max-width: $small) {
+		@include font-size(16px);
+	}
+}
+
+.title {
+	@extend .text-center;
 }

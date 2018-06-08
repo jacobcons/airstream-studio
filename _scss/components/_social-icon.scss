@@ -1,6 +1,6 @@
 .social-icon {
 	margin: 0 calculate-rem(28px);
-	svg path {
-		fill: $main-theme-color;
+	svg {
+		@include square(calculate-rem(30px))
 	}
 }

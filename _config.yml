@@ -20,7 +20,7 @@ defaults:
     type: pages
   values:
     layout: default
-    page title: ''
+    page-title: ''
 permalink: date
 contact:
   email: hello@oakkadesign.co.uk
