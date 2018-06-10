@@ -1,6 +1,7 @@
 ---
 title: Oakka
 timezone: UTC
+exclude: ['notes', 'node_modules']
 collections:
   posts:
     title: Posts
