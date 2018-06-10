@@ -2,7 +2,7 @@
 title: Services
 date: 2018-06-04 22:59:00 Z
 position: 1
-page-title: Oakka design studios || Services
+page-title: Services -- Oakka design studios
 services:
 - title: Interior design
   text-box: Styling, themes and ideas from one room to an entire building.
