@@ -63,6 +63,10 @@ gulp.task('js', () => {
       global: true,
     })  
     .bundle()
+    .on('error', function(err) {
+      console.log(err.message);
+      this.emit('end');
+    })
     .pipe(source('_js/main.js'))
     .pipe(flatten())
     .pipe(gulp.dest('_site'))

@@ -3,7 +3,7 @@
 }	
 	
 body {
-	color: $white;
+	color: $mid-gray;
 	font-family: 'Open sans', sans-serif;
 	margin: 0;
 }
@@ -22,7 +22,6 @@ h2 {
 }
 	
 p {
-	color: $mid-gray;
 	font-weight: lighter;
 	line-height: 1.5em;
 	@include font-size(16px)

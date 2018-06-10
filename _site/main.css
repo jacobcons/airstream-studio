@@ -2,10 +2,10 @@
 /* Dimensions */
 /* Breakpoints */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400|PT+Sans|Raleway:300,400,600");
-.primary-header, .primary-section {
+.contact-form-grid, .primary-header, .primary-section {
   margin: 4.5rem 0; }
   @media (max-width: 31.875rem) {
-    .primary-header, .primary-section {
+    .contact-form-grid, .primary-header, .primary-section {
       margin: 3rem 0; } }
 
 .primary-footer {
@@ -18,13 +18,13 @@
   box-sizing: border-box; }
 
 body {
-  color: #fff;
+  color: rgba(0, 0, 0, 0.49);
   font-family: 'Open sans', sans-serif;
   margin: 0; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
-  color: #d6a94a; }
+  color: #D6A94A; }
 
 h2 {
   font-size: 42px;
@@ -36,7 +36,6 @@ h2 {
       font-size: 2.25rem; } }
 
 p {
-  color: rgba(0, 0, 0, 0.49);
   font-weight: lighter;
   line-height: 1.5em;
   font-size: 16px;
@@ -51,7 +50,7 @@ ul {
   padding: 0; }
 
 svg path {
-  fill: #d6a94a;
+  fill: #D6A94A;
   transition: fill .2s; }
 
 svg:hover path {
@@ -111,7 +110,7 @@ svg:hover path {
       font-size: 3rem; } }
 
 .contact-detail {
-  color: #d6a94a;
+  color: #D6A94A;
   text-decoration: underline;
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
@@ -130,6 +129,18 @@ svg:hover path {
     .mission-statement {
       font-size: 16px;
       font-size: 1rem; } }
+
+.btn {
+  color: #D6A94A;
+  border: 3px solid #D6A94A;
+  font-size: 24px;
+  font-size: 1.5rem;
+  text-align: center;
+  display: block;
+  padding: 0.667em 2.083em;
+  max-width: 10.25rem;
+  cursor: pointer;
+  margin: 0 auto; }
 
 .card {
   padding: 1rem 3.25rem 0 1.5rem;
@@ -159,6 +170,68 @@ svg:hover path {
 .card__text {
   color: #fff;
   margin: 0; }
+
+.input-field__text-input {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.49);
+  outline: none;
+  height: 2rem;
+  width: 100%;
+  font-family: 'Open sans', sans-serif; }
+
+.input-field--active .input-field__text-input {
+  border-color: #D6A94A;
+  color: #D6A94A; }
+
+.input-field--active .input-field__label {
+  color: #D6A94A;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  font-size: 12px;
+  font-size: 0.75rem; }
+
+textarea.input-field__text-input {
+  min-height: 5rem;
+  resize: none; }
+
+.input-field__label {
+  color: rgba(0, 0, 0, 0.49);
+  font-size: 15px;
+  font-size: 0.9375rem;
+  transition: all .2s ease-out;
+  display: inline-block; }
+
+.input-field__error {
+  color: #D0021B;
+  font-size: 12px;
+  font-size: 0.75rem; }
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.modal__inner {
+  background-color: #fff;
+  padding: 2.5rem;
+  position: relative; }
+
+.modal__close {
+  cursor: pointer;
+  position: absolute;
+  top: 8px;
+  right: 15px; }
 
 .profile-image {
   max-width: 20rem;
@@ -207,6 +280,19 @@ svg:hover path {
     .services-grid {
       grid-template-columns: repeat(1, 1fr); } }
 
+.contact-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, [col-start] 1fr);
+  grid-gap: 4rem 2.25rem; }
+  @media (max-width: 31.875rem) {
+    .contact-form-grid {
+      grid-gap: 1.5rem; }
+      .contact-form-grid .contact-form-grid__item {
+        grid-column: col-start / span 2; } }
+
+.contact-form-grid__full {
+  grid-column: col-start / span 2; }
+
 .primary-footer {
   display: grid;
   grid-gap: 2rem;
@@ -227,7 +313,7 @@ svg:hover path {
   font-size: 16px;
   font-size: 1rem; }
   .primary-nav__link:hover {
-    color: #d6a94a; }
+    color: #D6A94A; }
   @media (max-width: 31.875rem) {
     .primary-nav__link {
       font-size: 15px;

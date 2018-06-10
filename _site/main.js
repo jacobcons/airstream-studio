@@ -1,9 +1,33 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 'use strict';
 
+class Fetch {
+  async get(url) {
+    return await (await fetch(url)).json();
+  }
+
+  async post(url, data) {
+    return await (await fetch(url, {
+      method: 'POST',
+      body: data
+    })).json();
+  }
+}
+
+module.exports = new Fetch();
+
+},{}],2:[function(require,module,exports){
+'use strict';
+
 var _tinySlider = require('../node_modules/tiny-slider/src/tiny-slider.module');
 
-document.addEventListener('DOMContentLoaded', () => {
+var _Fetch = require('./Fetch.js');
+
+var _Fetch2 = _interopRequireDefault(_Fetch);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+document.addEventListener('DOMContentLoaded', async () => {
 	if (window.location.pathname === '/') {
 		const slider = (0, _tinySlider.tns)({
 			container: '.js-slider-singles',
@@ -36,10 +60,69 @@ document.addEventListener('DOMContentLoaded', () => {
 				}
 			}
 		});
+	} else if (window.location.pathname === '/contact.html') {
+		const elTextInputs = document.querySelectorAll('.js-text-input');
+		elTextInputs.forEach(input => {
+			input.addEventListener('focus', () => input.parentElement.classList.add('input-field--active'));
+			input.addEventListener('blur', () => {
+				if (!input.value) input.parentElement.classList.remove('input-field--active');
+			});
+		});
+
+		const elSendBtn = document.querySelector('.js-send-btn');
+		elSendBtn.addEventListener('click', async e => {
+			e.preventDefault();
+			const elForm = document.querySelector('.js-contact-form');
+			const elRequiredInputs = document.querySelectorAll('.js-required-input');
+			const elEmailInput = document.querySelector('input[name="email"]');
+			const elErrors = document.querySelectorAll('.js-input-error');
+
+			elErrors.forEach(error => error.remove());
+
+			let errors = {};
+			if (!/.+@.+/.test(elEmailInput.value)) {
+				errors.email = {
+					text: 'Please enter a valid email',
+					input: elEmailInput
+				};
+			}
+			elRequiredInputs.forEach(input => {
+				if (!input.value) {
+					errors[input.name] = {
+						text: 'Please fill out the required field',
+						input
+					};
+				}
+			});
+
+			const errorNames = Object.keys(errors);
+			if (errorNames.length === 0) {
+				const queryString = new URLSearchParams(new FormData(elForm)).toString();
+				const res = await _Fetch2.default.get(`${elForm.getAttribute('action')}&${queryString}`);
+				if (res.success) {
+					document.body.insertAdjacentHTML('beforeend', `
+					<div class="modal">
+						<div class="modal__inner">
+							<span>Thank you for your email :)</span>
+							<span class="modal__close">X</span>
+						</div>
+					</div>`);
+				}
+				const elModal = document.querySelector('.modal');
+				const elModalInner = document.querySelector('.modal__inner');
+				const elModalClose = document.querySelector('.modal__close');
+				elModal.addEventListener('click', e => {
+					if (e.target !== elModalInner) elModal.remove();
+				});
+				elModalClose.addEventListener('click', () => elModal.remove());
+			} else {
+				errorNames.forEach(name => errors[name].input.insertAdjacentHTML('afterend', `<span class="input-field__error js-input-error">${errors[name].text}</span>`));
+			}
+		});
 	}
 });
 
-},{"../node_modules/tiny-slider/src/tiny-slider.module":44}],2:[function(require,module,exports){
+},{"../node_modules/tiny-slider/src/tiny-slider.module":45,"./Fetch.js":1}],3:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -55,7 +138,7 @@ function addCSSRule(sheet, selector, rules, index) {
   // });
 } // cross browsers addRule method
 
-},{"./raf":31}],3:[function(require,module,exports){
+},{"./raf":32}],4:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -77,7 +160,7 @@ var addClass = _hasClass.classListSupport ? function (el, str) {
 
 exports.addClass = addClass;
 
-},{"./hasClass":23}],4:[function(require,module,exports){
+},{"./hasClass":24}],5:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -94,7 +177,7 @@ function addEvents(el, obj) {
   }
 }
 
-},{"./passiveOption":30}],5:[function(require,module,exports){
+},{"./passiveOption":31}],6:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -109,7 +192,7 @@ function arrayFromNodeList(nl) {
   return arr;
 }
 
-},{}],6:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -121,7 +204,7 @@ var caf = exports.caf = win.cancelAnimationFrame || win.mozCancelAnimationFrame 
   clearTimeout(id);
 };
 
-},{}],7:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -166,7 +249,7 @@ function calc() {
   return result;
 }
 
-},{"./childNode.remove":9,"./getBody":17,"./resetFakeBody":36,"./setFakeBody":38}],8:[function(require,module,exports){
+},{"./childNode.remove":10,"./getBody":18,"./resetFakeBody":37,"./setFakeBody":39}],9:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -177,7 +260,7 @@ function checkStorageValue(value) {
   return ['true', 'false'].indexOf(value) >= 0 ? JSON.parse(value) : value;
 }
 
-},{}],9:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 "use strict";
 
 // ChildNode.remove
@@ -193,7 +276,7 @@ function checkStorageValue(value) {
   }
 })();
 
-},{}],10:[function(require,module,exports){
+},{}],11:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -201,7 +284,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 var classListSupport = exports.classListSupport = 'classList' in document.createElement('_');
 
-},{}],11:[function(require,module,exports){
+},{}],12:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -230,7 +313,7 @@ function createStyleSheet(media) {
   return style.sheet ? style.sheet : style.styleSheet;
 };
 
-},{}],12:[function(require,module,exports){
+},{}],13:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -238,7 +321,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 var docElement = exports.docElement = document.documentElement;
 
-},{}],13:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -272,7 +355,7 @@ function Events() {
   };
 };
 
-},{}],14:[function(require,module,exports){
+},{}],15:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -303,7 +386,7 @@ function extend() {
   return target;
 }
 
-},{}],15:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -317,7 +400,7 @@ function forEachNodeList(arr, callback, scope) {
   }
 }
 
-},{}],16:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -328,7 +411,7 @@ function getAttr(el, attr) {
   return el.getAttribute(attr);
 }
 
-},{}],17:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -347,7 +430,7 @@ function getBody() {
   return body;
 }
 
-},{}],18:[function(require,module,exports){
+},{}],19:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -359,7 +442,7 @@ function getCssRulesLength(sheet) {
   return rule.length;
 }
 
-},{}],19:[function(require,module,exports){
+},{}],20:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -382,7 +465,7 @@ function getEndProperty(propIn, propOut) {
   return endProp;
 }
 
-},{}],20:[function(require,module,exports){
+},{}],21:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -396,7 +479,7 @@ function getSlideId() {
   return 'tns' + window.tnsId;
 }
 
-},{}],21:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -416,7 +499,7 @@ function getTouchDirection(angle, range) {
   return direction;
 }
 
-},{}],22:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -427,7 +510,7 @@ function hasAttr(el, attr) {
   return el.hasAttribute(attr);
 }
 
-},{}],23:[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -446,7 +529,7 @@ var hasClass = _classListSupport.classListSupport ? function (el, str) {
 exports.classListSupport = _classListSupport.classListSupport;
 exports.hasClass = hasClass;
 
-},{"./classListSupport":10}],24:[function(require,module,exports){
+},{"./classListSupport":11}],25:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -464,7 +547,7 @@ function hideElement(el) {
   }
 }
 
-},{"./hasAttr":22,"./setAttrs":37}],25:[function(require,module,exports){
+},{"./hasAttr":23,"./setAttrs":38}],26:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -476,7 +559,7 @@ function isNodeList(el) {
   return typeof el.item !== "undefined";
 }
 
-},{}],26:[function(require,module,exports){
+},{}],27:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -487,7 +570,7 @@ function isVisible(el) {
   return el.offsetWidth > 0 && el.offsetHeight > 0;
 }
 
-},{}],27:[function(require,module,exports){
+},{}],28:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -515,7 +598,7 @@ function jsTransform(element, attr, prefix, postfix, to, duration, callback) {
   }
 }
 
-},{}],28:[function(require,module,exports){
+},{}],29:[function(require,module,exports){
 "use strict";
 
 // keys
@@ -531,7 +614,7 @@ if (!Object.keys) {
     };
 }
 
-},{}],29:[function(require,module,exports){
+},{}],30:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -575,7 +658,7 @@ function mediaquerySupport() {
   return position === "absolute";
 }
 
-},{"./childNode.remove":9,"./getBody":17,"./resetFakeBody":36,"./setFakeBody":38}],30:[function(require,module,exports){
+},{"./childNode.remove":10,"./getBody":18,"./resetFakeBody":37,"./setFakeBody":39}],31:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -593,7 +676,7 @@ try {
 } catch (e) {}
 var passiveOption = exports.passiveOption = supportsPassive ? { passive: true } : false;
 
-},{}],31:[function(require,module,exports){
+},{}],32:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -605,7 +688,7 @@ var raf = exports.raf = win.requestAnimationFrame || win.webkitRequestAnimationF
   return setTimeout(cb, 16);
 };
 
-},{}],32:[function(require,module,exports){
+},{}],33:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -627,7 +710,7 @@ function removeAttrs(els, attrs) {
   }
 }
 
-},{"./isNodeList":25}],33:[function(require,module,exports){
+},{"./isNodeList":26}],34:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -649,7 +732,7 @@ var removeClass = _hasClass.classListSupport ? function (el, str) {
 
 exports.removeClass = removeClass;
 
-},{"./hasClass":23}],34:[function(require,module,exports){
+},{"./hasClass":24}],35:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -660,7 +743,7 @@ function removeElementStyles(el) {
   el.style.cssText = '';
 }
 
-},{}],35:[function(require,module,exports){
+},{}],36:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -677,7 +760,7 @@ function removeEvents(el, obj) {
   }
 }
 
-},{"./passiveOption":30}],36:[function(require,module,exports){
+},{"./passiveOption":31}],37:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -699,7 +782,7 @@ function resetFakeBody(body, docOverflow) {
   }
 }
 
-},{"./childNode.remove":9,"./docElement":12}],37:[function(require,module,exports){
+},{"./childNode.remove":10,"./docElement":13}],38:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -722,7 +805,7 @@ function setAttrs(els, attrs) {
   }
 }
 
-},{"./isNodeList":25}],38:[function(require,module,exports){
+},{"./isNodeList":26}],39:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -746,7 +829,7 @@ function setFakeBody(body) {
   return docOverflow;
 }
 
-},{"./docElement":12}],39:[function(require,module,exports){
+},{"./docElement":13}],40:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -760,7 +843,7 @@ function setLocalStorage(key, value, access) {
   return value;
 }
 
-},{}],40:[function(require,module,exports){
+},{}],41:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -778,7 +861,7 @@ function showElement(el) {
   }
 }
 
-},{"./hasAttr":22,"./removeAttrs":32}],41:[function(require,module,exports){
+},{"./hasAttr":23,"./removeAttrs":33}],42:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -820,7 +903,7 @@ function subpixelLayout() {
     return supported;
 }
 
-},{"./childNode.remove":9,"./getBody":17,"./resetFakeBody":36,"./setFakeBody":38}],42:[function(require,module,exports){
+},{"./childNode.remove":10,"./getBody":18,"./resetFakeBody":37,"./setFakeBody":39}],43:[function(require,module,exports){
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -831,7 +914,7 @@ function toDegree(y, x) {
   return Math.atan2(y, x) * (180 / Math.PI);
 }
 
-},{}],43:[function(require,module,exports){
+},{}],44:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -851,7 +934,7 @@ function whichProperty(props) {
   return false; // explicit for ie9-
 }
 
-},{}],44:[function(require,module,exports){
+},{}],45:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -3558,4 +3641,4 @@ var tns = exports.tns = function tns(options) {
   };
 };
 
-},{"./helpers/addCSSRule":2,"./helpers/addClass":3,"./helpers/addEvents":4,"./helpers/arrayFromNodeList":5,"./helpers/caf":6,"./helpers/calc":7,"./helpers/checkStorageValue":8,"./helpers/childNode.remove":9,"./helpers/createStyleSheet":11,"./helpers/events":13,"./helpers/extend":14,"./helpers/forEachNodeList":15,"./helpers/getAttr":16,"./helpers/getCssRulesLength":18,"./helpers/getEndProperty":19,"./helpers/getSlideId":20,"./helpers/getTouchDirection":21,"./helpers/hasAttr":22,"./helpers/hasClass":23,"./helpers/hideElement":24,"./helpers/isVisible":26,"./helpers/jsTransform":27,"./helpers/keys":28,"./helpers/mediaquerySupport":29,"./helpers/raf":31,"./helpers/removeAttrs":32,"./helpers/removeClass":33,"./helpers/removeElementStyles":34,"./helpers/removeEvents":35,"./helpers/setAttrs":37,"./helpers/setLocalStorage":39,"./helpers/showElement":40,"./helpers/subpixelLayout":41,"./helpers/toDegree":42,"./helpers/whichProperty":43}]},{},[1]);
+},{"./helpers/addCSSRule":3,"./helpers/addClass":4,"./helpers/addEvents":5,"./helpers/arrayFromNodeList":6,"./helpers/caf":7,"./helpers/calc":8,"./helpers/checkStorageValue":9,"./helpers/childNode.remove":10,"./helpers/createStyleSheet":12,"./helpers/events":14,"./helpers/extend":15,"./helpers/forEachNodeList":16,"./helpers/getAttr":17,"./helpers/getCssRulesLength":19,"./helpers/getEndProperty":20,"./helpers/getSlideId":21,"./helpers/getTouchDirection":22,"./helpers/hasAttr":23,"./helpers/hasClass":24,"./helpers/hideElement":25,"./helpers/isVisible":27,"./helpers/jsTransform":28,"./helpers/keys":29,"./helpers/mediaquerySupport":30,"./helpers/raf":32,"./helpers/removeAttrs":33,"./helpers/removeClass":34,"./helpers/removeElementStyles":35,"./helpers/removeEvents":36,"./helpers/setAttrs":38,"./helpers/setLocalStorage":40,"./helpers/showElement":41,"./helpers/subpixelLayout":42,"./helpers/toDegree":43,"./helpers/whichProperty":44}]},{},[2]);
