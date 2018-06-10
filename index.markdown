@@ -5,11 +5,11 @@ position: 0
 page-title: Oakka design studios || Index
 slider-images:
 - image: "/uploads/slider-1.jpg"
-  alt: 
+  alt: a
 - image: "/uploads/slider-2.jpg"
-  alt: 
+  alt: b
 - image: "/uploads/slider-3.jpg"
-  alt: 
+  alt: c
 mission-statement: We would love to talk to you about your project whether it be a
   small room or complete refurbishment. Oakka Design offers a friendly, down to earth
   approach. We listen to  your ideas and add our own experience and creativity to
