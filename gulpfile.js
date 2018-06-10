@@ -90,7 +90,7 @@ gulp.task('watch', function () {
  */
 gulp.task('default', ['browser-sync', 'watch']);
 
-gulp.task('deploy', ['jekyll-build', 'css-prod', 'js-prod', 'image-min'], function () {
-    return gulp.src('./_site/**/*')
+gulp.task('deploy', ['jekyll-build', 'css-prod', 'js-prod'], function () {
+    return gulp.src('./**')
         .pipe(deploy());
 });
