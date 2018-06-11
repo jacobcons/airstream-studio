@@ -15,7 +15,7 @@ mission-statement: We would love to talk to you about your project whether it be
   approach. We listen to  your ideas and add our own experience and creativity to
   create a beautiful space for you.
 the-team:
-  title: The Team
+  title: Meet The Team
   team-member-1:
     image: "/uploads/Dayna.jpg"
     text-box: Em has a passion for textiles and design, having studied at Chelsea
