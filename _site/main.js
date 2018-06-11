@@ -1031,7 +1031,7 @@ var browserInfo = navigator.userAgent,
 // tTE => transitionEnd
 // tAE => animationEnd
 // Format: ES MODULE
-// Version: 2.7.0
+// Version: 2.7.1
 
 // helper functions
 try {
@@ -1471,6 +1471,10 @@ var tns = exports.tns = function tns(options) {
             arr.push(tem);
           }
         });
+      }
+
+      if (!arr.length) {
+        arr.push(0);
       }
 
       return isFW ? Math.ceil(fixedWidthViewportWidth / Math.min.apply(null, arr)) : Math.max.apply(null, arr);
@@ -2047,10 +2051,10 @@ var tns = exports.tns = function tns(options) {
       }
     }
 
-    if (touch) {
+    if (carousel && touch) {
       (0, _addEvents.addEvents)(container, touchEvents);
     }
-    if (mouseDrag) {
+    if (carousel && mouseDrag) {
       (0, _addEvents.addEvents)(container, dragEvents);
     }
     if (arrowKeys) {
