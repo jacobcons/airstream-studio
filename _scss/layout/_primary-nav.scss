@@ -10,10 +10,3 @@
 		@include font-size(15px);
 	}
 }
-
-.primary-nav__link--margin {
-	margin: 0 calculate-rem(22px);
-	@media (max-width: $small) {
-		margin: 0 calculate-rem(9px);
-	}
-}
