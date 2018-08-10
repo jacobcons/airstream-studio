@@ -26,7 +26,7 @@ exclude:
 - node_modules
 permalink: date
 contact:
-  email: hello@oakkadesign.co.uk
+  email: info@airstreamstudio.co.uk
   tel: '07738590748'
 gems:
 - jekyll-sitemap
