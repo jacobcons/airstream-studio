@@ -4,7 +4,15 @@
   "description": "Oakka website",
   "main": "gulpfile.js",
   "dependencies": {
-    "tiny-slider": "^2.7.0"
+    "aos": "^2.2.0",
+    "autosize": "^4.0.0",
+    "clipboard": "^1.7.1",
+    "foundation-sites": "^6.4.1",
+    "lazyload": "^1.8.4",
+    "lscache": "^1.1.0",
+    "scroll": "^2.0.0",
+    "tiny-slider": "^2.7.0",
+    "vanilla-lazyload": "^8.0.3"
   },
   "devDependencies": {
     "babel-preset-env": "^1.7.0",

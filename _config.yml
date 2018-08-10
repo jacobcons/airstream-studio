@@ -21,6 +21,7 @@ defaults:
   values:
     layout: default
     page-title: ''
+    meta-desc: ''
 exclude:
 - notes
 - node_modules
@@ -30,3 +31,47 @@ contact:
   tel: '07738590748'
 gems:
 - jekyll-sitemap
+
+header-nav:
+  left:
+  - title: Home
+    url: "/"
+  - title: Airstream photo booth
+    url: javascript:void(0)
+    children:
+    - title: Interior
+      url: "/airstream-photo-booth/interior.html"
+  - title: Pricing
+    url: "/pricing.html"
+  right:
+  - title: Videos
+    url: "/videos.html"
+  - title: Social media
+    url: "/social-media.html"
+  - title: Contact
+    url: "/contact.html"
+
+footer-nav:
+  col-1:
+  - title: Home
+    url: "/"
+  - title: Airstream photo booth
+    url: javascript:void(0)
+    children:
+    - title: Interior
+      url: "/airstream-photo-booth/interior.html"
+  - title: Pricing
+    url: "/pricing.html"
+  - title: Videos
+    url: "/videos.html"
+  col-2:
+  - title: Social media
+    url: "/social-media.html"
+  - title: Vintage wedding suppliers
+    url: "/vintage-wedding-suppliers.html"
+  - title: Vintage shops sussex
+    url: "/vintage-shops-sussex.html"
+  - title: Vintage events
+    url: "/vintage-events.html"
+  - title: Contact
+    url: "/contact.html"

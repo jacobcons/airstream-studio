@@ -4,10 +4,10 @@ class Fetch {
   }
 
   async post(url, data) {
-    return await(await fetch(url, {
+    return await fetch(url, {
       method: 'POST',
       body: data,
-    })).json();
+    });
   }
 }
 
