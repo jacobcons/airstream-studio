@@ -31,7 +31,6 @@ contact:
   tel: '07738590748'
 gems:
 - jekyll-sitemap
-
 header-nav:
   left:
   - title: Home
@@ -50,7 +49,6 @@ header-nav:
     url: "/social-media.html"
   - title: Contact
     url: "/contact.html"
-
 footer-nav:
   col-1:
   - title: Home
