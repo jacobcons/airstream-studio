@@ -1,18 +1,11 @@
 /* Colors */
 /* Dimensions */
 /* Breakpoints */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400|PT+Sans|Raleway:300,400,600");
-.contact-form-grid, .primary-header, .primary-section {
+.primary-section {
   margin: 4.5rem 0; }
   @media (max-width: 31.875rem) {
-    .contact-form-grid, .primary-header, .primary-section {
+    .primary-section {
       margin: 3rem 0; } }
-
-.primary-footer {
-  margin: 8.5rem auto; }
-  @media (max-width: 31.875rem) {
-    .primary-footer {
-      margin: 4rem auto; } }
 
 *, *::before, *::after {
   box-sizing: border-box; }
@@ -36,7 +29,6 @@ h2 {
       font-size: 2.25rem; } }
 
 p {
-  font-weight: lighter;
   line-height: 1.5em;
   font-size: 16px;
   font-size: 1rem; }
@@ -65,7 +57,7 @@ svg:hover path {
 .text-left {
   text-align: left; }
 
-.text-center, .title {
+.text-center {
   text-align: center; }
 
 .text-right {
@@ -78,57 +70,6 @@ svg:hover path {
   content: "";
   display: table;
   clear: both; }
-
-.flex, .the-team-grid__item {
-  display: -ms-flexbox;
-  display: flex; }
-
-.flex--space-between {
-  -ms-flex-pack: justify;
-      justify-content: space-between; }
-
-.flex--center, .the-team-grid__item {
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center; }
-
-.logo {
-  font-family: 'PT Sans', sans-serif;
-  color: rgba(0, 0, 0, 0.31);
-  text-transform: uppercase;
-  font-size: 84px;
-  font-size: 5.25rem;
-  font-weight: normal;
-  margin: 1.125rem 0;
-  letter-spacing: 0.48em;
-  padding-left: 0.48em;
-  line-height: 100%; }
-  @media (max-width: 41.875rem) {
-    .logo {
-      font-size: 48px;
-      font-size: 3rem; } }
-
-.contact-detail {
-  color: #D6A94A;
-  text-decoration: underline;
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-  font-size: 1rem; }
-  @media (max-width: 31.875rem) {
-    .contact-detail {
-      font-size: 15px;
-      font-size: 0.9375rem; } }
-
-.mission-statement {
-  max-width: 62.125rem;
-  margin: 0 auto;
-  font-size: 20px;
-  font-size: 1.25rem; }
-  @media (max-width: 31.875rem) {
-    .mission-statement {
-      font-size: 16px;
-      font-size: 1rem; } }
 
 .btn {
   color: #D6A94A;
@@ -233,14 +174,6 @@ textarea.input-field__text-input {
   top: 8px;
   right: 15px; }
 
-.profile-image {
-  max-width: 20rem;
-  width: 100%;
-  border-radius: 100%; }
-  @media (max-width: 41.875rem) {
-    .profile-image {
-      width: 65%; } }
-
 .slider__image {
   min-height: 30vh;
   object-fit: cover; }
@@ -250,61 +183,6 @@ textarea.input-field__text-input {
   .social-icon svg {
     width: 1.875rem;
     height: 1.875rem; }
-
-.the-team-grid {
-  display: grid;
-  grid-row-gap: 4.5rem; }
-  @media (max-width: 41.875rem) {
-    .the-team-grid {
-      grid-row-gap: 2rem; } }
-
-.the-team-grid__row {
-  display: grid;
-  grid-template-columns: repeat(2, 41.67%);
-  -ms-flex-pack: center;
-      justify-content: center;
-  grid-column-gap: 2.25rem; }
-  @media (max-width: 41.875rem) {
-    .the-team-grid__row {
-      grid-template-columns: repeat(1, 1fr); }
-      .the-team-grid__row:nth-child(1) .the-team-grid__item:nth-child(2) {
-        grid-row: 1; } }
-
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); }
-  @media (max-width: 56.25rem) {
-    .services-grid {
-      grid-template-columns: repeat(2, 1fr); } }
-  @media (max-width: 41.875rem) {
-    .services-grid {
-      grid-template-columns: repeat(1, 1fr); } }
-
-.contact-form-grid {
-  display: grid;
-  grid-template-columns: repeat(2, [col-start] 1fr);
-  grid-gap: 4rem 2.25rem; }
-  @media (max-width: 31.875rem) {
-    .contact-form-grid {
-      grid-gap: 1.5rem; }
-      .contact-form-grid .contact-form-grid__item {
-        grid-column: col-start / span 2; } }
-
-.contact-form-grid__full {
-  grid-column: col-start / span 2; }
-
-.primary-footer {
-  display: grid;
-  grid-gap: 2rem;
-  max-width: 24.5625rem;
-  width: 80%; }
-
-.primary-header {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  text-align: center; }
 
 .primary-nav__link {
   color: rgba(0, 0, 0, 0.49);
@@ -318,12 +196,6 @@ textarea.input-field__text-input {
     .primary-nav__link {
       font-size: 15px;
       font-size: 0.9375rem; } }
-
-.primary-nav__link--margin {
-  margin: 0 1.375rem; }
-  @media (max-width: 31.875rem) {
-    .primary-nav__link--margin {
-      margin: 0 0.5625rem; } }
 
 .tns-outer {
   padding: 0 !important; }
