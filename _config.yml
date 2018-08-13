@@ -22,6 +22,7 @@ defaults:
     layout: default
     page-title: ''
     meta-desc: ''
+  
 exclude:
 - notes
 - node_modules
@@ -35,11 +36,21 @@ header-nav:
   left:
   - title: Home
     url: "/"
-  - title: Airstream photo booth
+  - title: Photo booth
     url: javascript:void(0)
     children:
     - title: Interior
       url: "/airstream-photo-booth/interior.html"
+    - title: Photo booth
+      url: "/airstream-photo-booth/photo-booth.html"
+    - title: Exterior
+      url: "/airstream-photo-booth/exterior.html"
+    - title: Guest books
+      url: "/airstream-photo-booth/guest-books.html"
+    - title: Props & features
+      url: "/airstream-photo-booth/props-&-features.html"
+    - title: Events
+      url: "/airstream-photo-booth/events.html"
   - title: Pricing
     url: "/pricing.html"
   right:
@@ -53,11 +64,21 @@ footer-nav:
   col-1:
   - title: Home
     url: "/"
-  - title: Airstream photo booth
+  - title: Photo booth
     url: javascript:void(0)
     children:
     - title: Interior
       url: "/airstream-photo-booth/interior.html"
+    - title: Photo booth
+      url: "/airstream-photo-booth/photo-booth.html"
+    - title: Exterior
+      url: "/airstream-photo-booth/exterior.html"
+    - title: Guest books
+      url: "/airstream-photo-booth/guest-books.html"
+    - title: Props & features
+      url: "/airstream-photo-booth/props-&-features.html"
+    - title: Events
+      url: "/airstream-photo-booth/events.html"
   - title: Pricing
     url: "/pricing.html"
   - title: Videos

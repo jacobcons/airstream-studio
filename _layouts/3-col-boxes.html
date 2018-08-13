@@ -1,0 +1,8 @@
+{% if page.heading %}
+<section class="section">
+	<h1 class="title title--underline">{{ page.heading }}</h1>
+</section>
+{% endif %}
+<section class="section">
+	{% include 3-col-boxes boxes=page.boxes %}
+</section>

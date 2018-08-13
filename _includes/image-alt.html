@@ -1,0 +1,7 @@
+{% assign alt = include.alt %}
+
+{% if alt == '' %}
+	{% assign alt = alt | split:'.' | first}
+{% endif %}
+
+{{ alt }}

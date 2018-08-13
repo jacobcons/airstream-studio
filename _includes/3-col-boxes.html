@@ -1,0 +1,13 @@
+{% for box in include.boxes %}
+	<div class="column large-4 medium-6 small-12">
+		<div class="box">
+			<h2 class="box__title">{{ box.title }}</h2>
+			<img src="{{ box.image-obj.image }}" alt="{{ include image-alt alt=image-obj.alt }}" class="box__image">
+			<p class="box__text">{{ box.desc }}</p>
+			{% if box.link != '' %}
+				<a href="{{ box.link }}" class="arrow-link">Find out more</a>
+				<i class="fa fa-chevron-right" aria-hidden="true"></i>
+			{% endif %}
+		</div>
+	</div>
+{% endfor %}
