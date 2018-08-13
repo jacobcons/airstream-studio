@@ -9,7 +9,7 @@ slider-images:
 - image: "/uploads/airstream%20studio%20wide%20shot.jpg"
   alt: 
 - image: "/uploads/wedding%20photo%20booth.jpg"
-  alt: a
+  alt: 
 aspects:
 - title: Exterior
   image: "/uploads/vintage%20airstream%20photo%20booth%20hire.jpg"
