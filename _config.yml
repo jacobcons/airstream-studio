@@ -19,9 +19,19 @@ defaults:
     path: ''
     type: pages
   values:
-    layout: default
+    layout: page
     page-title: ''
     meta-desc: ''
+- scope:
+    path: '/interior'
+    type: pages
+  values:
+    layout: booth-aspect
+    slider-images:
+    - image: 
+      alt: 
+    heading: ''
+    desc: ''
   
 exclude:
 - notes
