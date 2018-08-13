@@ -23,7 +23,7 @@ defaults:
     page-title: ''
     meta-desc: ''
 - scope:
-    path: "/interior"
+    path: "/photo-booth"
     type: pages
   values:
     layout: booth-aspect
