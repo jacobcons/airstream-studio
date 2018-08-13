@@ -9,7 +9,7 @@ layout: page
 	<div class="cross-fader">
 		{% for image-obj in page.slider-images %}
 			<div class="cross-fader__item">
-				<img src="{{ image-obj.image }}" alt="{{ include image-alt alt=image-obj.alt }}" class="cross-fader__image">
+				<img src="{{ image-obj.image }}" alt="{% include image-alt.html alt=image-obj.alt %}" class="cross-fader__image">
 			</div>
 		{% endfor %}
 	</div>
@@ -17,6 +17,6 @@ layout: page
 
 <section class="section">
 	<div class="row">
-		{% include 3-col-boxes boxes=page.aspects %}
+		{% include 3-col-boxes.html boxes=page.aspects %}
 	</div>
 </section>

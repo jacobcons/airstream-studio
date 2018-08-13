@@ -1,0 +1,33 @@
+---
+layout: page
+---
+<section class="section">
+	<h2 class="title"><span class="date"></span> prices</h2>
+	{% include service.html services=page.prices %}
+</section>
+
+<section class="section">
+	<h2 class="title">Additional services</h2>
+	{% include service.html services=page.additional-services %}
+</section>
+
+<section class="section section--padding-l">
+	<h2 class="title">Included</h2>
+	<ul class="horizontal-list">
+		{% for item in page.included %}
+		<li class="horizontal-list__item">{{ item }}</li>
+	</ul>
+</section>
+
+<section class="section">
+	<div class="row">
+		{% for box in page.information %}
+		<div class="column medium-6 small-12">
+			<div class="box {% cycle 'box--left', 'box--right' %}">
+				<h2 class="box__title box__title--size-l">{{ box.title }}</h2>
+				<p class="box__text">{{ box.text }}</p> 
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</section>
