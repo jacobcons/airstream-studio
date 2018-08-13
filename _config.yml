@@ -23,7 +23,7 @@ defaults:
     page-title: ''
     meta-desc: ''
 - scope:
-    path: '/interior'
+    path: "/interior"
     type: pages
   values:
     layout: booth-aspect
@@ -32,7 +32,6 @@ defaults:
       alt: 
     heading: ''
     desc: ''
-  
 exclude:
 - notes
 - node_modules
