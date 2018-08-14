@@ -1,6 +1,7 @@
 ---
 title: Contact
 date: 2018-08-14 13:15:00 Z
+position: 0
 page-title: Airstream Studio - Contact Us, Booking Form & Email
 meta-desc: Contact Airstream Studio, a unique Brighton based photo booth.
 desc: "Airstream Studio is based in Brighton, East Sussex. \n\nWe generally work within
