@@ -5,5 +5,6 @@ position: 4
 page-title: Airstream Studio - Social Media, Latest Photos & News
 meta-desc: Follow Airstream Studio on Instagram & Facebook for latest photos, videos
   and news.
+layout: social-media
 ---
 
