@@ -1,6 +1,7 @@
 ---
 title: Interior
 date: 2018-08-14 10:43:00 Z
+position: 0
 page-title: Airstream Photo Booth - A Lovingly Crafted 1950’s Inspired Interior With
   A Diner Style Seating Booth
 meta-desc: A lovingly crafted retro interior where guests can relax in a luxury seating

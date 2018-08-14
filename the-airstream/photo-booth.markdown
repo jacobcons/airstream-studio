@@ -1,6 +1,7 @@
 ---
 title: Photo booth
 date: 2018-08-14 11:29:00 Z
+position: 1
 page-title: Airstream Studio - A Vintage Photo Booth With a Huge Selection Of Vintage
   & Creative Props
 meta-desc: A vintage inspired photo set surrounded by a beautiful archway of fairground
