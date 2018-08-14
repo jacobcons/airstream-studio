@@ -72,5 +72,6 @@ desc: We have created a vintage inspired photo set surrounded by a beautiful arc
   irresistible and return several times for more photos. Pictures are printed almost
   instantly from a high speed printer and can be shared with social media directly
   from the iPad.
+layout: booth-aspect
 ---
 
