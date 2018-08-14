@@ -7,45 +7,45 @@ meta-desc: A unique photo booth inside and 1949 vintage airstream. A stunning re
   caravan for your wedding, party, school prom or corporate event.
 slider-images:
 - image: "/uploads/airstream%20studio%20wide%20shot.jpg"
-  alt: 
+  image-alt: 
 - image: "/uploads/wedding%20photo%20booth.jpg"
-  alt: 
+  image-alt: 
 - image: "/uploads/summer%20wedding%20sussex.jpg"
-  alt: 
+  image-alt: 
 - image: "/uploads/airstream%20studio%20sunset.jpg"
-  alt: 
+  image-alt: 
 - image: "/uploads/wedding%20entertainment.jpg"
-  alt: 
+  image-alt: 
 - image: "/uploads/graduation%20ball.jpg"
-  alt: 
+  image-alt: 
 - image: "/uploads/airstream%20studio%20photo%20booth.jpg"
-  alt: 
+  image-alt: 
 - image: "/uploads/wedding%20photo%20booth%20kiss.jpg"
   alt: 
 - image: "/uploads/pangdean%20barn%20wedding.jpg"
-  alt: 
+  image-alt: 
 - image: "/uploads/wedding%20photography%20sussex.jpg"
-  alt: 
+  image-alt: 
 - image: "/uploads/photo%20booth%20kiss.jpg"
-  alt: 
+  image-alt: 
 - image: "/uploads/photo%20booth%20sussex.jpg"
-  alt: 
+  image-alt: 
 - image: "/uploads/photo%20booth%20events%20london.jpg"
   alt: 
 - image: "/uploads/wedding%20photography.jpg"
-  alt: 
+  image-alt: 
 - image: "/uploads/airstream%20photo%20booth.jpg"
-  alt: 
+  image-alt: 
 - image: "/uploads/corporate%20event%20hire.jpg"
-  alt: 
+  image-alt: 
 - image: "/uploads/O2%20arena.jpg"
-  alt: 
+  image-alt: 
 - image: "/uploads/wedding%20photos.jpg"
-  alt: 
+  image-alt: 
 - image: "/uploads/country%20wedding%20venues.jpg"
-  alt: 
+  image-alt: 
 - image: "/uploads/airstream%20studio.jpg"
-  alt: 
+  image-alt: 
 aspects:
 - title: Exterior
   image: "/uploads/exterior.jpg"
