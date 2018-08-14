@@ -56,6 +56,7 @@ boxes:
   image-alt: 
   desc: We offer a discount to charities for photo booth events.
   link: 
+heading: Events
 layout: 3-col-boxes
 ---
 
