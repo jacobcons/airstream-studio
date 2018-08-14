@@ -18,7 +18,7 @@ boxes:
   desc: Airstream Studio is perfect for party entertainment and fun photo memories.
   link: 
 - title: Corporate
-  image: "/uploads/corporate events.jpg"
+  image: "/uploads/corporate%20events-fbc8fb.jpg"
   image-alt: 
   desc: We love corporate events, parties and team events. Your company logo and branding
     can be added to photo prints.
