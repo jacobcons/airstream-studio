@@ -67,10 +67,6 @@ information:
     -2 hours set up time, 1 hour pack away time
 
     -A 50% deposit to secure your date with the balance due 30 days before your event
-
-    a
-
-    a
 - title: Information
   text: |-
     -Travel, set-up and pack away time is included within the hire cost
