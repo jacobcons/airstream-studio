@@ -65,13 +65,12 @@ image-slider:
 - image: "/uploads/party photo booth.jpg"
   image-alt: 
 heading: Vintage Photo Booth
-desc: We have created a vintage inspired photo set surrounded by a beautiful archway
-  of fairground lights. We use professional lighting to create stunning photo memories.
-  Guests love looking through our wide selection of fun, vintage and creative props
-  to choose just the right thing to wear for their photos. Many people find the booth
-  irresistible and return several times for more photos. Pictures are printed almost
-  instantly from a high speed printer and can be shared with social media directly
-  from the iPad.
+desc: We use professional lighting and beautiful floral backdrops to create stunning
+  photo memories. Guests love looking through our wide selection of fun, vintage and
+  creative props to choose just the right thing to wear for their photos. Many people
+  find the booth irresistible and return several times for more photos. Pictures are
+  printed almost instantly from a high speed printer and can be shared with social
+  media directly from the iPad.
 layout: booth-aspect
 ---
 
