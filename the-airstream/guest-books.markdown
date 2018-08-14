@@ -33,5 +33,6 @@ desc: Wedding guest books are a perfect way to reminisce and remember your big d
   messages to you and at the end of the evening you will take a home a fantastic book
   full of fun memories. The retro seating booth has room for several guests, a large
   table and beautiful complimentary stickers and pens.
+layout: booth-aspect
 ---
 
