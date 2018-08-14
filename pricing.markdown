@@ -60,11 +60,11 @@ information:
     to the standard template photo prints.
 - title: Requirements
   text: |-
-    -Airstream studio is 22 ft long and 7.5ft wide and will need suffcient access and a relatively at area to set up.
+    -Airstream studio is 22 ft long and 7.5ft wide and will need suffcient access and a relatively at area to set up.\
 
-    -A standard power point within 50 meters
+    -A standard power point within 50 meters\
 
-    -2 hours set up time, 1 hour pack away time
+    -2 hours set up time, 1 hour pack away time\
 
     -A 50% deposit to secure your date with the balance due 30 days before your event
 - title: Information
