@@ -8,33 +8,33 @@ meta-desc: A lovingly crafted retro interior where guests can relax in a luxury 
   A converted 1950’s radio plays vintage songs. It’s not just a photo booth, it’s
   a whole extra venue for your event.
 image-slider:
-- image: "/uploads/guest%20book.jpg"
+- image: "/uploads/guest book.jpg"
   image-alt: 
 - image: "/uploads/airstream%20studio%20booth.jpg"
   image-alt: 
-- image: "/uploads/vintage%20props.jpg"
+- image: "/uploads/vintage props.jpg"
   image-alt: 
-- image: "/uploads/summer%20wedding.jpg"
+- image: "/uploads/summer wedding.jpg"
   image-alt: 
-- image: "/uploads/airstream%20studio-4227fc.jpg"
+- image: "/uploads/airstream studio-4227fc.jpg"
   image-alt: 
-- image: "/uploads/luxury%20photo%20booth.jpg"
+- image: "/uploads/luxury photo booth.jpg"
   image-alt: 
-- image: "/uploads/wedding%20entertainment-dcde7f.jpg"
+- image: "/uploads/wedding entertainment-dcde7f.jpg"
   image-alt: 
-- image: "/uploads/wedding%20guest%20book%20table.jpg"
+- image: "/uploads/wedding guest book table.jpg"
   image-alt: 
-- image: "/uploads/photo%20booth%20sussex-8d2add.jpg"
+- image: "/uploads/photo booth sussex-8d2add.jpg"
   image-alt: 
-- image: "/uploads/luxury%20photo%20booth.jpg"
+- image: "/uploads/luxury photo booth.jpg"
   image-alt: 
-- image: "/uploads/vintage%20candy%20machine.jpg"
+- image: "/uploads/vintage candy machine.jpg"
   image-alt: 
-- image: "/uploads/photo%20booth%20prints.jpg"
+- image: "/uploads/photo booth prints.jpg"
   image-alt: 
-- image: "/uploads/photo%20booth%20interior.jpg"
+- image: "/uploads/photo booth interior.jpg"
   image-alt: 
-- image: "/uploads/guest%20book%20signing.jpg"
+- image: "/uploads/guest book signing.jpg"
   image-alt: 
 heading: Airstream interior
 desc: Inside the highly polished airstream, is a lovingly crafted 1950’s inspired
