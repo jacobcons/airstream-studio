@@ -2,6 +2,11 @@
 title: Guest books
 date: 2018-08-14 12:31:00 Z
 position: 3
+page-title: Wedding Guest Books - Beautiful Designs, Personalised With Your Name &
+  Date
+meta-desc: Wedding guest books are a perfect way to reminisce and remember your big
+  day. Choose one of our beautifully bound photo albums, custom printed with your
+  names and date.
 image-slider:
 - image: "/uploads/wedding guest book.jpg"
   image-alt: 
