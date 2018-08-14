@@ -62,5 +62,6 @@ desc: A rare vintage airstream “Betsie”, was built back in 1949 and was mode
   restored inside and out. We spend hours polishing the outside panels to a mirror
   finish so that the airstream looks great at your event. It makes a great backdrop
   for wedding photos and looks stunning at venues.
+layout: booth-aspect
 ---
 
