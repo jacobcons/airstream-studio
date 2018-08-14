@@ -1,6 +1,7 @@
 ---
 title: Events
 date: 2018-08-14 12:45:00 Z
+position: 5
 page-title: Airstream Studio - Unique Photo Booth Hire for Weddings, Parties, Proms,
   Corporate & Charity Events
 meta-desc: A unique photo booth available to hire for weddings,  parties, school proms,
