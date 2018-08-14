@@ -1,6 +1,7 @@
 ---
 title: Pricing
 date: 2018-08-14 13:01:00 Z
+position: 2
 page-title: Airstream Photo Booth Hire Pricing - Standard Bookings & Bespoke Packages
 meta-desc: Hire prices, information and venue requirements. Early set up, all day
   and bespoke hire packages available as well as location hire of photography and
