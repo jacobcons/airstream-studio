@@ -3,7 +3,23 @@ title: Guest books
 date: 2018-08-14 12:31:00 Z
 position: 3
 image-slider:
-- image: 
+- image: "/uploads/wedding guest book.jpg"
+  image-alt: 
+- image: "/uploads/airstream%20studio-fee982.jpg"
+  image-alt: 
+- image: "/uploads/guest%20book%20signing-5cff79.jpg"
+  image-alt: 
+- image: "/uploads/personalised guest book.jpg"
+  image-alt: 
+- image: "/uploads/photo guest book.jpg"
+  image-alt: 
+- image: "/uploads/airstream%20photo%20booth-b504d5.jpg"
+  image-alt: 
+- image: "/uploads/photo book.jpg"
+  image-alt: 
+- image: "/uploads/guest book.jpg"
+  image-alt: 
+- image: "/uploads/guest book table.jpg"
   image-alt: 
 heading: Guest Books
 desc: Wedding guest books are a perfect way to reminisce and remember your big day.
