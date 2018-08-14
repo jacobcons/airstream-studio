@@ -73,5 +73,6 @@ information:
     -To enable socila media sharing there must be a stable wi-fi or 4G connection. If this is not available uploads will be queued until a signal is available
 
     -For early set up, the airstream will be in place but not open as a photo booth until the agreed hire time
+layout: pricing
 ---
 
