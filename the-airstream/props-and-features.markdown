@@ -1,6 +1,7 @@
 ---
 title: Props & features
 date: 2018-08-14 12:39:00 Z
+position: 4
 page-title: Airstream Studio Photo Booth - Full Of Unique Features To Enhance Your
   Event
 meta-desc: Professional lighting, climate controlled, studio lighting, an enormous
