@@ -42,5 +42,6 @@ desc: Inside the highly polished airstream, is a lovingly crafted 1950’s inspi
   and add their photos to a your guest book. A converted 1950’s radio plays vintage
   music. It’s not just a photo booth, it’s a whole extra venue for your event. Airstream
   Studio is climate controlled for cool summers and warm winters.
+layout: booth-aspect
 ---
 
