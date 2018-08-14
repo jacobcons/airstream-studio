@@ -33,7 +33,7 @@ additional-services:
   is-currency: true
   price: 200
 - title: Early set up
-  is-fixed: false
+  is-fixed: true
   is-currency: false
   price: Please enquire
 included:
