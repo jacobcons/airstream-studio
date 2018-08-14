@@ -8,32 +8,32 @@ meta-desc: Hire prices, information and venue requirements. Early set up, all da
   film.
 prices:
 - title: 3 hours
-  is-fixed: false
+  is-from: true
   is-currency: true
   price: 850
 - title: 4 hours
-  is-fixed: false
+  is-from: true
   is-currency: true
   price: 1000
 - title: 5 hours
-  is-fixed: false
+  is-from: true
   is-currency: true
   price: 1150
 additional-services:
 - title: Personalised guest book
-  is-fixed: true
+  is-from: false
   is-currency: true
   price: 50
 - title: Premium printing
-  is-fixed: true
+  is-from: false
   is-currency: true
   price: 50
 - title: Video booth
-  is-fixed: false
+  is-from: true
   is-currency: true
   price: 200
 - title: Early set up
-  is-fixed: true
+  is-from: false
   is-currency: false
   price: Please enquire
 included:
