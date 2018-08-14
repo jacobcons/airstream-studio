@@ -29,5 +29,6 @@ desc: Inside the airstream is an abundance of fun, vintage creative and entertai
   help them get the most out of their experience. Kids love the vintage jelly bean
   dispenser (vegetarian friendly), and the airstream is climate controlled for cool
   summers and warm winter evenings.
+layout: booth-aspect
 ---
 
