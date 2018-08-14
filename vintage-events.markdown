@@ -1,7 +1,7 @@
 ---
 title: Vintage events
 date: 2018-08-14 13:27:00 Z
-position: 0
+position: 7
 page-title: Airstream Studio - Vintage Lifestyle Events & Festival Links
 meta-desc: Useful links for vintage events and period festivals.
 boxes:
