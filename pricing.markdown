@@ -60,18 +60,18 @@ information:
     to the standard template photo prints.
 - title: Requirements
   text: |-
-    -Airstream studio is 22 ft long and 7.5ft wide and will need suffcient access and a relatively at area to set up.\
+    -Airstream studio is 22 ft long and 7.5ft wide and will need suffcient access and a relatively at area to set up.
 
-    -A standard power point within 50 meters\
+    -A standard power point within 50 meters
 
-    -2 hours set up time, 1 hour pack away time\
+    -2 hours set up time, 1 hour pack away time
 
     -A 50% deposit to secure your date with the balance due 30 days before your event
 - title: Information
   text: |-
     -Travel, set-up and pack away time is included within the hire cost
 
-    -To enable socila media sharing there must be a stable wi-fi or 4G connection. If this is not available uploads will be queued until a signal is available
+    -To enable social media sharing there must be a stable wi-fi or 4G connection. If this is not available uploads will be queued until a signal is available
 
     -For early set up, the airstream will be in place but not open as a photo booth until the agreed hire time
 layout: pricing
