@@ -1,6 +1,9 @@
 ---
 title: Vintage wedding suppliers
 date: 2018-08-14 13:20:00 Z
+page-title: Airstream Studio - Recommended Vintage Wedding Suppliers in Sussex
+meta-desc: Vintage weddings supplier links for Sussex. Wedding dresses, flowers, food,
+  transport.
 boxes:
 - title: Gin & Bear it
   image: "/uploads/gin%20&%20bear%20it.jpg"
@@ -24,5 +27,6 @@ boxes:
   image: "/uploads/elizabeth%20avey%20wedding%20dresses.png"
   image-alt: 
   desc: A breath-taking vintage wedding dress l-collection.
+layout: 3-col-boxes
 ---
 
