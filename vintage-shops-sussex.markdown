@@ -1,6 +1,7 @@
 ---
 title: Vintage shops sussex
 date: 2018-08-14 13:24:00 Z
+position: 7
 page-title: Airstream Studio - Vintage & Retro Clothing Shops In Brighton & Sussex
 meta-desc: Our favourite vintage and retro clothing shops in Brighton & Sussex.
 boxes:

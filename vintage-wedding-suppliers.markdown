@@ -1,7 +1,7 @@
 ---
 title: Vintage wedding suppliers
 date: 2018-08-14 13:20:00 Z
-position: 5
+position: 6
 page-title: Airstream Studio - Recommended Vintage Wedding Suppliers in Sussex
 meta-desc: Vintage weddings supplier links for Sussex. Wedding dresses, flowers, food,
   transport.
