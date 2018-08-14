@@ -1,6 +1,7 @@
 ---
 title: Exterior
 date: 2018-08-14 12:21:00 Z
+position: 2
 page-title: Airstream Studio - Vintage Airstream Photo Booth Hire in Sussex
 meta-desc: A 1949 vintage airstream caravan with a luxury photo booth. Available to
   hire for weddings, parties festivals and events in Susses, Surrey and Kent.
