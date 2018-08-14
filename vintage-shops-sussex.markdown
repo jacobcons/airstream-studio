@@ -37,5 +37,6 @@ boxes:
   desc: With their own brand of vintage clothing and stockist of leading brands of
     vintage clothing and with stores in Brighton and London, Collectif is well worth
     a visit.
+layout: 3-col-boxes
 ---
 
