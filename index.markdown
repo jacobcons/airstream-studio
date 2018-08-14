@@ -10,13 +10,62 @@ slider-images:
   alt: 
 - image: "/uploads/wedding%20photo%20booth.jpg"
   alt: 
+- image: "/uploads/summer%20wedding%20sussex.jpg"
+  alt: 
+- image: "/uploads/airstream%20studio%20sunset.jpg"
+  alt: 
+- image: "/uploads/wedding%20entertainment.jpg"
+  alt: 
+- image: "/uploads/graduation%20ball.jpg"
+  alt: 
+- image: "/uploads/airstream%20studio%20photo%20booth.jpg"
+  alt: 
+- image: "/uploads/wedding%20photo%20booth%20kiss.jpg"
+  alt: 
+- image: "/uploads/pangdean%20barn%20wedding.jpg"
+  alt: 
+- image: "/uploads/wedding%20photography%20sussex.jpg"
+  alt: 
+- image: "/uploads/photo%20booth%20kiss.jpg"
+  alt: 
+- image: "/uploads/photo%20booth%20sussex.jpg"
+  alt: 
+- image: "/uploads/photo%20booth%20events%20london.jpg"
+  alt: 
+- image: "/uploads/wedding%20photography.jpg"
+  alt: 
+- image: "/uploads/airstream%20photo%20booth.jpg"
+  alt: 
+- image: "/uploads/corporate%20event%20hire.jpg"
+  alt: 
+- image: "/uploads/O2%20arena.jpg"
+  alt: 
+- image: "/uploads/wedding%20photos.jpg"
+  alt: 
+- image: "/uploads/country%20wedding%20venues.jpg"
+  alt: 
+- image: "/uploads/airstream%20studio.jpg"
+  alt: 
 aspects:
 - title: Exterior
-  image: "/uploads/vintage%20airstream%20photo%20booth%20hire.jpg"
+  image: "/uploads/exterior.jpg"
   image-alt: 
   desc: A rare 1949 vintage airstream trailer which has been lovingly restored with
     a mirror polished exterior. A stunning backdrop to your wedding, party or event.
-  link: "/exterior.html"
+  link: "/the-airstream/exterior.html"
+- title: Photo booth
+  image: "/uploads/photo%20booth.jpg"
+  image-alt: 
+  desc: A unique photo booth set inside a vintage airstream. Capture beautiful memories
+    in a vintage inspired photo set, with professional lighting and instant photo
+    printing.
+  link: "/the-airstream/photo-booth.html"
+- title: Interior
+  image: "/uploads/interior.jpg"
+  image-alt: 
+  desc: A retro 1950’s styled interior with a luxury seating booth, bespoke units
+    and a huge selection of unique and creative props.
+  link: "/the-airstream/interior.html"
 layout: index
 ---
 
