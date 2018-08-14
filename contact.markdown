@@ -18,5 +18,6 @@ badges:
   image: "/uploads/headliner.png"
 - link: https://www.hitched.co.uk/awards/vote/#Best-Non-Musical-Wedding-Entertainment
   image: "/uploads/wedding awards.png"
+layout: contact
 ---
 
