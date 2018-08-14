@@ -35,8 +35,6 @@ image-slider:
   image-alt: 
 - image: "/uploads/photo booth interior.jpg"
   image-alt: 
-- image: "/uploads/guest book signing.jpg"
-  image-alt: 
 heading: Airstream interior
 desc: Inside the highly polished airstream, is a lovingly crafted 1950’s inspired
   interior. Guests can relax in a luxury seating booth surrounded by fairground lights
