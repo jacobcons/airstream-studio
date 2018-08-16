@@ -25,7 +25,6 @@ defaults:
 exclude:
 - notes
 - node_modules
-- aws
 permalink: date
 contact:
   email: info@airstreamstudio.co.uk
@@ -36,21 +35,21 @@ header-nav:
   left:
   - title: Home
     url: "/"
-  - title: The airstream
+  - title: Photo booth
     url: javascript:void(0)
     children:
     - title: Interior
-      url: "/the-airstream/interior.html"
+      url: "/photo-booth/interior.html"
     - title: Photo booth
-      url: "/the-airstream/photo-booth.html"
+      url: "/photo-booth/photo-booth.html"
     - title: Exterior
-      url: "/the-airstream/exterior.html"
+      url: "/photo-booth/exterior.html"
     - title: Guest books
-      url: "/the-airstream/guest-books.html"
+      url: "/photo-booth/guest-books.html"
     - title: Props & features
-      url: "/the-airstream/props-and-features.html"
+      url: "/photo-booth/props-&-features.html"
     - title: Events
-      url: "/the-airstream/events.html"
+      url: "/photo-booth/events.html"
   - title: Pricing
     url: "/pricing.html"
   right:
@@ -64,21 +63,21 @@ footer-nav:
   col-1:
   - title: Home
     url: "/"
-  - title: The airstream
+  - title: Photo booth
     url: javascript:void(0)
     children:
     - title: Interior
-      url: "/the-airstream/interior.html"
+      url: "/photo-booth/interior.html"
     - title: Photo booth
-      url: "/the-airstream/photo-booth.html"
+      url: "/photo-booth/photo-booth.html"
     - title: Exterior
-      url: "/the-airstream/exterior.html"
+      url: "/photo-booth/exterior.html"
     - title: Guest books
-      url: "/the-airstream/guest-books.html"
+      url: "/photo-booth/guest-books.html"
     - title: Props & features
-      url: "/the-airstream/props-and-features.html"
+      url: "/photo-booth/props-&-features.html"
     - title: Events
-      url: "/the-airstream/events.html"
+      url: "/photo-booth/events.html"
   - title: Pricing
     url: "/pricing.html"
   - title: Videos
