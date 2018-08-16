@@ -17,6 +17,7 @@ layout: page
 	<ul class="horizontal-list">
 		{% for item in page.included %}
 		<li class="horizontal-list__item">{{ item }}</li>
+		{% endfor %}
 	</ul>
 </section>
 
@@ -26,9 +27,13 @@ layout: page
 		<div class="column medium-6 small-12">
 			<div class="box {% cycle 'box--left', 'box--right' %}">
 				<h2 class="box__title box__title--size-l">{{ box.title }}</h2>
-				<p class="box__text">{{ box.text }}</p> 
+				<p class="box__text">{{ box.text | markdownify }}</p> 
 			</div>
 		</div>
 		{% endfor %}
 	</div>
+</section>
+
+<section class="section">
+	{% include contact-btn.html %}
 </section>

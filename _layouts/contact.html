@@ -3,11 +3,12 @@ layout: page
 ---
 
 <section class="section">
-	<h1 class="title title--underline">Contact</h1> Contact
+	<h1 class="title title--underline">Contact</h1>
 	<div class="text-wrapper">
-		<p>{{ page.desc }}</p>
-		<p class="copy-link">{{ site.email }}</p> 
+		<p>{{ page.text | markdownify }}</p>
+		<p class="copy-link">{{ site.contact.email }}</p>
 	</div>
+	{% include contact-btn.html %} 
 </section>
 
 <section class="section section--padding-l">
@@ -15,7 +16,7 @@ layout: page
 		{% for badge in page.badges %}
 		<div class="column large-expand medium-6 small-12">
 			<a href="{{ badge.link }}" target="_blank" rel="noopener">
-				<img src="{{ badge.image }}" alt="{% include image-alt.html alt=badge.alt %}" class="badge">
+				<img src="{{ badge.image }}" alt="{% include image-alt.html alt=badge.image-alt file-path=badge.image %}" class="badge">
 			</a>
 		</div>
 		{% endfor %}

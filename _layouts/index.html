@@ -7,9 +7,9 @@ layout: page
 		<img class="cross-fader__badge" src="https://www.hitched.co.uk/images/ukweddingawards/2018/winners/winners-badge-2018.png"/>
 	</a>
 	<div class="cross-fader">
-		{% for image-obj in page.slider-images %}
+		{% for image-obj in page.image-slider %}
 			<div class="cross-fader__item">
-				<img src="{{ image-obj.image }}" alt="{% include image-alt.html alt=image-obj.alt %}" class="cross-fader__image">
+				<img src="{{ image-obj.image }}" alt="{% include image-alt.html alt=image-obj.image-alt file-path=image-obj.image %}" class="cross-fader__image">
 			</div>
 		{% endfor %}
 	</div>

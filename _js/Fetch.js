@@ -7,6 +7,9 @@ class Fetch {
     return await fetch(url, {
       method: 'POST',
       body: data,
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
     });
   }
 }

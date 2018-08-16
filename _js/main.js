@@ -41,7 +41,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     	autoplayButtonOutput: false,
     	controlsText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
       lazyload: true,
-      gutter: 5,
       loop: false,
       speed: 600,
     });

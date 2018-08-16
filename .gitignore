@@ -1,5 +1,6 @@
-.DS_Store
-Gemfile.lock
-/node_modules
-/_site
-.publish
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless

@@ -8,7 +8,9 @@ class ContactForm {
     this.elInputs = this.elForm.querySelectorAll('.input-field__text');
     this.elLabels = this.elForm.querySelectorAll('.input-field__label');
     this.elStatus = this.elForm.querySelector('.contact-form__status');
-    this.elRecaptcha = this.elForm.querySelector('.g-recaptcha');
+    this.elEmailInput = this.elForm.querySelector('input[name="email"]');
+    this.elsRequiredInput = this.elForm.querySelectorAll('.input-field__text--required');
+
   }
 
   errorLabel(err) {
@@ -17,42 +19,55 @@ class ContactForm {
 
   init() {
     this.elSendBtn.addEventListener('click', async (e) => {
-      // post request to submit form data to be emailed
       e.preventDefault();
-      const res = await Fetch.post(this.elForm.getAttribute('action'), new FormData(this.elForm));
-      const body = await res.json();
 
       // remove errors from all inputs
-      if (document.querySelectorAll('.contact-form__error')) {
-        document.querySelectorAll('.contact-form__error').forEach(err => err.remove());
-      }
-
+      document.querySelectorAll('.contact-form__error').forEach(err => err.remove());
       this.elInputs.forEach(input => input.classList.remove('input-field__text--error'));
       this.elLabels.forEach(label => label.classList.remove('input-field__label--error'));
       this.elStatus.classList.remove('contact-form__status--error');
-      grecaptcha.reset();
 
-      if (body.errors) {
-        // add errors to inputs that need it
-        Object.keys(body.errors).forEach((key, index) => {
-          const input = this.elForm.querySelector(`.input-field__text[name=${key}]`);
-          const label = input.nextElementSibling;
+      let errors = {}
+			if (!(/.+@.+/.test(this.elEmailInput.value))) {
+				errors.email = {
+					text: 'Please enter a valid email',
+					input: this.elEmailInput,
+				}
+			}
+			this.elsRequiredInput.forEach((input) => {
+				if (!input.value) {
+					errors[input.name] = {
+						text: 'Please fill out the required field',
+						input,
+					}
+				}
+			})
+
+			const errorNames = Object.keys(errors)
+			if (errorNames.length === 0) {
+				try {
+          const formData = new URLSearchParams(new FormData(this.elForm))
+					var res = await Fetch.post(this.elForm.getAttribute('action'), formData);
+				} catch(e) {
+					console.error(e)
+				}
+
+				if (res.ok) {
+					this.elStatus.textContent = 'Thank you for your email :)'
+          this.elForm.reset()
+				} else {
+					this.elStatus.textContent = 'Oops! There seems to have been a problem sending your email on our end. Contact us directly at info@airstreamstudio.co.uk'
+				}
+			} else {
+				errorNames.forEach((name) => {
+          const input = errors[name].input
+          const errMsg = errors[name].text
+          const label = input.nextElementSibling
           input.classList.add('input-field__text--error');
           label.classList.add('input-field__label--error');
-          label.insertAdjacentHTML('afterend', this.errorLabel(body.errors[key]));
-        });
-      }
-
-      if (body.recaptcha) {
-        this.elRecaptcha.insertAdjacentHTML('afterend', this.errorLabel(body.recaptcha));
-      }
-
-      if (res.status === 400 || res.status === 500) {
-        this.elStatus.classList.add('contact-form__status--error');
-      }
-
-      // display results of post request
-      this.elStatus.textContent = body.status;
+          label.insertAdjacentHTML('afterend', this.errorLabel(errMsg));
+        })
+			}
 
       // scroll to bottom of form
       this.elForm.scrollTop = this.elForm.offsetHeight;

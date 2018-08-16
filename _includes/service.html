@@ -3,7 +3,7 @@
 	<div class="column medium-4 small-12">
 		<div class="service">
 			<h3 class="service__title">{{ service.title }}</h3>
-			{% unless service.is-fixed %}
+			{% if service.is-from %}
 			<span class="service__title">From</span>
 			{% endif %}
 			{% if service.is-currency %}

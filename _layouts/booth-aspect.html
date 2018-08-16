@@ -5,9 +5,9 @@ layout: page
 <section class="section">
 	<div class="image-slider">
 		<div class="image-slider__scroll">
-			{% for image-obj in image-slider %}
+			{% for image-obj in page.image-slider %}
 			<div class="image-slider__image-wrapper">
-				<img data-original="{{ image-obj.image }}" alt="{{ include image-alt.html alt=image-obj.alt }}" class="image-slider__image">
+				<img src="{{ image-obj.image }}" alt="{% include image-alt.html alt=image-obj.image-alt file-path=image-obj.image %}" class="image-slider__image">
 			</div>
 			{% endfor %}
 		</div>
@@ -25,4 +25,5 @@ layout: page
 	<div class="text-wrapper">
 		<p>{{ page.desc }}</p>
 	</div>
+	{% include contact-btn.html %}
 </section>

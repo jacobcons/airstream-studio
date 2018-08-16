@@ -1218,7 +1218,6 @@ button:focus {
 .image-slider__image-wrapper {
   display: inline-block;
   width: 80%;
-  margin: 0 1px;
   position: relative; }
   .image-slider__image-wrapper:before {
     display: block;
@@ -1232,6 +1231,9 @@ button:focus {
     left: 0;
     right: 0;
     bottom: 0; }
+  .image-slider__image-wrapper img {
+    object-fit: cover;
+    height: 100%; }
 
 .input-field {
   position: relative;
