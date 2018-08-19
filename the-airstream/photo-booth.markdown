@@ -64,6 +64,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/party photo booth.jpg"
   image-alt: 
+- image: "/uploads/Hopetoun_falls.jpg"
+  image-alt: hey
 heading: Vintage Photo Booth
 desc: We use professional lighting and beautiful floral backdrops to create stunning
   photo memories. Guests love looking through our wide selection of fun, vintage and
