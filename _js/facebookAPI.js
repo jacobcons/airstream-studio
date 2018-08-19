@@ -1,0 +1,5 @@
+module.exports = {
+  BASE_URL: 'https://graph.facebook.com',
+  ACCESS_TOKEN: 'EAADhcC6sd8oBAJgVBlUQq8htAZA0e1Ql3NeufcOoZB51qhUgjRMIbLTbbW039rzTxDNAZAr4llFTmAKQRz3ZCK8fAL3xmNMggjbdAjS9R0SNqfNZCrLYSmJwCE8HMqZCGTyrXphEtO9npjBLDbB1XbSGt0edR36QqSxZAHpLiWQ5gZDZD',
+  PAGE_ID: '882543461878481',
+};
