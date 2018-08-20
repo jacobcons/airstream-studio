@@ -1281,16 +1281,6 @@ button:focus {
 
 .input-field__select-container {
   position: relative; }
-  .input-field__select-container:after {
-    position: absolute;
-    top: 50%;
-    right: 8px;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    content: "\25BC";
-    color: #9E9E9E;
-    font-size: 9px;
-    font-size: 0.5625rem; }
 
 .input-field__label {
   color: #9e9e9e;

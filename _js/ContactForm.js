@@ -58,6 +58,8 @@ class ContactForm {
 				} else {
 					this.elStatus.textContent = 'Oops! There seems to have been a problem sending your email on our end. Contact us directly at info@airstreamstudio.co.uk'
 				}
+        
+        this.elForm.scrollTop = this.elForm.offsetHeight;
 			} else {
 				errorNames.forEach((name) => {
           const input = errors[name].input
@@ -67,10 +69,9 @@ class ContactForm {
           label.classList.add('input-field__label--error');
           label.insertAdjacentHTML('afterend', this.errorLabel(errMsg));
         })
+        
+        this.elForm.scrollTop = 0;
 			}
-
-      // scroll to bottom of form
-      this.elForm.scrollTop = this.elForm.offsetHeight;
     });
   }
 }
