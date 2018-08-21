@@ -13,11 +13,11 @@ image-slider:
   image-alt: 
 - image: "/uploads/vintage cameras.jpg"
   image-alt: 
-- image: "/uploads/vintage picnic basket.jpg"
-  image-alt: 
 - image: "/uploads/vintage candy machine.jpg"
   image-alt: 
 - image: "/uploads/old camera.jpg"
+  image-alt: 
+- image: "/uploads/DSC_0343.jpg"
   image-alt: 
 heading: Props & features
 desc: Inside the airstream is an abundance of fun, vintage, creative and entertaining
