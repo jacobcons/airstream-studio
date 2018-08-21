@@ -17,7 +17,9 @@ image-slider:
   image-alt: 
 - image: "/uploads/old camera.jpg"
   image-alt: 
-- image: "/uploads/DSC_0343.jpg"
+- image: "/uploads/vintage_glases.jpg"
+  image-alt: 
+- image: "/uploads/stunning_headwear.jpg"
   image-alt: 
 heading: Props & features
 desc: Inside the airstream is an abundance of fun, vintage, creative and entertaining
