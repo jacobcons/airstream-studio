@@ -122,7 +122,7 @@ gulp.task('watch', function () {
  */
 gulp.task('default', ['browser-sync', 'watch']);
 
-gulp.task('prod', ['css-prod', 'js-prod']);
+gulp.task('prod', ['css-prod', 'js-prod', 'jekyll-build']);
 
 gulp.task('deploy', ['prod'], function () {
     return gulp.src('./_site/**/*')
