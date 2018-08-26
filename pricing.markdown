@@ -64,7 +64,7 @@ information:
 
     -A standard power point within 50 meters
 
-    -1.5 hours set up time, 1 hour pack away time
+    -1 hour set up time, 30 minutes pack away time
 
     -A 50% deposit to secure your date with the balance due 30 days before your event
 - title: Information
