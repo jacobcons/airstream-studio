@@ -20,6 +20,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/airstream%20studio%20photo%20booth.jpg"
   image-alt: 
+- image: "/uploads/23.flower_crowns.jpg"
+  image-alt: 
 - image: "/uploads/wedding%20photo%20booth%20kiss.jpg"
   alt: 
 - image: "/uploads/pangdean%20barn%20wedding.jpg"
