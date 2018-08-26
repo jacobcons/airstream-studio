@@ -26,6 +26,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/barn wedding.jpg"
   image-alt: 
+- image: "/uploads/airstream_wedding.jpg"
+  image-alt: 
 - image: "/uploads/upwaltham barns wedding.jpg"
   image-alt: 
 - image: "/uploads/wedding fireworks.jpg"

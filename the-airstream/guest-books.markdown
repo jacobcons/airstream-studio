@@ -10,6 +10,8 @@ meta-desc: Wedding guest books are a perfect way to reminisce and remember your 
 image-slider:
 - image: "/uploads/wedding guest book.jpg"
   image-alt: 
+- image: "/uploads/wedding_guest_book.jpg"
+  image-alt: 
 - image: "/uploads/airstream%20studio-fee982.jpg"
   image-alt: 
 - image: "/uploads/guest%20book%20signing-5cff79.jpg"
