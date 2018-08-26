@@ -30,6 +30,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/photo%20booth%20sussex.jpg"
   image-alt: 
+- image: "/uploads/21.festival_wedding-6d0426.jpg"
+  image-alt: 
 - image: "/uploads/photo%20booth%20events%20london.jpg"
   alt: 
 - image: "/uploads/wedding%20photography.jpg"
