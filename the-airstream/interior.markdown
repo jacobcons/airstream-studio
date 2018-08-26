@@ -17,8 +17,6 @@ image-slider:
   image-alt: 
 - image: "/uploads/guest_book_area.jpg"
   image-alt: 
-- image: "/uploads/vintage props.jpg"
-  image-alt: 
 - image: "/uploads/summer wedding.jpg"
   image-alt: 
 - image: "/uploads/airstream studio-4227fc.jpg"
