@@ -37,7 +37,7 @@ additional-services:
   is-currency: false
   price: Please enquire
 included:
-- One photo print per guest and a spare for your guest book
+- One photo print per group and a spare for your guest book
 - Sharing with social media
 - Personal photo template
 - Professionally lit photo set
@@ -56,8 +56,8 @@ information:
   text: Your guests can record video messages with sound, these will then be edited
     into a movie for you to cherish. Prices start from £200 depending on event duration.
 - title: Premium photo printing
-  text: For an additional £50, your guests can also print large single photos in addition
-    to the standard template photo prints.
+  text: For an additional £50, your guests will receive a print each with the option
+    to print large single 4x6 photos.
 - title: Requirements
   text: |-
     -Airstream studio is 22 ft long and 7.5ft wide and will need suffcient access and a relatively at area to set up.
