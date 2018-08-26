@@ -1,0 +1,30 @@
+.stars
+  unicode-bidi: bidi-override
+  color: #fff
+  font-size: 4rem
+  position: relative
+  padding: 0
+  display: inline-block
+  margin-bottom: 5rem
+  @include breakpoint(menu-collapse down)
+    margin-bottom: 3rem
+  @include breakpoint (small down)
+    font-size: 3rem
+
+.stars__top
+  color: #3b5998
+  padding: 0
+  position: absolute
+  z-index: 1
+  display: block
+  top: 0
+  left: 0
+  overflow: hidden
+
+.stars__bottom
+  padding: 0
+  display: block
+  z-index: 0
+
+[data-aos="fill-stars"]
+  width: 0
