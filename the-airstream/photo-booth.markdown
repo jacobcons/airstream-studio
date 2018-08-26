@@ -20,6 +20,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/bridesmaids photos.jpg"
   image-alt: 
+- image: "/uploads/30.wedding_fight.jpg"
+  image-alt: 
 - image: "/uploads/sussex wedding photos.jpg"
   image-alt: 
 - image: "/uploads/ladies in photo booth.jpg"
@@ -63,6 +65,8 @@ image-slider:
 - image: "/uploads/family photos.jpg"
   image-alt: 
 - image: "/uploads/party photo booth.jpg"
+  image-alt: 
+- image: "/uploads/29.animal_masks_booth.jpg"
   image-alt: 
 heading: Vintage Photo Booth
 desc: We use professional lighting and beautiful floral backdrops to create stunning
