@@ -36,8 +36,6 @@ image-slider:
   alt: 
 - image: "/uploads/wedding%20photography.jpg"
   image-alt: 
-- image: "/uploads/airstream%20photo%20booth.jpg"
-  image-alt: 
 - image: "/uploads/corporate%20event%20hire.jpg"
   image-alt: 
 - image: "/uploads/O2%20arena.jpg"
