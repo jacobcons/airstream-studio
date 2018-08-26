@@ -35,7 +35,7 @@ additional-services:
 - title: Early set up
   is-from: false
   is-currency: false
-  price: Please enquire
+  price: P.O.A.
 included:
 - One photo print per group and a spare for your guest book
 - Sharing with social media
