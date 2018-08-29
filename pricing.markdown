@@ -60,7 +60,7 @@ information:
     to print large single 4x6 photos.
 - title: Requirements
   text: |-
-    -Airstream studio is 22 ft long and 7.5ft wide and will need suffcient access and a relatively at area to set up.
+    -Airstream studio is 22 ft long and 7.5ft wide and will need suffcient access and a relatively flat area to set up.
 
     -A standard power point within 50 meters
 
