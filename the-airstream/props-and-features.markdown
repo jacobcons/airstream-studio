@@ -7,19 +7,21 @@ page-title: Airstream Studio Photo Booth - Full Of Unique Features To Enhance Yo
 meta-desc: Professional lighting, climate controlled, studio lighting, an enormous
   range of high quality props, jelly bean dispenser, high speed photo printing.
 image-slider:
-- image: "/uploads/flower_crown-d512cc.jpg"
+- image: "/uploads/feather head dress.jpg"
   image-alt: 
 - image: "/uploads/stunning_headwear-640e54.jpg"
   image-alt: 
 - image: "/uploads/vintage_glasses-a9b6b6.jpg"
   image-alt: 
-- image: "/uploads/vintage cameras.jpg"
+- image: "/uploads/flower_crown-d512cc.jpg"
+  image-alt: 
+- image: "/uploads/zedhead%20feather%20headwear.jpg"
   image-alt: 
 - image: "/uploads/vintage candy machine.jpg"
   image-alt: 
-- image: "/uploads/feather head dress.jpg"
+- image: "/uploads/cine%20camera.jpg"
   image-alt: 
-- image: "/uploads/old camera.jpg"
+- image: "/uploads/bellows%20camera-30ba92.jpg"
   image-alt: 
 heading: Props & features
 desc: Inside the airstream is an abundance of fun, vintage, creative and entertaining
