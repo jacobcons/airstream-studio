@@ -10,11 +10,17 @@ meta-desc: A vintage inspired photo set surrounded by a beautiful archway of fai
 image-slider:
 - image: "/uploads/wedding sussex.jpg"
   image-alt: 
+- image: "/uploads/wedding%20girls%20in%20white.jpg"
+  image-alt: 
+- image: "/uploads/festival%20wedding%20party.jpg"
+  image-alt: 
 - image: "/uploads/gradball photo booth.jpg"
   image-alt: 
 - image: "/uploads/photo booth fun.jpg"
   image-alt: 
 - image: "/uploads/event hire.jpg"
+  image-alt: 
+- image: "/uploads/bollywood%20photo%20booth.jpg"
   image-alt: 
 - image: "/uploads/photo booth mask.jpg"
   image-alt: 
@@ -67,6 +73,10 @@ image-slider:
 - image: "/uploads/party photo booth.jpg"
   image-alt: 
 - image: "/uploads/29.animal_masks_booth.jpg"
+  image-alt: 
+- image: "/uploads/corporate%20party-4618ea.jpg"
+  image-alt: 
+- image: 
   image-alt: 
 heading: Luxury Photo Booth
 desc: We use professional lighting and beautiful floral backdrops to create stunning
