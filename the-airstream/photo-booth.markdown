@@ -68,7 +68,7 @@ image-slider:
   image-alt: 
 - image: "/uploads/29.animal_masks_booth.jpg"
   image-alt: 
-heading: Vintage Photo Booth
+heading: Luxury Photo Booth
 desc: We use professional lighting and beautiful floral backdrops to create stunning
   photo memories. Guests love looking through our wide selection of fun, vintage and
   creative props to choose just the right thing to wear for their photos. Many people
