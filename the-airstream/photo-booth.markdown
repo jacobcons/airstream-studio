@@ -8,15 +8,17 @@ meta-desc: A vintage inspired photo set surrounded by a beautiful archway of fai
   lights. Guests love looking through our wide selection of fun, vintage and creative
   props to choose just the right thing to wear for their photos.
 image-slider:
+- image: "/uploads/photo booth fun.jpg"
+  image-alt: 
 - image: "/uploads/wedding sussex.jpg"
   image-alt: 
 - image: "/uploads/wedding%20girls%20in%20white.jpg"
   image-alt: 
 - image: "/uploads/festival%20wedding%20party.jpg"
   image-alt: 
-- image: "/uploads/gradball photo booth.jpg"
+- image: "/uploads/wedding%20photos-efb032.jpg"
   image-alt: 
-- image: "/uploads/photo booth fun.jpg"
+- image: "/uploads/gradball photo booth.jpg"
   image-alt: 
 - image: "/uploads/event hire.jpg"
   image-alt: 
@@ -33,8 +35,6 @@ image-slider:
 - image: "/uploads/ladies in photo booth.jpg"
   image-alt: 
 - image: "/uploads/girls in photo booth.jpg"
-  image-alt: 
-- image: "/uploads/wedding%20photos-efb032.jpg"
   image-alt: 
 - image: "/uploads/sussex wedding entertainment.jpg"
   image-alt: 
