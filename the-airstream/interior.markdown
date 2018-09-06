@@ -31,6 +31,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/vintage candy machine.jpg"
   image-alt: 
+- image: "/uploads/dupenny-01.png"
+  image-alt: 
 heading: Airstream interior
 desc: Inside the highly polished airstream, is a lovingly crafted 1950’s inspired
   interior. Guests can relax in a luxury seating booth surrounded by fairground lights

@@ -23,6 +23,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/bellows%20camera-30ba92.jpg"
   image-alt: 
+- image: "/uploads/dupenny-01-624c7c.png"
+  image-alt: 
 heading: Props & features
 desc: Inside the airstream is an abundance of fun, vintage, creative and entertaining
   props. The floral photo set is lit by two professional beauty dish lights that produce
