@@ -58,6 +58,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/sussex wedding.jpg"
   image-alt: 
+- image: "/uploads/dupenny-01-a8d74a.png"
+  image-alt: 
 heading: Vintage airstream
 desc: A rare vintage airstream “Betsie”, was built back in 1949 and was model number
   15 of 40 that were ever built. Bestie now sits on a new chassis and has been lovingly
