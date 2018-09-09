@@ -27,7 +27,7 @@ additional-services:
 - title: Premium printing
   is-from: false
   is-currency: true
-  price: 50
+  price: 80
 - title: Video booth
   is-from: true
   is-currency: true
