@@ -14,6 +14,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/airstream%20studio%20sunset.jpg"
   image-alt: 
+- image: "/uploads/boho.jpg"
+  image-alt: 
 - image: "/uploads/wedding%20photo%20booth-7fe2bf.jpg"
   image-alt: 
 - image: "/uploads/wedding%20entertainment.jpg"
