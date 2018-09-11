@@ -8,15 +8,15 @@ meta-desc: A unique photo booth inside and 1949 vintage airstream. A stunning re
 image-slider:
 - image: "/uploads/airstream%20studio%20wide%20shot.jpg"
   image-alt: 
-- image: "/uploads/wedding%20photo%20booth.jpg"
+- image: "/uploads/wedding%20photo%20booth-7fe2bf.jpg"
   image-alt: 
 - image: "/uploads/summer%20wedding%20sussex.jpg"
   image-alt: 
 - image: "/uploads/airstream%20studio%20sunset.jpg"
   image-alt: 
-- image: "/uploads/boho.jpg"
+- image: "/uploads/boho%20wedding.jpg"
   image-alt: 
-- image: "/uploads/wedding%20photo%20booth-7fe2bf.jpg"
+- image: "/uploads/wedding%20photo%20booth.jpg"
   image-alt: 
 - image: "/uploads/wedding%20entertainment.jpg"
   image-alt: 
