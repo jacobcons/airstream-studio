@@ -64,10 +64,10 @@ image-slider:
   image-alt: 
 heading: Vintage airstream
 desc: A rare vintage airstream “Betsie”, was built back in 1949 and was model number
-  15 of 40 that were ever built. Bestie now sits on a new chassis and has been lovingly
-  restored inside and out. We spend hours polishing the outside panels to a mirror
-  finish so that the airstream looks great at your event. It makes a great backdrop
-  for wedding photos and looks stunning at venues.
+  15 of only 40 that were ever built. Betsie now sits on a new chassis and has been
+  lovingly restored inside and out. We spend hours polishing the outside panels to
+  a mirror finish so that the airstream looks great at your event. It makes a great
+  backdrop for wedding photos and looks stunning at venues.
 layout: booth-aspect
 ---
 
