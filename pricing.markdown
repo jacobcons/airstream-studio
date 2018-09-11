@@ -44,7 +44,7 @@ included:
 - 2 hosts to greet & guide guests
 - Climate controlled for cool summers and warm winters
 - Professional editing of your shots
-- photos uploaded to a password protected gallery
+- Photos uploaded to a password protected gallery
 information:
 - title: Early set up
   text: For an additional charge, the vintage airstream can be set up before your
@@ -56,8 +56,8 @@ information:
   text: Your guests can record video messages with sound, these will then be edited
     into a movie for you to cherish. Prices start from £200 depending on event duration.
 - title: Premium photo printing
-  text: For an additional £50, your guests will receive a print each with the option
-    to print large single 4x6 photos.
+  text: For an additional £80, your guests will receive a print each with the option
+    to print a large single 4x6 photo each.
 - title: Requirements
   text: |-
     -Airstream studio is 22 ft long and 7.5ft wide and will need suffcient access and a relatively flat area to set up.
