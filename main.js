@@ -437,6 +437,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   async function videos() {
     const apiKey = 'AIzaSyCQFwzDyaunRwLLXw5HmGbtzU7kcXCBCwc';
     const [featureVideoRes, playlistRes] = await Promise.all([fetchPlaylist({ apiKey, playlistId: 'PLPgiQYzddFtj1WFE-z8csoUBeWc6_ZqlZ' }), fetchPlaylist({ apiKey, playlistId: 'PLPgiQYzddFtiwHeR6XoCixKkVhVPhHP4z' })]);
+    console.log(playlistRes);
 
     const featureVideoId = featureVideoRes.items[0].snippet.resourceId.videoId;
     document.querySelector('.js-feature-video').insertAdjacentHTML('beforeend', `
@@ -461,7 +462,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   async function fetchPlaylist({ apiKey, playlistId }) {
     try {
-      const res = await Fetch.get(`https://www.googleapis.com/youtube/v3/playlistItems?key=${apiKey}&playlistId=${playlistId}&part=contentDetails,snippet`);
+      const res = await Fetch.get(`https://www.googleapis.com/youtube/v3/playlistItems?key=${apiKey}&playlistId=${playlistId}&part=contentDetails,snippet&maxResults=9`);
       return res;
     } catch (e) {
       console.error(e);
