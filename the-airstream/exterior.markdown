@@ -16,6 +16,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/vintage photo booth.jpg"
   image-alt: 
+- image: "/uploads/boho-e969a0.jpg"
+  image-alt: 
 - image: "/uploads/events airstream.jpg"
   image-alt: 
 - image: "/uploads/summer wedding venue.jpg"
@@ -25,6 +27,8 @@ image-slider:
 - image: "/uploads/sussex photo booth.jpg"
   image-alt: 
 - image: "/uploads/barn wedding.jpg"
+  image-alt: 
+- image: "/uploads/airstream_wedding.jpg"
   image-alt: 
 - image: "/uploads/upwaltham barns wedding.jpg"
   image-alt: 
@@ -56,12 +60,14 @@ image-slider:
   image-alt: 
 - image: "/uploads/sussex wedding.jpg"
   image-alt: 
+- image: "/uploads/dupenny-01-a8d74a.png"
+  image-alt: 
 heading: Vintage airstream
 desc: A rare vintage airstream “Betsie”, was built back in 1949 and was model number
-  15 of 40 that were ever built. Bestie now sits on a new chassis and has been lovingly
-  restored inside and out. We spend hours polishing the outside panels to a mirror
-  finish so that the airstream looks great at your event. It makes a great backdrop
-  for wedding photos and looks stunning at venues.
+  15 of only 40 that were ever built. Betsie now sits on a new chassis and has been
+  lovingly restored inside and out. We spend hours polishing the outside panels to
+  a mirror finish so that the airstream looks great at your event. It makes a great
+  backdrop for wedding photos and looks stunning at venues.
 layout: booth-aspect
 ---
 

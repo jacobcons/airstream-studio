@@ -11,9 +11,11 @@ meta-desc: A lovingly crafted retro interior where guests can relax in a luxury 
 image-slider:
 - image: "/uploads/guest book.jpg"
   image-alt: 
-- image: "/uploads/airstream%20studio%20booth.jpg"
+- image: "/uploads/seating_area.jpg"
   image-alt: 
-- image: "/uploads/vintage props.jpg"
+- image: "/uploads/photo_booth_backdrop.jpg"
+  image-alt: 
+- image: "/uploads/guest_book_area.jpg"
   image-alt: 
 - image: "/uploads/summer wedding.jpg"
   image-alt: 
@@ -27,13 +29,9 @@ image-slider:
   image-alt: 
 - image: "/uploads/photo booth sussex-8d2add.jpg"
   image-alt: 
-- image: "/uploads/luxury photo booth.jpg"
-  image-alt: 
 - image: "/uploads/vintage candy machine.jpg"
   image-alt: 
-- image: "/uploads/photo booth prints.jpg"
-  image-alt: 
-- image: "/uploads/photo booth interior.jpg"
+- image: "/uploads/dupenny-01.png"
   image-alt: 
 heading: Airstream interior
 desc: Inside the highly polished airstream, is a lovingly crafted 1950’s inspired

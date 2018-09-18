@@ -8,25 +8,33 @@ meta-desc: A vintage inspired photo set surrounded by a beautiful archway of fai
   lights. Guests love looking through our wide selection of fun, vintage and creative
   props to choose just the right thing to wear for their photos.
 image-slider:
+- image: "/uploads/photo booth fun.jpg"
+  image-alt: 
 - image: "/uploads/wedding sussex.jpg"
+  image-alt: 
+- image: "/uploads/wedding%20girls%20in%20white.jpg"
+  image-alt: 
+- image: "/uploads/festival%20wedding%20party.jpg"
+  image-alt: 
+- image: "/uploads/wedding%20photos-efb032.jpg"
   image-alt: 
 - image: "/uploads/gradball photo booth.jpg"
   image-alt: 
-- image: "/uploads/photo booth fun.jpg"
-  image-alt: 
 - image: "/uploads/event hire.jpg"
+  image-alt: 
+- image: "/uploads/bollywood%20photo%20booth.jpg"
   image-alt: 
 - image: "/uploads/photo booth mask.jpg"
   image-alt: 
 - image: "/uploads/bridesmaids photos.jpg"
+  image-alt: 
+- image: "/uploads/30.wedding_fight.jpg"
   image-alt: 
 - image: "/uploads/sussex wedding photos.jpg"
   image-alt: 
 - image: "/uploads/ladies in photo booth.jpg"
   image-alt: 
 - image: "/uploads/girls in photo booth.jpg"
-  image-alt: 
-- image: "/uploads/wedding%20photos-efb032.jpg"
   image-alt: 
 - image: "/uploads/sussex wedding entertainment.jpg"
   image-alt: 
@@ -64,7 +72,13 @@ image-slider:
   image-alt: 
 - image: "/uploads/party photo booth.jpg"
   image-alt: 
-heading: Vintage Photo Booth
+- image: "/uploads/29.animal_masks_booth.jpg"
+  image-alt: 
+- image: "/uploads/corporate%20party-4618ea.jpg"
+  image-alt: 
+- image: "/uploads/dupenny-01-8b020b.png"
+  image-alt: 
+heading: Luxury Photo Booth
 desc: We use professional lighting and beautiful floral backdrops to create stunning
   photo memories. Guests love looking through our wide selection of fun, vintage and
   creative props to choose just the right thing to wear for their photos. Many people
