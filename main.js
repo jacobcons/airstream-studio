@@ -1,88 +1,6 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 'use strict';
 
-const Fetch = require('./Fetch.js');
-
-class ContactForm {
-  constructor() {
-    this.elForm = document.querySelector('.contact-form');
-    this.elSendBtn = this.elForm.querySelector('.js-btn-send');
-    this.elFields = this.elForm.querySelectorAll('.input-field');
-    this.elInputs = this.elForm.querySelectorAll('.input-field__text');
-    this.elLabels = this.elForm.querySelectorAll('.input-field__label');
-    this.elStatus = this.elForm.querySelector('.contact-form__status');
-    this.elEmailInput = this.elForm.querySelector('input[name="email"]');
-    this.elsRequiredInput = this.elForm.querySelectorAll('.input-field__text--required');
-  }
-
-  errorLabel(err) {
-    return `<div class="contact-form__error">${err}</div>`;
-  }
-
-  init() {
-    this.elSendBtn.addEventListener('click', async e => {
-      e.preventDefault();
-
-      // remove errors from all inputs
-      document.querySelectorAll('.contact-form__error').forEach(err => err.remove());
-      this.elInputs.forEach(input => input.classList.remove('input-field__text--error'));
-      this.elLabels.forEach(label => label.classList.remove('input-field__label--error'));
-      this.elStatus.classList.remove('contact-form__status--error');
-
-      let errors = {};
-      if (!/.+@.+/.test(this.elEmailInput.value)) {
-        errors.email = {
-          text: 'Please enter a valid email',
-          input: this.elEmailInput
-        };
-      }
-      this.elsRequiredInput.forEach(input => {
-        if (!input.value) {
-          errors[input.name] = {
-            text: 'Please fill out the required field',
-            input
-          };
-        }
-      });
-
-      const errorNames = Object.keys(errors);
-      if (errorNames.length === 0) {
-        try {
-          const formData = new URLSearchParams(new FormData(this.elForm));
-          var res = await Fetch.post(this.elForm.getAttribute('action'), formData);
-        } catch (e) {
-          console.error(e);
-        }
-
-        if (res.ok) {
-          this.elStatus.textContent = 'Thank you for your email :)';
-          this.elForm.reset();
-        } else {
-          this.elStatus.textContent = 'Oops! There seems to have been a problem sending your email on our end. Contact us directly at info@airstreamstudio.co.uk';
-        }
-
-        this.elForm.scrollTop = this.elForm.offsetHeight;
-      } else {
-        errorNames.forEach(name => {
-          const input = errors[name].input;
-          const errMsg = errors[name].text;
-          const label = input.nextElementSibling;
-          input.classList.add('input-field__text--error');
-          label.classList.add('input-field__label--error');
-          label.insertAdjacentHTML('afterend', this.errorLabel(errMsg));
-        });
-
-        this.elForm.scrollTop = 0;
-      }
-    });
-  }
-}
-
-module.exports = new ContactForm();
-
-},{"./Fetch.js":3}],2:[function(require,module,exports){
-'use strict';
-
 class CopyLink {
   constructor() {
     this.elLinks = document.querySelectorAll('.copy-link');
@@ -111,7 +29,7 @@ class CopyLink {
 
 module.exports = new CopyLink();
 
-},{}],3:[function(require,module,exports){
+},{}],2:[function(require,module,exports){
 'use strict';
 
 class Fetch {
@@ -132,7 +50,136 @@ class Fetch {
 
 module.exports = new Fetch();
 
-},{}],4:[function(require,module,exports){
+},{}],3:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+const Fetch = require('./Fetch.js');
+
+class Form {
+  constructor() {
+    this.elForm = document.querySelector('.contact-form');
+    this.elSendBtn = this.elForm.querySelector('.js-btn-send');
+    this.elFields = this.elForm.querySelectorAll('.input-field');
+    this.elInputs = this.elForm.querySelectorAll('.input-field__text');
+    this.elLabels = this.elForm.querySelectorAll('.input-field__label');
+    this.elStatus = this.elForm.querySelector('.contact-form__status');
+    this.elEmailInput = this.elForm.querySelector('input[name="email"]');
+    this.elsRequiredInput = this.elForm.querySelectorAll('.input-field__text--required');
+    this.errors = {};
+  }
+
+  errorLabel(label) {
+    return `<div class="input-field__error">${label}</div>`;
+  }
+
+  removeErrors() {
+    // remove errors from all inputs
+    document.querySelectorAll('.input-field__error').forEach(err => err.remove());
+    this.elInputs.forEach(input => input.classList.remove('input-field__text--error'));
+    this.elLabels.forEach(label => label.classList.remove('input-field__label--error'));
+    this.elStatus.classList.remove('contact-form__status--error');
+  }
+
+  validateEmail() {
+    if (!/.+@.+/.test(this.elEmailInput.value)) {
+      this.errors.email = {
+        label: 'Please enter a valid email',
+        elInput: this.elEmailInput
+      };
+    }
+  }
+
+  validateRequired() {
+    this.elsRequiredInput.forEach(elInput => {
+      if (!elInput.value) {
+        this.errors[elInput.name] = {
+          label: 'Please fill out the required field',
+          elInput
+        };
+      }
+    });
+  }
+
+  async sendEmail() {
+    try {
+      const formData = new URLSearchParams(new FormData(this.elForm));
+      const res = await Fetch.post(this.elForm.getAttribute('action'), formData);
+      return res.ok;
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
+  setStatusText(isSuccess) {
+    if (isSuccess) {
+      this.elStatus.textContent = 'Thank you for your email :)';
+      this.elForm.reset();
+    } else {
+      this.elStatus.classList.add('contact-form__status--error');
+      this.elStatus.textContent = 'Oops! There seems to have been a problem sending your email on our end. Contact us directly at info@airstreamstudio.co.uk';
+    }
+  }
+
+  scrollFormToBottom() {
+    this.elForm.scrollTop = this.elForm.offsetHeight;
+  }
+
+  scrollFormToTop() {
+    this.elForm.scrollTop = 0;
+  }
+
+  addErrorLabel(elInput, elLabel, label) {
+    elInput.classList.add('input-field__text--error');
+    elLabel.classList.add('input-field__label--error');
+    elLabel.insertAdjacentHTML('afterend', this.errorLabel(label));
+  }
+
+  addErrorLabels(erroneousInputs) {
+    erroneousInputs.forEach(name => {
+      const { elInput, label } = this.errors[name];
+      const elLabel = elInput.nextElementSibling;
+      this.addErrorLabel(elInput, elLabel, label);
+    });
+  }
+
+  resetStatusText() {
+    this.elStatus.textContent = '';
+  }
+
+  resetForm() {
+    this.errors = {};
+    this.removeErrors();
+    this.resetStatusText();
+  }
+
+  init() {
+    this.elSendBtn.addEventListener('click', async e => {
+      e.preventDefault();
+
+      this.resetForm();
+
+      this.validateEmail();
+      this.validateRequired();
+
+      const erroneousInputs = Object.keys(this.errors);
+      if (!erroneousInputs.length) {
+        const isSuccess = await this.sendEmail();
+        this.setStatusText(isSuccess);
+        this.scrollFormToBottom();
+      } else {
+        this.addErrorLabels(erroneousInputs);
+        this.scrollFormToTop();
+      }
+    });
+  }
+}
+
+exports.default = Form;
+
+},{"./Fetch.js":2}],4:[function(require,module,exports){
 'use strict';
 
 const scroll = require('scroll');
@@ -326,9 +373,16 @@ module.exports = new Nav();
 
 var _tinySliderModule = require('../node_modules/tiny-slider/src/tiny-slider.module.js');
 
+var _Form = require('./Form.js');
+
+var _Form2 = _interopRequireDefault(_Form);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 const Nav = require('./Nav.js');
 
 const Fetch = require('./Fetch.js');
+
 
 document.addEventListener('DOMContentLoaded', async () => {
   Nav.init();
@@ -344,11 +398,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (document.querySelector('.modal')) {
     const Modal = require('./Modal.js');
     Modal.init();
-  }
-
-  if (document.querySelector('.contact-form')) {
-    const ContactForm = require('./ContactForm.js');
-    ContactForm.init();
   }
 
   if (document.querySelector('.copy-link')) {
@@ -375,6 +424,11 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   const lastUrlSegment = window.location.pathname.slice(window.location.pathname.lastIndexOf('/'));
+
+  if (lastUrlSegment === '/contact.html') {
+    const contactForm = new _Form2.default();
+    contactForm.init();
+  }
 
   if (lastUrlSegment === '/videos.html') {
     videos();
@@ -416,7 +470,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 });
 
-},{"../node_modules/tiny-slider/src/tiny-slider.module.js":55,"./ContactForm.js":1,"./CopyLink.js":2,"./Fetch.js":3,"./ImageSlider.js":4,"./InputField.js":5,"./Modal.js":6,"./Nav.js":7}],9:[function(require,module,exports){
+},{"../node_modules/tiny-slider/src/tiny-slider.module.js":55,"./CopyLink.js":1,"./Fetch.js":2,"./Form.js":3,"./ImageSlider.js":4,"./InputField.js":5,"./Modal.js":6,"./Nav.js":7}],9:[function(require,module,exports){
 'use strict';
 
 /*!

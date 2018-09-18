@@ -1,6 +1,7 @@
 const Nav = require('./Nav.js');
 import { tns } from '../node_modules/tiny-slider/src/tiny-slider.module.js';
 const Fetch = require('./Fetch.js')
+import Form from './Form.js'
 
 document.addEventListener('DOMContentLoaded', async () => {
   Nav.init();
@@ -16,11 +17,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (document.querySelector('.modal')) {
     const Modal = require('./Modal.js');
     Modal.init();
-  }
-
-  if (document.querySelector('.contact-form')) {
-    const ContactForm = require('./ContactForm.js');
-    ContactForm.init();
   }
 
   if (document.querySelector('.copy-link')) {
@@ -48,6 +44,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const lastUrlSegment = window.location.pathname.slice(window.location.pathname.lastIndexOf('/'))
 
+  if (lastUrlSegment === '/contact.html') {
+    const contactForm = new Form()
+    contactForm.init();
+  }
+  
   if (lastUrlSegment === '/videos.html') {
     videos()
   }

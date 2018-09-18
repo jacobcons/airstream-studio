@@ -1072,12 +1072,6 @@ button:focus {
     -webkit-transform-origin: 0 50%;
             transform-origin: 0 50%; } }
 
-.contact-form__error {
-  text-align: left;
-  color: #AC3232;
-  font-size: 11px;
-  font-size: 0.6875rem; }
-
 .cross-fader {
   max-height: 689px;
   height: 43.0625vw; }
@@ -1316,6 +1310,12 @@ button:focus {
 
 .input-field__label--error {
   color: #AC3232 !important; }
+
+.input-field__error {
+  text-align: left;
+  color: #AC3232;
+  font-size: 11px;
+  font-size: 0.6875rem; }
 
 .loader {
   position: absolute;
