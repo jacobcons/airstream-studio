@@ -10,6 +10,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/wedding%20photo%20booth-7fe2bf.jpg"
   image-alt: 
+- image: "/uploads/24.luxury%20photo%20booth.jpg"
+  image-alt: 
 - image: "/uploads/summer%20wedding%20sussex.jpg"
   image-alt: 
 - image: "/uploads/airstream%20studio%20sunset.jpg"
