@@ -14,6 +14,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/wedding sussex.jpg"
   image-alt: 
+- image: "/uploads/35.kids%20photo%20booth.jpg"
+  image-alt: 
 - image: "/uploads/34.luxury%20photo%20booth.jpg"
   image-alt: 
 - image: "/uploads/wedding%20girls%20in%20white.jpg"
