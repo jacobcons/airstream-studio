@@ -1,0 +1,16 @@
+.sub-nav
+  display: none
+  position: absolute
+  width: 100%
+  text-align: center
+  background-color: $white
+  @include breakpoint(medium down)
+    @include sub-nav--static
+
+.sub-nav--static
+  @include sub-nav--static
+
+.sub-nav__link
+  margin: calculate-em(18px) 0
+  @include breakpoint(medium down)
+    margin: calculate-em(12px) 0

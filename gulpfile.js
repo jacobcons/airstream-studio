@@ -112,7 +112,7 @@ gulp.task('js-prod', () => {
  */
 gulp.task('watch', function () {
     gulp.watch('_scss/**/*.sass', ['sass']);
-    gulp.watch('_js/**/*.js', ['js']);
+    gulp.watch('_js/**.js', ['js']);
     gulp.watch(['_layouts/*.html', '_posts/*', '_includes/*.html', '_includes/**'], ['jekyll-rebuild']);
 });
 
