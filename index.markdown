@@ -20,7 +20,7 @@ image-slider:
   image-alt: 
 - image: "/uploads/summer%20wedding%20sussex.jpg"
   image-alt: 
-- image: "/uploads/wedding%20photo%20booth.jpg"
+- image: "/uploads/28.vintage%20wedding%20booth.jpg"
   image-alt: 
 - image: "/uploads/corporate%20event%20hire.jpg"
   image-alt: 
@@ -37,6 +37,8 @@ image-slider:
 - image: "/uploads/23.flower_crowns.jpg"
   image-alt: 
 - image: "/uploads/pangdean%20barn%20wedding.jpg"
+  image-alt: 
+- image: "/uploads/wedding%20photo%20booth.jpg"
   image-alt: 
 - image: "/uploads/wedding%20photography%20sussex.jpg"
   image-alt: 
