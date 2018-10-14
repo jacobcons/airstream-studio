@@ -14,24 +14,28 @@ image-slider:
   image-alt: 
 - image: "/uploads/25.flower%20girl%20wedding.jpg"
   image-alt: 
+- image: "/uploads/Soho%20Farmhouse.jpg"
+  image-alt: 
+- image: "/uploads/27.wedding%20sussex.jpg"
+  image-alt: 
 - image: "/uploads/summer%20wedding%20sussex.jpg"
   image-alt: 
 - image: "/uploads/wedding%20photo%20booth.jpg"
   image-alt: 
 - image: "/uploads/corporate%20event%20hire.jpg"
   image-alt: 
+- image: "/uploads/airstream%20studio%20photo%20booth.jpg"
+  image-alt: 
 - image: "/uploads/boho%20wedding.jpg"
   image-alt: 
 - image: "/uploads/wedding%20entertainment.jpg"
   image-alt: 
+- image: "/uploads/wedding%20photo%20booth%20kiss.jpg"
+  alt: 
 - image: "/uploads/graduation%20ball.jpg"
-  image-alt: 
-- image: "/uploads/airstream%20studio%20photo%20booth.jpg"
   image-alt: 
 - image: "/uploads/23.flower_crowns.jpg"
   image-alt: 
-- image: "/uploads/wedding%20photo%20booth%20kiss.jpg"
-  alt: 
 - image: "/uploads/pangdean%20barn%20wedding.jpg"
   image-alt: 
 - image: "/uploads/wedding%20photography%20sussex.jpg"
