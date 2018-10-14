@@ -10,17 +10,17 @@ image-slider:
   image-alt: 
 - image: "/uploads/wedding%20photo%20booth-7fe2bf.jpg"
   image-alt: 
+- image: "/uploads/36.sunset%20airstream.jpg"
+  image-alt: 
 - image: "/uploads/25.flower%20girl%20wedding.jpg"
   image-alt: 
 - image: "/uploads/summer%20wedding%20sussex.jpg"
   image-alt: 
-- image: "/uploads/24.luxury%20photo%20booth.jpg"
+- image: "/uploads/wedding%20photo%20booth.jpg"
   image-alt: 
-- image: "/uploads/airstream%20studio%20sunset.jpg"
+- image: "/uploads/corporate%20event%20hire.jpg"
   image-alt: 
 - image: "/uploads/boho%20wedding.jpg"
-  image-alt: 
-- image: "/uploads/wedding%20photo%20booth.jpg"
   image-alt: 
 - image: "/uploads/wedding%20entertainment.jpg"
   image-alt: 
@@ -36,8 +36,6 @@ image-slider:
   image-alt: 
 - image: "/uploads/wedding%20photography%20sussex.jpg"
   image-alt: 
-- image: "/uploads/photo%20booth%20kiss.jpg"
-  image-alt: 
 - image: "/uploads/photo%20booth%20sussex.jpg"
   image-alt: 
 - image: "/uploads/21.festival_wedding-6d0426.jpg"
@@ -46,13 +44,9 @@ image-slider:
   alt: 
 - image: "/uploads/wedding%20photography.jpg"
   image-alt: 
-- image: "/uploads/corporate%20event%20hire.jpg"
-  image-alt: 
 - image: "/uploads/O2%20arena.jpg"
   image-alt: 
 - image: "/uploads/wedding%20photos.jpg"
-  image-alt: 
-- image: "/uploads/country%20wedding%20venues.jpg"
   image-alt: 
 - image: "/uploads/airstream%20studio.jpg"
   image-alt: 
