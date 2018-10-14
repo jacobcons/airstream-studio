@@ -48,6 +48,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/wedding%20photos.jpg"
   image-alt: 
+- image: "/uploads/22.airstream_teepees.jpg"
+  image-alt: 
 - image: "/uploads/airstream%20studio.jpg"
   image-alt: 
 aspects:
