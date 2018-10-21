@@ -73,7 +73,7 @@ aspects:
     printing.
   link: "/the-airstream/photo-booth.html"
 - title: Interior
-  image: "/uploads/interior.jpg"
+  image: "/uploads/airstream%20interior.jpg"
   image-alt: 
   desc: A retro 1950’s styled interior with a luxury seating booth, bespoke units
     and a huge selection of unique and creative props.
