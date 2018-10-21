@@ -23,7 +23,7 @@ additional-services:
 - title: Personalised guest book
   is-from: false
   is-currency: true
-  price: 50
+  price: 70
 - title: Premium printing
   is-from: false
   is-currency: true
