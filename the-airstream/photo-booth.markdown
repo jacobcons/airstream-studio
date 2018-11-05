@@ -11,11 +11,19 @@ body-classes: the-airstream
 image-slider:
 - image: "/uploads/photo booth fun.jpg"
   image-alt: 
+- image: "/uploads/31.bride%20and%20groom%20photos.jpg"
+  image-alt: 
 - image: "/uploads/wedding sussex.jpg"
+  image-alt: 
+- image: "/uploads/35.kids%20photo%20booth.jpg"
+  image-alt: 
+- image: "/uploads/34.luxury%20photo%20booth.jpg"
   image-alt: 
 - image: "/uploads/wedding%20girls%20in%20white.jpg"
   image-alt: 
 - image: "/uploads/festival%20wedding%20party.jpg"
+  image-alt: 
+- image: "/uploads/32.wedding%20party.jpg"
   image-alt: 
 - image: "/uploads/wedding%20photos-efb032.jpg"
   image-alt: 
