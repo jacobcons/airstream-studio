@@ -1,7 +1,7 @@
 const scroll = require('scroll');
 const LazyLoad = require('vanilla-lazyload');
 
-class ImageSlider {
+export default class ImageSlider {
   constructor(frames = 60, time = 1000) {
     this.elSlider = document.querySelector('.image-slider__scroll');
     this.elImage = document.querySelector('.image-slider__image');
@@ -89,5 +89,3 @@ class ImageSlider {
     }, ticker);
   }
 }
-
-module.exports = new ImageSlider();

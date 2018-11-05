@@ -6,6 +6,7 @@ page-title: Airstream Studio Photo Booth - Full Of Unique Features To Enhance Yo
   Event
 meta-desc: Professional lighting, climate controlled, studio lighting, an enormous
   range of high quality props, jelly bean dispenser, high speed photo printing.
+body-classes: the-airstream
 image-slider:
 - image: "/uploads/feather head dress.jpg"
   image-alt: 

@@ -7,6 +7,7 @@ page-title: Wedding Guest Books - Beautiful Designs, Personalised With Your Name
 meta-desc: Wedding guest books are a perfect way to reminisce and remember your big
   day. Choose one of our beautifully bound photo albums, custom printed with your
   names and date.
+body-classes: the-airstream
 image-slider:
 - image: "/uploads/wedding guest book.jpg"
   image-alt: 

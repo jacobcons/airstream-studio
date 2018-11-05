@@ -8,6 +8,7 @@ meta-desc: A lovingly crafted retro interior where guests can relax in a luxury 
   booth surrounded by fairground lights and add their photos to a your guest book.
   A converted 1950’s radio plays vintage songs. It’s not just a photo booth, it’s
   a whole extra venue for your event.
+body-classes: the-airstream
 image-slider:
 - image: "/uploads/guest book.jpg"
   image-alt: 

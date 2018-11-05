@@ -1,7 +1,16 @@
-const Fetch = require('./Fetch.js');
+import Fetch from '../utils/Fetch'
+import TextInputs from './TextInputs'
+import TextAreas from './TextAreas'
+import Modal from './Modal'
+import DateInputs from './DateInputs'
 
-class Form {
+
+export default class Form {
   constructor() {
+    const textInputs = new TextInputs();
+    const textAreas = new TextAreas();
+    const dateInputs = new DateInputs()
+    const modal = new Modal();
     this.elForm = document.querySelector('.contact-form');
     this.elSendBtn = this.elForm.querySelector('.js-btn-send');
     this.elFields = this.elForm.querySelectorAll('.input-field');
@@ -11,7 +20,25 @@ class Form {
     this.elEmailInput = this.elForm.querySelector('input[name="email"]');
     this.elsRequiredInput = this.elForm.querySelectorAll('.input-field__text--required');
     this.errors = {}
-
+    
+    this.elSendBtn.addEventListener('click', async (e) => {
+      e.preventDefault();
+      
+      this.resetForm()
+      
+      this.validateEmail()
+      this.validateRequired()
+      
+			const erroneousInputs = Object.keys(this.errors)
+			if (!erroneousInputs.length) {
+				const isSuccess = await this.sendEmail()
+        this.setStatusText(isSuccess)
+        this.scrollFormToBottom()
+			} else {
+        this.addErrorLabels(erroneousInputs)
+        this.scrollFormToTop()
+			}
+    });
   }
 
   errorLabel(label) {
@@ -97,27 +124,4 @@ class Form {
     this.removeErrors()
     this.resetStatusText()
   }
-  
-  init() {
-    this.elSendBtn.addEventListener('click', async (e) => {
-      e.preventDefault();
-      
-      this.resetForm()
-      
-      this.validateEmail()
-      this.validateRequired()
-      
-			const erroneousInputs = Object.keys(this.errors)
-			if (!erroneousInputs.length) {
-				const isSuccess = await this.sendEmail()
-        this.setStatusText(isSuccess)
-        this.scrollFormToBottom()
-			} else {
-        this.addErrorLabels(erroneousInputs)
-        this.scrollFormToTop()
-			}
-    });
-  }
 }
-
-export {Form as default}

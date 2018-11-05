@@ -7,6 +7,7 @@
     "aos": "^2.2.0",
     "autosize": "^4.0.0",
     "clipboard": "^1.7.1",
+    "flatpickr": "^4.5.2",
     "foundation-sites": "^6.4.1",
     "lazyload": "^1.8.4",
     "lscache": "^1.1.0",

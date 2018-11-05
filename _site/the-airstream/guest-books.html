@@ -9,10 +9,11 @@
     <title>Wedding Guest Books - Beautiful Designs, Personalised With Your Name & Date</title>
       
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="/main.css">
     <link rel="shortcut icon" href="images/favicon.png" type="image/png" sizes="16x16">
   </head>
-  <body>
+  <body class="the-airstream">
     <div class="wrapper">
       <nav class="nav primary-nav clearfix">
         <div class="hamburger-menu">
@@ -167,7 +168,7 @@
 	</div>
 	<a href="javascript:void(0)" class="btn btn--light js-btn-contact">Contact us</a>
 <div class="modal">
-	<form action="https://formsapi.jabwn.com/key/ei1RWftbcEkeoQYXTb8u" class="contact-form" method="post">
+	<form action="https://formsapi.jabwn.com/key/CpOnIUVfdcgJM0wv7fdQ" class="contact-form" method="post">
 		<h2 class="contact-form__title">Get in touch</h2>
 		
 		<div class="input-field">
@@ -181,17 +182,17 @@
 		</div>
 		
 		<div class="input-field">
-			<input class="input-field__text" type="text" name="date" />
-			<label class="input-field__label input-field__label--text-entry" for="date">Event Date</label>
+			<input class="input-field__text input-field__date" type="text" name="date" />
+			<label class="input-field__label input-field__label--text-entry " for="date">Event Date</label>
 		</div>
 		
 		<div class="input-field">
-			<input class="input-field__text" type="text" name="start" />
+			<input class="input-field__text input-field__time" type="text" name="start" />
 			<label class="input-field__label input-field__label--text-entry" for="start">Event start time</label>
 		</div>
 		
 		<div class="input-field">
-			<input class="input-field__text" type="text" name="finish" />
+			<input class="input-field__text input-field__time" type="text" name="finish" />
 			<label class="input-field__label input-field__label--text-entry" for="finish">Event finish time</label>
 		</div>
 		

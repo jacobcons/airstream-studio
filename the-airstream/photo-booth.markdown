@@ -7,6 +7,7 @@ page-title: Airstream Studio - A Vintage Photo Booth With a Huge Selection Of Vi
 meta-desc: A vintage inspired photo set surrounded by a beautiful archway of fairground
   lights. Guests love looking through our wide selection of fun, vintage and creative
   props to choose just the right thing to wear for their photos.
+body-classes: the-airstream
 image-slider:
 - image: "/uploads/photo booth fun.jpg"
   image-alt: 

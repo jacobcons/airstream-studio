@@ -1,7 +1,28 @@
+import Router from './utils/Router'
+import common from './routes/common'
+import index from './routes/index'
+import theAirstream from './routes/theAirstream'
+import pricing from './routes/pricing'
+import videos from './routes/videos'
+import contact from './routes/contact'
+
+const routes = new Router({
+  common,
+  index,
+  theAirstream,
+  pricing,
+  videos,
+  contact
+})
+
+document.addEventListener('DOMContentLoaded', () => routes.loadEvents())
+
+/*
 const Nav = require('./Nav.js');
 import { tns } from '../node_modules/tiny-slider/src/tiny-slider.module.js';
 const Fetch = require('./Fetch.js')
 import Form from './Form.js'
+
 
 document.addEventListener('DOMContentLoaded', async () => {
   Nav.init();
@@ -89,3 +110,4 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 });
+*/

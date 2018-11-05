@@ -6,6 +6,7 @@ page-title: Airstream Photo Booth Hire Pricing - Standard Bookings & Bespoke Pac
 meta-desc: Hire prices, information and venue requirements. Early set up, all day
   and bespoke hire packages available as well as location hire of photography and
   film.
+body-classes: pricing
 prices:
 - title: 3 hours
   is-from: true

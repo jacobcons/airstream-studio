@@ -1,8 +1,7 @@
-class Fetch {
+export default {
   async get(url) {
     return await(await fetch(url)).json();
-  }
-
+  },
   async post(url, data) {
     return await fetch(url, {
       method: 'POST',
@@ -13,5 +12,3 @@ class Fetch {
     });
   }
 }
-
-module.exports = new Fetch();
