@@ -11,6 +11,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/001.boho%20woodland%20wedding.jpg"
   image-alt: 
+- image: "/uploads/002.boho%20bride%20rosiered.jpg"
+  image-alt: 
 - image: "/uploads/airstream%20photo%20booth-cf1a67.jpg"
   image-alt: 
 - image: "/uploads/sunset airstream.jpg"
