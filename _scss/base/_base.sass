@@ -1,0 +1,32 @@
+html
+	box-sizing: border-box
+	-webkit-font-smoothing: antialiased
+
+*, *::before, *::after
+	box-sizing: inherit
+
+body
+  font-family: 'Open Sans'
+  margin: 0
+  text-align: center
+
+ul
+  margin: 0
+  padding: 0
+
+h1, h2, h3, h4, h5, h6
+	color: $black
+	font-family: 'MarketDeco'
+
+p
+  line-height: 2.8em
+  margin: 1rem 0
+  @include font-size(15px)
+  @include breakpoint (small down)
+    @include font-size(14px)
+
+img:not([src])
+  visibility: hidden
+
+button:focus
+  outline: none

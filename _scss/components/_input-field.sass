@@ -1,0 +1,79 @@
+.input-field
+  position: relative
+  padding: 1.5rem 0
+
+.input-field__text
+  background-color: transparent
+  border: none
+  border-bottom: 1px solid $input-default-color
+  border-radius: 0
+  outline: none
+  height: 3rem
+  width: 100%
+  font-size: 1rem
+  margin: 0 0 0.9em 0
+  padding: 0
+  box-shadow: none
+  box-sizing: content-box
+  &:focus
+    border-bottom: 1px solid $black
+    + .input-field__label--text-entry
+      color: $black
+
+.input-field__text--error
+  border-bottom: 1px solid $input-error-color !important
+
+.input-field__text--textarea
+  min-height: 5rem
+  resize: none
+  font-family: 'Open sans'
+  @include font-size(14px)
+
+.input-field__text--required +.input-field__label:after
+  content: '*'
+  position: absolute
+  right: 0
+
+.input-field__select
+  color: $input-default-color
+  border: 1px solid $input-default-color
+  width: 100%
+  padding: 3px
+  appearance: none
+
+.input-field__select-container
+  position: relative
+
+.input-field__label
+  color: #9e9e9e
+  width: 100%
+  text-align: left
+  display: block
+  padding: 0 0 1rem
+  @include font-size(15px)
+
+.input-field__label--text-entry
+  padding: 0
+  position: absolute
+  top: 0
+  left: 0
+  height: 100%
+  cursor: text
+  transition: all .2s ease-out
+  transform-origin: 0% 100%
+  text-align: initial
+  transform: translateY(12px)
+  pointer-events: none
+
+.input-field__label--active
+  transform: translateY(-5px)
+  transform-origin: 0 0
+  @include font-size(12px)
+
+.input-field__label--error
+  color: $input-error-color !important
+
+.input-field__error
+  text-align: left
+  color: $input-error-color
+  @include font-size(11px)

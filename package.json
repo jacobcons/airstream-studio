@@ -1,7 +1,7 @@
 {
   "name": "oakka",
   "version": "1.0.0",
-  "description": "Airstream Studio website",
+  "description": "Oakka website",
   "main": "gulpfile.js",
   "dependencies": {
     "aos": "^2.2.0",
