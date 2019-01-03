@@ -6,6 +6,11 @@ page-title: Airstream Studio - Recommended Vintage Wedding Suppliers in Sussex
 meta-desc: Vintage weddings supplier links for Sussex. Wedding dresses, flowers, food,
   transport.
 boxes:
+- title: Kate Langdale Florist
+  image: "/uploads/kate%20langdale%20florist.jpg"
+  image-alt: 
+  desc: Florist & floral designer. Bespoke displays for Weddings, Funerals, Events.
+    Central Brighton Studio/shop. Floral Workshops. Open for Occasions & Deliveries.
 - title: Gin & Bear it
   image: "/uploads/gin%20&%20bear%20it.jpg"
   image-alt: 
