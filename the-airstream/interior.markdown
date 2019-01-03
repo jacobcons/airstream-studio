@@ -14,8 +14,6 @@ image-slider:
   image-alt: 
 - image: "/uploads/seating_area.jpg"
   image-alt: 
-- image: "/uploads/photo_booth_backdrop.jpg"
-  image-alt: 
 - image: "/uploads/guest_book_area.jpg"
   image-alt: 
 - image: "/uploads/summer wedding.jpg"
