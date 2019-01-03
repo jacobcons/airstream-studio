@@ -20,8 +20,6 @@ image-slider:
   image-alt: 
 - image: "/uploads/airstream studio-4227fc.jpg"
   image-alt: 
-- image: "/uploads/luxury photo booth.jpg"
-  image-alt: 
 - image: "/uploads/wedding entertainment-dcde7f.jpg"
   image-alt: 
 - image: "/uploads/wedding guest book table.jpg"
