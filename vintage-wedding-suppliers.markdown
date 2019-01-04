@@ -6,7 +6,7 @@ page-title: Airstream Studio - Recommended Vintage Wedding Suppliers in Sussex
 meta-desc: Vintage weddings supplier links for Sussex. Wedding dresses, flowers, food,
   transport.
 boxes:
-- title: Rosie Red Corsetry & Couture
+- title: Rosie Red Corsetry
   image: "/uploads/collections10-2.jpg"
   image-alt: Rosie Red Corsetry & Couture
   desc: 'Bespoke bridal wear and corsets. '
