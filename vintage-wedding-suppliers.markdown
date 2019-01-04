@@ -9,7 +9,7 @@ boxes:
 - title: Rosie Red Corsetry
   image: "/uploads/collections10-2.jpg"
   image-alt: Rosie Red Corsetry & Couture
-  desc: 'Bespoke bridal wear and corsets. '
+  desc: "Bespoke bridal wear and corsets. \nUnique designs as worn by Helen Bonham-carter."
 - title: Kate Langdale Florist
   image: "/uploads/kate%20langdale%20florist.jpg"
   image-alt: 
