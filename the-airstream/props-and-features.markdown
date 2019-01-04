@@ -10,6 +10,8 @@ body-classes: the-airstream
 image-slider:
 - image: "/uploads/feather head dress.jpg"
   image-alt: 
+- image: "/uploads/8.vintage%20props.jpg"
+  image-alt: 
 - image: "/uploads/stunning_headwear-640e54.jpg"
   image-alt: 
 - image: "/uploads/vintage_glasses-a9b6b6.jpg"
