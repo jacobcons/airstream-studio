@@ -51,8 +51,6 @@ image-slider:
   image-alt: 
 - image: "/uploads/ladies in photo booth.jpg"
   image-alt: 
-- image: "/uploads/girls in photo booth.jpg"
-  image-alt: 
 - image: "/uploads/sussex wedding entertainment.jpg"
   image-alt: 
 - image: "/uploads/bride and groom.jpg"
