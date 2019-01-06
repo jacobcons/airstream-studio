@@ -69,7 +69,7 @@ information:
     to print a large single 4x6 photo each.
 - title: Boho Lounge
   text: Vintage seating area complete with a red velvet sofa, matching chairs and
-    trunk table. Great for summer events and woodland weddings.
+    trunk table. A perfect addition to summer events and woodland weddings.
 - title: Custom Branding
   text: "We can offer corporate branding for events. The 'PHOTOS' sign is removable
     and can also be customised.\nWindow signs can also be removed or changed to suit
