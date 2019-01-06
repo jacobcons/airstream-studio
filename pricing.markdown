@@ -41,7 +41,7 @@ additional-services:
   is-from: false
   is-currency: true
   price: 150
-- title: Event Branding
+- title: Custom Branding
   is-from: false
   is-currency: false
   price: P.O.A.
