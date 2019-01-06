@@ -38,7 +38,7 @@ additional-services:
   is-currency: false
   price: P.O.A.
 - title: Boho Lounge
-  is-from: true
+  is-from: false
   is-currency: true
   price: 150
 included:
