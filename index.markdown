@@ -9,6 +9,8 @@ body-classes: index
 image-slider:
 - image: "/uploads/001.Woodland%20Airstream.jpg"
   image-alt: 
+- image: "/uploads/38.Aynhoe%20Park%20Wedding.jpg"
+  image-alt: 
 - image: "/uploads/37.summer%20airstream%20wedding.jpg"
   image-alt: 
 - image: "/uploads/airstream%20studio%20wide%20shot.jpg"
