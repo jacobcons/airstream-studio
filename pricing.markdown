@@ -37,6 +37,10 @@ additional-services:
   is-from: false
   is-currency: false
   price: P.O.A.
+- title: Boho Lounge
+  is-from: true
+  is-currency: true
+  price: 150
 included:
 - One photo print per group and a spare for your guest book
 - Sharing with social media
@@ -59,6 +63,9 @@ information:
 - title: Premium photo printing
   text: For an additional £80, your guests will receive a print each with the option
     to print a large single 4x6 photo each.
+- title: Boho Lounge
+  text: Vintage seating area complete with a red velvet sofa, matching chairs and
+    trunk table. Great for summer events and woodland weddings.
 - title: Requirements
   text: |-
     -Airstream studio is 22 ft long and 7.5ft wide and will need suffcient access and a relatively flat area to set up.
