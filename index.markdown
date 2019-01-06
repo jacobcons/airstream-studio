@@ -7,8 +7,6 @@ meta-desc: A unique photo booth inside and 1949 vintage airstream. A stunning re
   caravan for your wedding, party, school prom or corporate event.
 body-classes: index
 image-slider:
-- image: "/uploads/002%20boho%20bride%20sussex.jpg"
-  image-alt: 
 - image: "/uploads/001.Woodland%20Airstream.jpg"
   image-alt: 
 - image: "/uploads/airstream%20studio%20wide%20shot.jpg"
@@ -26,6 +24,8 @@ image-slider:
 - image: "/uploads/summer%20wedding%20sussex.jpg"
   image-alt: 
 - image: "/uploads/28.vintage%20wedding%20booth.jpg"
+  image-alt: 
+- image: "/uploads/002%20boho%20bride%20sussex.jpg"
   image-alt: 
 - image: "/uploads/corporate%20event%20hire.jpg"
   image-alt: 
