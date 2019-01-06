@@ -41,6 +41,10 @@ additional-services:
   is-from: false
   is-currency: true
   price: 150
+- title: Event Branding
+  is-from: false
+  is-currency: false
+  price: P.O.A.
 included:
 - One photo print per group and a spare for your guest book
 - Sharing with social media
@@ -66,6 +70,11 @@ information:
 - title: Boho Lounge
   text: Vintage seating area complete with a red velvet sofa, matching chairs and
     trunk table. Great for summer events and woodland weddings.
+- title: Custom Branding
+  text: "We can offer corporate branding for events. The 'PHOTOS' sign is removable
+    and can also be customised.\nWindow signs can also be removed or changed to suit
+    your event.\nIt is also possible to use vinyl wrap to add graphics and logos to
+    the airstream. "
 - title: Requirements
   text: |-
     -Airstream studio is 22 ft long and 7.5ft wide and will need suffcient access and a relatively flat area to set up.
