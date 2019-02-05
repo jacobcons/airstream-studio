@@ -13,8 +13,6 @@ badges:
   image: "/uploads/hitched.png"
 - link: http://www.mrandmrsunique.co.uk/
   image: "/uploads/mr&mrs.png"
-- link: http://www.bellesevents.co.uk/
-  image: "/uploads/belles.png"
 - link: https://www.headliner.io/
   image: "/uploads/headliner.png"
 - link: https://www.hitched.co.uk/awards/vote/#Best-Non-Musical-Wedding-Entertainment
