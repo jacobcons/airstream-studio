@@ -11,12 +11,14 @@ text: "Airstream Studio is based in Brighton, East Sussex. \n\nWe generally work
 badges:
 - link: https://www.hitched.co.uk/
   image: "/uploads/hitched.png"
+- link: https://www.hitched.co.uk/awards/vote/#Best-Non-Musical-Wedding-Entertainment
+  image: "/uploads/UK_wedding_2018-01.png"
+- link: https://www.tatler.com/topic/weddings
+  image: "/uploads/Tatler_badge-01.png"
 - link: http://www.mrandmrsunique.co.uk/
   image: "/uploads/mr&mrs.png"
 - link: https://www.headliner.io/
   image: "/uploads/headliner.png"
-- link: https://www.hitched.co.uk/awards/vote/#Best-Non-Musical-Wedding-Entertainment
-  image: "/uploads/wedding awards.png"
 layout: contact
 ---
 
