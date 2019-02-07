@@ -18,8 +18,18 @@ $cross-fader-height: $image-height / $image-width * $cross-fader-width
   height: $cross-fader-height
 
 .cross-fader__badge
+  margin: 0 calculate-rem(10px)
+  width: calc(24px + 6vw)
+  @include breakpoint(medium down) 
+    margin: 0 calculate-rem(5px)
+  
+
+.cross-fader__badge-header
   position: absolute
-  top: 10px
-  right: 10px
-  z-index: 999
-  width: calc(10% + 16px)
+  width: 100%
+  z-index: 1
+  display: flex
+  justify-content: flex-end
+  padding: calculate-rem(10px)
+  @include breakpoint(medium down) 
+    padding: calculate-rem(5px)

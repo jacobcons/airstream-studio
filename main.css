@@ -1085,11 +1085,24 @@ button:focus {
   height: 43.0625vw; }
 
 .cross-fader__badge {
+  margin: 0 0.625rem;
+  width: calc(24px + 6vw); }
+  @media screen and (max-width: 56.1875em) {
+    .cross-fader__badge {
+      margin: 0 0.3125rem; } }
+
+.cross-fader__badge-header {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  z-index: 999;
-  width: calc(10% + 16px); }
+  width: 100%;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  padding: 0.625rem; }
+  @media screen and (max-width: 56.1875em) {
+    .cross-fader__badge-header {
+      padding: 0.3125rem; } }
 
 .embed-responsive {
   position: relative;
