@@ -13,13 +13,21 @@ image-slider:
   image-alt: 
 - image: "/uploads/31.bride%20and%20groom%20photos.jpg"
   image-alt: 
-- image: "/uploads/wedding sussex.jpg"
+- image: "/uploads/38.photo%20booth%20party.jpg"
   image-alt: 
 - image: "/uploads/35.kids%20photo%20booth.jpg"
   image-alt: 
+- image: "/uploads/wedding%20girls%20in%20white.jpg"
+  image-alt: 
+- image: "/uploads/40.retro%20wedding%20photo%20booth.jpg"
+  image-alt: 
 - image: "/uploads/34.luxury%20photo%20booth.jpg"
   image-alt: 
-- image: "/uploads/wedding%20girls%20in%20white.jpg"
+- image: "/uploads/wedding sussex.jpg"
+  image-alt: 
+- image: "/uploads/41.photo%20booth%20kids.jpg"
+  image-alt: 
+- image: "/uploads/37.photo%20booth%20vintage%20retro.jpg"
   image-alt: 
 - image: "/uploads/festival%20wedding%20party.jpg"
   image-alt: 
@@ -42,8 +50,6 @@ image-slider:
 - image: "/uploads/sussex wedding photos.jpg"
   image-alt: 
 - image: "/uploads/ladies in photo booth.jpg"
-  image-alt: 
-- image: "/uploads/girls in photo booth.jpg"
   image-alt: 
 - image: "/uploads/sussex wedding entertainment.jpg"
   image-alt: 

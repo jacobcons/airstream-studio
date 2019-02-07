@@ -14,15 +14,11 @@ image-slider:
   image-alt: 
 - image: "/uploads/seating_area.jpg"
   image-alt: 
-- image: "/uploads/photo_booth_backdrop.jpg"
-  image-alt: 
 - image: "/uploads/guest_book_area.jpg"
   image-alt: 
 - image: "/uploads/summer wedding.jpg"
   image-alt: 
 - image: "/uploads/airstream studio-4227fc.jpg"
-  image-alt: 
-- image: "/uploads/luxury photo booth.jpg"
   image-alt: 
 - image: "/uploads/wedding entertainment-dcde7f.jpg"
   image-alt: 
