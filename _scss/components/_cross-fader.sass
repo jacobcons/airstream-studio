@@ -1,0 +1,35 @@
+// image scales -> width = 90vw -> calculate height to retain aspect ratio
+// height needed due to absolute positioned children
+$image-width: 1440px
+$image-height: 689px
+$cross-fader-width: 90vw
+$cross-fader-height: $image-height / $image-width * $cross-fader-width
+
+.cross-fader
+  max-height: $image-height
+  height: $cross-fader-height
+
+.cross-fader__image
+  max-width: 100%
+
+.cross-fader__video
+  max-width: 100%
+  max-height: $image-height
+  height: $cross-fader-height
+
+.cross-fader__badge
+  margin: 0 calculate-rem(10px)
+  width: calc(24px + 6vw)
+  @include breakpoint(medium down) 
+    margin: 0 calculate-rem(5px)
+  
+
+.cross-fader__badge-header
+  position: absolute
+  width: 100%
+  z-index: 1
+  display: flex
+  justify-content: flex-end
+  padding: calculate-rem(10px)
+  @include breakpoint(medium down) 
+    padding: calculate-rem(5px)
