@@ -11,6 +11,10 @@ image-slider:
   image-alt: 
 - image: "/uploads/38.Aynhoe%20Park%20Wedding.jpg"
   image-alt: 
+- image: "/uploads/wedding%20photo%20booth-7fe2bf.jpg"
+  image-alt: 
+- image: "/uploads/23.flower_crowns.jpg"
+  image-alt: 
 - image: "/uploads/37.summer%20airstream%20wedding.jpg"
   image-alt: 
 - image: "/uploads/airstream%20studio%20wide%20shot.jpg"
@@ -18,8 +22,6 @@ image-slider:
 - image: "/uploads/001.Woodland%20Airstream.jpg"
   image-alt: 
 - image: "/uploads/wedding%20entertainment.jpg"
-  image-alt: 
-- image: "/uploads/wedding%20photo%20booth-7fe2bf.jpg"
   image-alt: 
 - image: "/uploads/25.flower%20girl%20wedding.jpg"
   image-alt: 
@@ -42,8 +44,6 @@ image-slider:
 - image: "/uploads/wedding%20photo%20booth%20kiss.jpg"
   alt: 
 - image: "/uploads/graduation%20ball.jpg"
-  image-alt: 
-- image: "/uploads/23.flower_crowns.jpg"
   image-alt: 
 - image: "/uploads/pangdean%20barn%20wedding.jpg"
   image-alt: 
