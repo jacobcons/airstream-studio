@@ -13,13 +13,13 @@ image-slider:
   image-alt: 
 - image: "/uploads/001.boho%20woodland%20wedding.jpg"
   image-alt: 
-- image: "/uploads/002.boho%20bride%20rosiered.jpg"
-  image-alt: 
 - image: "/uploads/sunset airstream.jpg"
   image-alt: 
 - image: "/uploads/airstream wedding.jpg"
   image-alt: 
 - image: "/uploads/vintage photo booth.jpg"
+  image-alt: 
+- image: "/uploads/36.%20festival%20bride%20airstream.jpg"
   image-alt: 
 - image: "/uploads/boho-e969a0.jpg"
   image-alt: 
@@ -50,8 +50,6 @@ image-slider:
 - image: "/uploads/wedding photography.jpg"
   image-alt: 
 - image: "/uploads/aynhoe park wedding.jpg"
-  image-alt: 
-- image: "/uploads/buxted park wedding.jpg"
   image-alt: 
 - image: "/uploads/airstream teepee wedding.jpg"
   image-alt: 
