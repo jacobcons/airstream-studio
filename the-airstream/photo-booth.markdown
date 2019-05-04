@@ -19,6 +19,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/wedding%20girls%20in%20white.jpg"
   image-alt: 
+- image: "/uploads/42.%20bride%20&%20grrom%20photo%20booth.jpg"
+  image-alt: 
 - image: "/uploads/40.retro%20wedding%20photo%20booth.jpg"
   image-alt: 
 - image: "/uploads/34.luxury%20photo%20booth.jpg"
@@ -40,8 +42,6 @@ image-slider:
 - image: "/uploads/event hire.jpg"
   image-alt: 
 - image: "/uploads/bollywood%20photo%20booth.jpg"
-  image-alt: 
-- image: "/uploads/photo booth mask.jpg"
   image-alt: 
 - image: "/uploads/bridesmaids photos.jpg"
   image-alt: 
@@ -82,8 +82,6 @@ image-slider:
 - image: "/uploads/location hire.jpg"
   image-alt: 
 - image: "/uploads/corporate events.jpg"
-  image-alt: 
-- image: "/uploads/family photos.jpg"
   image-alt: 
 - image: "/uploads/party photo booth.jpg"
   image-alt: 
