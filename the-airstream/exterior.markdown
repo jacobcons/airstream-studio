@@ -19,8 +19,6 @@ image-slider:
   image-alt: 
 - image: "/uploads/vintage photo booth.jpg"
   image-alt: 
-- image: "/uploads/36.%20festival%20bride%20airstream.jpg"
-  image-alt: 
 - image: "/uploads/boho-e969a0.jpg"
   image-alt: 
 - image: "/uploads/events airstream.jpg"
