@@ -19,6 +19,8 @@ badges:
   image: "/uploads/headliner.png"
 - link: https://www.hitched.co.uk/
   image: "/uploads/hitched.png"
+- link: https://www.entertainersworldwide.com/profile/99025/airstream-studio-other-artistic-entertainer-south-east
+  image: "/uploads/ew-registered-s.png"
 layout: contact
 ---
 
