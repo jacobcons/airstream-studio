@@ -9,6 +9,8 @@ body-classes: index
 image-slider:
 - image: "/uploads/36.sunset%20airstream.jpg"
   image-alt: 
+- image: "/uploads/39.%20Festival%20Bride.jpg"
+  image-alt: 
 - image: "/uploads/38.Aynhoe%20Park%20Wedding.jpg"
   image-alt: 
 - image: "/uploads/wedding%20photo%20booth-7fe2bf.jpg"
