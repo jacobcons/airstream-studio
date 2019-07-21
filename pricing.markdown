@@ -9,29 +9,17 @@ meta-desc: Hire prices, information and venue requirements. Early set up, all da
 body-classes: pricing
 airstream-prices:
 - title: 3 hours
-  is-from: true
-  is-currency: true
   price: 850
 - title: 4 hours
-  is-from: true
-  is-currency: true
   price: 1000
 - title: 5 hours
-  is-from: true
-  is-currency: true
   price: 1150
 pop-up-booth-prices:
 - title: 3 hours
-  is-from: true
-  is-currency: true
   price: 450
 - title: 4 hours
-  is-from: true
-  is-currency: true
   price: 550
 - title: 5 hours
-  is-from: true
-  is-currency: true
   price: 650
 additional-services:
 - title: Personalised guest book
