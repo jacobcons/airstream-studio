@@ -5,7 +5,29 @@ published: false
 page-title: Airstream Photo Booth
 body-classes: the-airstream
 image-slider:
-- image: 
+- image: "/uploads/20190708_153149_467.jpg"
+  image-alt: 
+- image: "/uploads/20190708_153213_928.jpg"
+  image-alt: 
+- image: "/uploads/20190708_153302_586.jpg"
+  image-alt: 
+- image: "/uploads/20190708_153621_622.jpg"
+  image-alt: 
+- image: "/uploads/20190708_174935_946.jpg"
+  image-alt: 
+- image: "/uploads/20190708_175000_807.jpg"
+  image-alt: 
+- image: "/uploads/20190708_175025_504.jpg"
+  image-alt: 
+- image: "/uploads/DSC_0113.jpg"
+  image-alt: 
+- image: "/uploads/DSC_0128.jpg"
+  image-alt: 
+- image: "/uploads/DSC_0142.jpg"
+  image-alt: 
+- image: "/uploads/DSC_0155.jpg"
+  image-alt: 
+- image: "/uploads/DSC_2752.jpg"
   image-alt: 
 heading: Pop Up Booth
 desc: |-
