@@ -12,9 +12,11 @@ body-classes: the-airstream
 image-slider:
 - image: "/uploads/guest book.jpg"
   image-alt: 
-- image: "/uploads/seating_area.jpg"
+- image: "/uploads/15.%20Airstream%20Wedding.jpg"
   image-alt: 
 - image: "/uploads/guest_book_area.jpg"
+  image-alt: 
+- image: "/uploads/seating_area.jpg"
   image-alt: 
 - image: "/uploads/summer wedding.jpg"
   image-alt: 

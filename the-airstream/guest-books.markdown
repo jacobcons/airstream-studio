@@ -13,6 +13,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/wedding_guest_book.jpg"
   image-alt: 
+- image: "/uploads/20.%20bride%20and%20groom%20guest%20book-dbfb46.jpg"
+  image-alt: 
 - image: "/uploads/airstream%20studio-fee982.jpg"
   image-alt: 
 - image: "/uploads/guest%20book%20signing-5cff79.jpg"

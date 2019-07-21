@@ -7,19 +7,25 @@ meta-desc: A unique photo booth inside and 1949 vintage airstream. A stunning re
   caravan for your wedding, party, school prom or corporate event.
 body-classes: index
 image-slider:
-- image: "/uploads/38.Aynhoe%20Park%20Wedding.jpg"
-  image-alt: 
-- image: "/uploads/001.Woodland%20Airstream.jpg"
-  image-alt: 
-- image: "/uploads/37.summer%20airstream%20wedding.jpg"
-  image-alt: 
-- image: "/uploads/airstream%20studio%20wide%20shot.jpg"
-  image-alt: 
-- image: "/uploads/wedding%20photo%20booth-7fe2bf.jpg"
+- image: "/uploads/39.%20Festival%20Bride.jpg"
   image-alt: 
 - image: "/uploads/36.sunset%20airstream.jpg"
   image-alt: 
+- image: "/uploads/38.Aynhoe%20Park%20Wedding.jpg"
+  image-alt: 
+- image: "/uploads/wedding%20photo%20booth-7fe2bf.jpg"
+  image-alt: 
+- image: "/uploads/23.flower_crowns.jpg"
+  image-alt: 
+- image: "/uploads/37.summer%20airstream%20wedding.jpg"
+  image-alt: 
 - image: "/uploads/25.flower%20girl%20wedding.jpg"
+  image-alt: 
+- image: "/uploads/airstream%20studio%20wide%20shot.jpg"
+  image-alt: 
+- image: "/uploads/001.Woodland%20Airstream.jpg"
+  image-alt: 
+- image: "/uploads/wedding%20entertainment.jpg"
   image-alt: 
 - image: "/uploads/Soho%20Farmhouse.jpg"
   image-alt: 
@@ -37,13 +43,9 @@ image-slider:
   image-alt: 
 - image: "/uploads/boho%20wedding.jpg"
   image-alt: 
-- image: "/uploads/wedding%20entertainment.jpg"
-  image-alt: 
 - image: "/uploads/wedding%20photo%20booth%20kiss.jpg"
   alt: 
 - image: "/uploads/graduation%20ball.jpg"
-  image-alt: 
-- image: "/uploads/23.flower_crowns.jpg"
   image-alt: 
 - image: "/uploads/pangdean%20barn%20wedding.jpg"
   image-alt: 

@@ -8,7 +8,7 @@ meta-desc: A unique photo booth available to hire for weddings,  parties, grad B
   & proms, corporate events and film locations in Sussex, Surrey and Kent.
 boxes:
 - title: Weddings
-  image: "/uploads/weddings.jpg"
+  image: "/uploads/Wedding%20Entertainment-315520.jpg"
   image-alt: 
   desc: A unique photo booth based in Sussex, great for vintage inspired weddings.
   link: 
@@ -30,7 +30,7 @@ boxes:
     them with social media.
   link: 
 - title: Christmas
-  image: "/uploads/christmas.jpg"
+  image: "/uploads/Christmas%20Photo%20Booth.jpg"
   image-alt: 
   desc: Our specially created winter wonderland backdrop is perfect for Christmas
     parties, seasonal photos and Santa’s Grotto.
@@ -41,7 +41,7 @@ boxes:
   desc: We love Halloween photo booth events and fancy dress.
   link: 
 - title: Children's Parties
-  image: "/uploads/childrens parties.jpg"
+  image: "/uploads/Childrens%20Party%20Photo%20Booth.jpg"
   image-alt: 
   desc: Kids love the wide selection of photo booth props and create really fun photos.
   link: 
