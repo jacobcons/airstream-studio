@@ -2,6 +2,7 @@
 title: Pop up booth
 date: 2019-07-21 18:43:00 Z
 published: false
+position: 2
 page-title: Airstream Photo Booth
 body-classes: the-airstream
 image-slider:
