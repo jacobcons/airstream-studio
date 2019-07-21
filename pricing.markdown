@@ -7,7 +7,7 @@ meta-desc: Hire prices, information and venue requirements. Early set up, all da
   and bespoke hire packages available as well as location hire of photography and
   film.
 body-classes: pricing
-prices:
+airstream-prices:
 - title: 3 hours
   is-from: true
   is-currency: true
@@ -20,31 +20,50 @@ prices:
   is-from: true
   is-currency: true
   price: 1150
+pop-up-booth-prices:
+- title: 3 hours
+  is-from: true
+  is-currency: true
+  price: 450
+- title: 4 hours
+  is-from: true
+  is-currency: true
+  price: 550
+- title: 5 hours
+  is-from: true
+  is-currency: true
+  price: 650
 additional-services:
 - title: Personalised guest book
   is-from: false
   is-currency: true
   price: 70
+  is-airstream-only: true
 - title: Premium printing
   is-from: false
   is-currency: true
   price: 80
+  is-airstream-only: true
 - title: Video booth
   is-from: true
   is-currency: true
   price: 200
+  is-airstream-only: true
 - title: Early set up
   is-from: false
   is-currency: false
   price: P.O.A.
+  is-airstream-only: false
 - title: Boho Lounge
   is-from: false
   is-currency: true
   price: 150
+  is-airstream-only: false
 - title: Custom Branding
   is-from: false
   is-currency: false
   price: P.O.A.
+  is-airstream-only: false
 included:
 - One photo print per group and a spare for your guest book
 - Sharing with social media
