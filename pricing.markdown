@@ -16,22 +16,22 @@ airstream-prices:
   price: 1150
 pop-up-booth-prices:
 - title: 3 hours
-  price: 450
+  price: 500
 - title: 4 hours
-  price: 550
+  price: 600
 - title: 5 hours
-  price: 650
+  price: 700
 additional-services:
 - title: Personalised guest book
   is-from: false
   is-currency: true
   price: 70
-  is-airstream-only: true
+  is-airstream-only: false
 - title: Premium printing
   is-from: false
   is-currency: true
   price: 80
-  is-airstream-only: true
+  is-airstream-only: false
 - title: Video booth
   is-from: true
   is-currency: true
@@ -46,7 +46,7 @@ additional-services:
   is-from: false
   is-currency: true
   price: 150
-  is-airstream-only: false
+  is-airstream-only: true
 - title: Custom Branding
   is-from: false
   is-currency: false
