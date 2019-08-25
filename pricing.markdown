@@ -57,7 +57,7 @@ included:
 - Sharing with social media
 - Personal photo template
 - Professionally lit photo set
-- 2 hosts to greet & guide guests (1 host for mobile booth)
+- 2 hosts to greet & guide guests (1 host for pop up booth)
 - Climate controlled for cool summers and warm winters (Airstream only)
 - Professional editing of your shots
 - Photos uploaded to a password protected gallery
