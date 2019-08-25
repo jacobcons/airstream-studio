@@ -6,8 +6,7 @@ var cp          = require('child_process');
 const browserify = require('browserify');
 const source = require('vinyl-source-stream');
 const flatten = require('gulp-flatten');
-//var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
-const spawn = require('cross-spawn');
+var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
@@ -24,8 +23,8 @@ const paths = {
  */
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    return spawn('jekyll', ['build'], {stdio: 'inherit'})
-      .on('close', done)
+    return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
+        .on('close', done);
 });
 
 /**
