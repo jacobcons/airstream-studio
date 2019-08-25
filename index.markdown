@@ -13,6 +13,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/41.Amy%20Heart%20photos.jpg"
   image-alt: 
+- image: "/uploads/40.school%20prom.jpg"
+  image-alt: 
 - image: "/uploads/38.Aynhoe%20Park%20Wedding.jpg"
   image-alt: 
 - image: "/uploads/wedding%20photo%20booth-7fe2bf.jpg"
