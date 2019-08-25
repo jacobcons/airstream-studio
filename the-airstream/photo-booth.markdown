@@ -11,7 +11,13 @@ body-classes: the-airstream
 image-slider:
 - image: "/uploads/photo booth fun.jpg"
   image-alt: 
+- image: "/uploads/46.Amy%20Heart%20Photos%20fun.jpg"
+  image-alt: 
+- image: "/uploads/43.%20Bride%20photo%20booth.jpg"
+  image-alt: 
 - image: "/uploads/31.bride%20and%20groom%20photos.jpg"
+  image-alt: 
+- image: "/uploads/45.%20wedding%20photo%20booth.jpg"
   image-alt: 
 - image: "/uploads/38.photo%20booth%20party.jpg"
   image-alt: 
