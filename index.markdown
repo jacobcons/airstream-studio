@@ -11,6 +11,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/36.sunset%20airstream.jpg"
   image-alt: 
+- image: "/uploads/41.Amy%20Heart%20photos.jpg"
+  image-alt: 
 - image: "/uploads/38.Aynhoe%20Park%20Wedding.jpg"
   image-alt: 
 - image: "/uploads/wedding%20photo%20booth-7fe2bf.jpg"
@@ -89,6 +91,11 @@ aspects:
   desc: A retro 1950’s styled interior with a luxury seating booth, bespoke units
     and a huge selection of unique and creative props.
   link: "/the-airstream/interior.html"
+- title: 
+  image: 
+  image-alt: 
+  desc: 
+  link: 
 layout: index
 ---
 
