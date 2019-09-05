@@ -30,7 +30,7 @@ permalink: date
 contact:
   email: info@airstreamstudio.co.uk
   tel: '07738590748'
-gems:
+plugins:
 - jekyll-sitemap
 header-nav:
   left:
@@ -51,9 +51,11 @@ header-nav:
       url: "/the-airstream/props-and-features.html"
     - title: Events
       url: "/the-airstream/events.html"
+  - title: Pop up booth
+    url: "/pop-up-booth.html"
+  right:
   - title: Pricing
     url: "/pricing.html"
-  right:
   - title: Videos
     url: "/videos.html"
   - title: Social media
@@ -79,6 +81,8 @@ footer-nav:
       url: "/the-airstream/props-and-features.html"
     - title: Events
       url: "/the-airstream/events.html"
+  - title: Pop up booth
+    url: "/pop-up-booth.html"
   - title: Pricing
     url: "/pricing.html"
   - title: Videos

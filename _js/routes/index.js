@@ -6,9 +6,8 @@ export default {
     	container: '.cross-fader',
     	items: 1,
     	nav: false,
-    	autoplayButtonOutput: false,
     	controlsText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
-      lazyload: true,
+      lazyload: false,
       loop: false,
       speed: 600,
     });

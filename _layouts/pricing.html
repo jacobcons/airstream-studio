@@ -4,8 +4,13 @@ body-classes: pricing
 ---
 
 <section class="section">
-	<h2 class="title"><span class="date"></span> prices</h2>
-	{% include service.html services=page.prices %}
+	<h2 class="title">Airstream <span class="date"></span> prices</h2>
+	{% include price.html services=page.airstream-prices %}
+</section>
+
+<section class="section">
+	<h2 class="title">Pop up booth <span class="date"></span> prices</h2>
+	{% include price.html services=page.pop-up-booth-prices %}
 </section>
 
 <section class="section">

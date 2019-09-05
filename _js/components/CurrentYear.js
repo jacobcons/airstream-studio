@@ -1,10 +1,10 @@
 export default class CurrentYear {
 	constructor() {
-		this.el = document.querySelector('.date')
-		this.setYear()
+		this.els = document.querySelectorAll('.date')
+		this.els.forEach(this.setYear)
 	}
 	
-	setYear() {
-		this.el.textContent = (new Date()).getFullYear();
+	setYear(el) {
+		el.textContent = (new Date()).getFullYear();
 	}
 }
