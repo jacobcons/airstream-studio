@@ -15,6 +15,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/43.%20Bride%20photo%20booth.jpg"
   image-alt: 
+- image: "/uploads/47.%2021st%20birthday%20photo%20booth.jpg"
+  image-alt: 
 - image: "/uploads/31.bride%20and%20groom%20photos.jpg"
   image-alt: 
 - image: "/uploads/45.%20wedding%20photo%20booth.jpg"
