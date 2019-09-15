@@ -29,11 +29,7 @@ image-slider:
   image-alt: 
 - image: "/uploads/42.%20bride%20&%20grrom%20photo%20booth.jpg"
   image-alt: 
-- image: "/uploads/40.retro%20wedding%20photo%20booth.jpg"
-  image-alt: 
 - image: "/uploads/34.luxury%20photo%20booth.jpg"
-  image-alt: 
-- image: "/uploads/wedding sussex.jpg"
   image-alt: 
 - image: "/uploads/37.photo%20booth%20vintage%20retro.jpg"
   image-alt: 
@@ -41,39 +37,9 @@ image-slider:
   image-alt: 
 - image: "/uploads/32.wedding%20party.jpg"
   image-alt: 
-- image: "/uploads/wedding%20photos-efb032.jpg"
-  image-alt: 
-- image: "/uploads/event hire.jpg"
-  image-alt: 
-- image: "/uploads/sussex wedding entertainment.jpg"
-  image-alt: 
-- image: "/uploads/bride and groom.jpg"
-  image-alt: 
-- image: "/uploads/corporate events.jpg"
-  image-alt: 
-- image: "/uploads/floral photo booth.jpg"
-  image-alt: 
-- image: "/uploads/fun photo booth.jpg"
-  image-alt: 
-- image: "/uploads/events.jpg"
-  image-alt: 
-- image: "/uploads/unique entertainment.jpg"
-  image-alt: 
-- image: "/uploads/wedding hire sussex.jpg"
-  image-alt: 
-- image: "/uploads/family photo booth.jpg"
-  image-alt: 
-- image: "/uploads/wedding hire.jpg"
-  image-alt: 
-- image: "/uploads/kissing photo booth.jpg"
-  image-alt: 
 - image: "/uploads/location hire.jpg"
   image-alt: 
-- image: "/uploads/corporate events.jpg"
-  image-alt: 
 - image: "/uploads/party photo booth.jpg"
-  image-alt: 
-- image: "/uploads/29.animal_masks_booth.jpg"
   image-alt: 
 - image: "/uploads/dupenny-01-8b020b.png"
   image-alt: 
