@@ -13,6 +13,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/39.%20Airstream%20wedding.jpg"
   image-alt: 
+- image: "/uploads/42.airstream%20sunset.jpg"
+  image-alt: 
 - image: "/uploads/001.boho%20woodland%20wedding.jpg"
   image-alt: 
 - image: "/uploads/sunset airstream.jpg"
