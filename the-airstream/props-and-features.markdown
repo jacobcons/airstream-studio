@@ -12,6 +12,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/9.%20wedding%20floral%20headwear.jpg"
   image-alt: 
+- image: "/uploads/Best%20Photo%20Booth%20Props.jpg"
+  image-alt: 
 - image: "/uploads/8.vintage%20props.jpg"
   image-alt: 
 - image: "/uploads/stunning_headwear-640e54.jpg"
