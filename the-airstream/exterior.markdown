@@ -11,6 +11,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/RWakefield.jpg"
   image-alt: 
+- image: "/uploads/42.Rosa%20Limonita.jpg"
+  image-alt: 
 - image: "/uploads/airstream%20photo%20booth-cf1a67.jpg"
   image-alt: 
 - image: "/uploads/39.%20Airstream%20wedding.jpg"
