@@ -9,6 +9,8 @@ body-classes: the-airstream
 image-slider:
 - image: "/uploads/airstream%20studio-4fe772.jpg"
   image-alt: 
+- image: "/uploads/RWakefield.jpg"
+  image-alt: 
 - image: "/uploads/airstream%20photo%20booth-cf1a67.jpg"
   image-alt: 
 - image: "/uploads/39.%20Airstream%20wedding.jpg"
