@@ -8,23 +8,21 @@ meta-desc: Professional lighting, climate controlled, studio lighting, an enormo
   range of high quality props, jelly bean dispenser, high speed photo printing.
 body-classes: the-airstream
 image-slider:
-- image: "/uploads/feather head dress.jpg"
-  image-alt: 
 - image: "/uploads/9.%20wedding%20floral%20headwear.jpg"
   image-alt: 
 - image: "/uploads/Best%20Photo%20Booth%20Props.jpg"
   image-alt: 
-- image: "/uploads/8.vintage%20props.jpg"
+- image: "/uploads/photo%20booth%20luxury.jpg"
   image-alt: 
-- image: "/uploads/stunning_headwear-640e54.jpg"
-  image-alt: 
-- image: "/uploads/vintage_glasses-a9b6b6.jpg"
-  image-alt: 
-- image: "/uploads/flower_crown-d512cc.jpg"
+- image: "/uploads/10.%20sunglasses%20props.jpg"
   image-alt: 
 - image: "/uploads/zedhead%20feather%20headwear.jpg"
   image-alt: 
-- image: "/uploads/vintage candy machine.jpg"
+- image: "/uploads/11.%20vintage%20props.jpg"
+  image-alt: 
+- image: "/uploads/8.vintage%20props.jpg"
+  image-alt: 
+- image: "/uploads/flower_crown-d512cc.jpg"
   image-alt: 
 - image: "/uploads/cine%20camera.jpg"
   image-alt: 
