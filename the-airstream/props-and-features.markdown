@@ -20,8 +20,6 @@ image-slider:
   image-alt: 
 - image: "/uploads/11.%20vintage%20props.jpg"
   image-alt: 
-- image: "/uploads/8.vintage%20props.jpg"
-  image-alt: 
 - image: "/uploads/flower_crown-d512cc.jpg"
   image-alt: 
 - image: "/uploads/cine%20camera.jpg"
