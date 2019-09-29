@@ -12,6 +12,8 @@ body-classes: the-airstream
 image-slider:
 - image: "/uploads/guest book.jpg"
   image-alt: 
+- image: "/uploads/Best%20Photo%20Booth%20Props-539ac4.jpg"
+  image-alt: 
 - image: "/uploads/15.%20Airstream%20Wedding.jpg"
   image-alt: 
 - image: "/uploads/guest_book_area.jpg"
@@ -20,15 +22,9 @@ image-slider:
   image-alt: 
 - image: "/uploads/summer wedding.jpg"
   image-alt: 
-- image: "/uploads/airstream studio-4227fc.jpg"
-  image-alt: 
 - image: "/uploads/wedding entertainment-dcde7f.jpg"
   image-alt: 
 - image: "/uploads/wedding guest book table.jpg"
-  image-alt: 
-- image: "/uploads/photo booth sussex-8d2add.jpg"
-  image-alt: 
-- image: "/uploads/vintage candy machine.jpg"
   image-alt: 
 - image: "/uploads/dupenny-01.png"
   image-alt: 
