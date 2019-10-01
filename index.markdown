@@ -83,7 +83,7 @@ aspects:
     a mirror polished exterior. A stunning backdrop to your wedding, party or event.
   link: "/the-airstream/exterior.html"
 - title: Photo booth
-  image: "/uploads/photo%20booth-8475ad.jpg"
+  image: "/uploads/Luxury%20Photo%20Booth-4f8682.jpg"
   image-alt: 
   desc: A unique photo booth set inside a vintage airstream. Capture beautiful memories
     in a vintage inspired photo set, with professional lighting and instant photo
