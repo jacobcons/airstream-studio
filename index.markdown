@@ -17,13 +17,13 @@ image-slider:
   image-alt: 
 - image: "/uploads/40.school%20prom.jpg"
   image-alt: 
-- image: "/uploads/38.Aynhoe%20Park%20Wedding.jpg"
-  image-alt: 
 - image: "/uploads/44.%20rosie%20red%20corsetry.jpg"
+  image-alt: 
+- image: "/uploads/38.Aynhoe%20Park%20Wedding.jpg"
   image-alt: 
 - image: "/uploads/wedding%20photo%20booth-7fe2bf.jpg"
   image-alt: 
-- image: "/uploads/23.flower_crowns.jpg"
+- image: "/uploads/45.%20Luxury%20Photo%20Booth.jpg"
   image-alt: 
 - image: "/uploads/37.summer%20airstream%20wedding.jpg"
   image-alt: 
