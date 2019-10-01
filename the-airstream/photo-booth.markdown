@@ -13,7 +13,11 @@ image-slider:
   image-alt: 
 - image: "/uploads/46.Amy%20Heart%20Photos%20fun.jpg"
   image-alt: 
+- image: "/uploads/49.Roselimonata.jpg"
+  image-alt: 
 - image: "/uploads/43.%20Bride%20photo%20booth.jpg"
+  image-alt: 
+- image: "/uploads/48.%20Ruburubyrubylorcan.jpg"
   image-alt: 
 - image: "/uploads/47.%2021st%20birthday%20photo%20booth.jpg"
   image-alt: 
@@ -28,8 +32,6 @@ image-slider:
 - image: "/uploads/wedding%20girls%20in%20white.jpg"
   image-alt: 
 - image: "/uploads/42.%20bride%20&%20grrom%20photo%20booth.jpg"
-  image-alt: 
-- image: "/uploads/34.luxury%20photo%20booth.jpg"
   image-alt: 
 - image: "/uploads/37.photo%20booth%20vintage%20retro.jpg"
   image-alt: 
