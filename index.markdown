@@ -19,6 +19,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/38.Aynhoe%20Park%20Wedding.jpg"
   image-alt: 
+- image: "/uploads/44.%20rosie%20red%20corsetry.jpg"
+  image-alt: 
 - image: "/uploads/wedding%20photo%20booth-7fe2bf.jpg"
   image-alt: 
 - image: "/uploads/23.flower_crowns.jpg"
