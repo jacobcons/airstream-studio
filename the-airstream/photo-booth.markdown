@@ -33,15 +33,9 @@ image-slider:
   image-alt: 
 - image: "/uploads/42.%20bride%20&%20grrom%20photo%20booth.jpg"
   image-alt: 
-- image: "/uploads/37.photo%20booth%20vintage%20retro.jpg"
-  image-alt: 
 - image: "/uploads/festival%20wedding%20party.jpg"
   image-alt: 
 - image: "/uploads/32.wedding%20party.jpg"
-  image-alt: 
-- image: "/uploads/location hire.jpg"
-  image-alt: 
-- image: "/uploads/party photo booth.jpg"
   image-alt: 
 - image: "/uploads/dupenny-01-8b020b.png"
   image-alt: 
