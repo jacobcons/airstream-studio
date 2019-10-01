@@ -37,8 +37,6 @@ image-slider:
   image-alt: 
 - image: "/uploads/Soho%20Farmhouse.jpg"
   image-alt: 
-- image: "/uploads/27.wedding%20sussex.jpg"
-  image-alt: 
 - image: "/uploads/summer%20wedding%20sussex.jpg"
   image-alt: 
 - image: "/uploads/28.vintage%20wedding%20booth.jpg"
@@ -53,8 +51,6 @@ image-slider:
   image-alt: 
 - image: "/uploads/boho%20wedding.jpg"
   image-alt: 
-- image: "/uploads/wedding%20photo%20booth%20kiss.jpg"
-  alt: 
 - image: "/uploads/graduation%20ball.jpg"
   image-alt: 
 - image: "/uploads/pangdean%20barn%20wedding.jpg"
