@@ -9,13 +9,13 @@ body-classes: the-airstream
 image-slider:
 - image: "/uploads/airstream%20studio-4fe772.jpg"
   image-alt: 
+- image: "/uploads/39.%20Airstream%20wedding.jpg"
+  image-alt: 
 - image: "/uploads/RWakefield.jpg"
   image-alt: 
 - image: "/uploads/42.Rosa%20Limonita.jpg"
   image-alt: 
 - image: "/uploads/airstream%20photo%20booth-cf1a67.jpg"
-  image-alt: 
-- image: "/uploads/39.%20Airstream%20wedding.jpg"
   image-alt: 
 - image: "/uploads/42.airstream%20sunset.jpg"
   image-alt: 
@@ -25,21 +25,13 @@ image-slider:
   image-alt: 
 - image: "/uploads/airstream wedding.jpg"
   image-alt: 
-- image: "/uploads/vintage photo booth.jpg"
-  image-alt: 
-- image: "/uploads/boho-e969a0.jpg"
-  image-alt: 
 - image: "/uploads/events airstream.jpg"
-  image-alt: 
-- image: "/uploads/summer wedding venue.jpg"
   image-alt: 
 - image: "/uploads/O2 arena photo booth.jpg"
   image-alt: 
 - image: "/uploads/sussex photo booth.jpg"
   image-alt: 
 - image: "/uploads/barn wedding.jpg"
-  image-alt: 
-- image: "/uploads/airstream_wedding.jpg"
   image-alt: 
 - image: "/uploads/upwaltham barns wedding.jpg"
   image-alt: 
@@ -49,23 +41,15 @@ image-slider:
   image-alt: 
 - image: "/uploads/O2 arena events.jpg"
   image-alt: 
-- image: "/uploads/airstream studio sussex.jpg"
-  image-alt: 
 - image: "/uploads/corporate%20events-c551f3.jpg"
   image-alt: 
 - image: "/uploads/wedding photography.jpg"
-  image-alt: 
-- image: "/uploads/aynhoe park wedding.jpg"
   image-alt: 
 - image: "/uploads/airstream teepee wedding.jpg"
   image-alt: 
 - image: "/uploads/vintage airstream.jpg"
   image-alt: 
-- image: "/uploads/location shoot.jpg"
-  image-alt: 
 - image: "/uploads/events-ef57cc.jpg"
-  image-alt: 
-- image: "/uploads/corporate party.jpg"
   image-alt: 
 - image: "/uploads/sussex wedding.jpg"
   image-alt: 
