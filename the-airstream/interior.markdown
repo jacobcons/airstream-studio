@@ -20,12 +20,6 @@ image-slider:
   image-alt: 
 - image: "/uploads/seating_area.jpg"
   image-alt: 
-- image: "/uploads/summer wedding.jpg"
-  image-alt: 
-- image: "/uploads/wedding entertainment-dcde7f.jpg"
-  image-alt: 
-- image: "/uploads/wedding guest book table.jpg"
-  image-alt: 
 - image: "/uploads/dupenny-01.png"
   image-alt: 
 heading: Airstream interior
