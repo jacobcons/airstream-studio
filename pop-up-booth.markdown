@@ -5,6 +5,10 @@ position: 2
 page-title: Airstream Photo Booth
 body-classes: the-airstream
 image-slider:
+- image: "/uploads/Valentine%20Photo%20Booth.jpg"
+  image-alt: 
+- image: "/uploads/Heart%20Photo%20Booth.jpg"
+  image-alt: 
 - image: "/uploads/20190708_153149_467.jpg"
   image-alt: 
 - image: "/uploads/20190708_153213_928.jpg"
