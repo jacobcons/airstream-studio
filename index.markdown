@@ -39,13 +39,11 @@ image-slider:
   image-alt: 
 - image: "/uploads/001.Woodland%20Airstream.jpg"
   image-alt: 
+- image: "/uploads/corporate%20event%20hire.jpg"
+  image-alt: 
 - image: "/uploads/Soho%20Farmhouse.jpg"
   image-alt: 
 - image: "/uploads/summer%20wedding%20sussex.jpg"
-  image-alt: 
-- image: "/uploads/corporate%20event%20hire.jpg"
-  image-alt: 
-- image: "/uploads/boho%20wedding.jpg"
   image-alt: 
 - image: "/uploads/graduation%20ball.jpg"
   image-alt: 
