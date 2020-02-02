@@ -11,8 +11,6 @@ image-slider:
   image-alt: 
 - image: "/uploads/39.%20Festival%20Bride.jpg"
   image-alt: 
-- image: "/uploads/wedding%20photo%20booth-7fe2bf.jpg"
-  image-alt: 
 - image: "/uploads/36.sunset%20airstream.jpg"
   image-alt: 
 - image: "/uploads/43%20Rosiered%20corsetry.jpg"
@@ -22,8 +20,6 @@ image-slider:
 - image: "/uploads/40.school%20prom.jpg"
   image-alt: 
 - image: "/uploads/wedding%20entertainment.jpg"
-  image-alt: 
-- image: "/uploads/44.%20rosie%20red%20corsetry.jpg"
   image-alt: 
 - image: "/uploads/45.%20Luxury%20Photo%20Booth.jpg"
   image-alt: 
@@ -39,15 +35,7 @@ image-slider:
   image-alt: 
 - image: "/uploads/summer%20wedding%20sussex.jpg"
   image-alt: 
-- image: "/uploads/28.vintage%20wedding%20booth.jpg"
-  image-alt: 
-- image: "/uploads/002%20boho%20bride%20sussex.jpg"
-  image-alt: 
-- image: "/uploads/42.%20Rosie%20Red%20Corsetry.jpg"
-  image-alt: 
 - image: "/uploads/corporate%20event%20hire.jpg"
-  image-alt: 
-- image: "/uploads/airstream%20studio%20photo%20booth.jpg"
   image-alt: 
 - image: "/uploads/boho%20wedding.jpg"
   image-alt: 
@@ -55,16 +43,10 @@ image-slider:
   image-alt: 
 - image: "/uploads/pangdean%20barn%20wedding.jpg"
   image-alt: 
-- image: "/uploads/wedding%20photo%20booth.jpg"
-  image-alt: 
 - image: "/uploads/wedding%20photography%20sussex.jpg"
-  image-alt: 
-- image: "/uploads/photo%20booth%20sussex.jpg"
   image-alt: 
 - image: "/uploads/21.festival_wedding-6d0426.jpg"
   image-alt: 
-- image: "/uploads/photo%20booth%20events%20london.jpg"
-  alt: 
 - image: "/uploads/wedding%20photography.jpg"
   image-alt: 
 - image: "/uploads/O2%20arena.jpg"
