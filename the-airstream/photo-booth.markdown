@@ -13,29 +13,17 @@ image-slider:
   image-alt: 
 - image: "/uploads/46.Amy%20Heart%20Photos%20fun.jpg"
   image-alt: 
-- image: "/uploads/49.Roselimonata.jpg"
-  image-alt: 
 - image: "/uploads/43.%20Bride%20photo%20booth.jpg"
   image-alt: 
 - image: "/uploads/48.%20Ruburubyrubylorcan.jpg"
   image-alt: 
 - image: "/uploads/47.%2021st%20birthday%20photo%20booth.jpg"
   image-alt: 
-- image: "/uploads/31.bride%20and%20groom%20photos.jpg"
-  image-alt: 
-- image: "/uploads/45.%20wedding%20photo%20booth.jpg"
-  image-alt: 
 - image: "/uploads/38.photo%20booth%20party.jpg"
   image-alt: 
 - image: "/uploads/35.kids%20photo%20booth.jpg"
   image-alt: 
-- image: "/uploads/wedding%20girls%20in%20white.jpg"
-  image-alt: 
 - image: "/uploads/42.%20bride%20&%20grrom%20photo%20booth.jpg"
-  image-alt: 
-- image: "/uploads/festival%20wedding%20party.jpg"
-  image-alt: 
-- image: "/uploads/32.wedding%20party.jpg"
   image-alt: 
 - image: "/uploads/dupenny-01-8b020b.png"
   image-alt: 
