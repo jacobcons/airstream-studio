@@ -21,14 +21,6 @@ image-slider:
   image-alt: 
 - image: "/uploads/personalised guest book.jpg"
   image-alt: 
-- image: "/uploads/photo guest book.jpg"
-  image-alt: 
-- image: "/uploads/airstream%20photo%20booth-b504d5.jpg"
-  image-alt: 
-- image: "/uploads/photo book.jpg"
-  image-alt: 
-- image: "/uploads/guest book.jpg"
-  image-alt: 
 - image: "/uploads/guest book table.jpg"
   image-alt: 
 - image: "/uploads/dupenny-01-fbf1f7.png"
