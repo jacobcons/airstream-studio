@@ -14,6 +14,13 @@ airstream-prices:
   price: 1050
 - title: 5 hours
   price: 1250
+heart-booth-prices:
+- title: 3 hours
+  price: 600
+- title: 4 hours
+  price: 700
+- title: 5 hours
+  price: 800
 pop-up-booth-prices:
 - title: 3 hours
   price: 500

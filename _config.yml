@@ -30,6 +30,17 @@ permalink: date
 contact:
   email: info@airstreamstudio.co.uk
   tel: '07738590748'
+footer-badges:
+- link: "#"
+  image: "/uploads/UK_wedding_2018-01.png"
+- link: "#"
+  image: "/uploads/ukwa-2019-web-badge-shortlisted.png"
+- link: "#"
+  image: "/uploads/UKWA2020-winner-badge.png"
+- link: "#"
+  image: "/uploads/UK%20Wedding%20Award-01.png"
+- link: "#"
+  image: "/uploads/Tatler_badge-01.png"
 plugins:
 - jekyll-sitemap
 header-nav:
