@@ -971,6 +971,9 @@ button:focus {
 .badge {
   padding: 2rem 0; }
 
+.badge--small {
+  width: 6.25rem; }
+
 .box {
   padding: 1rem 0; }
 

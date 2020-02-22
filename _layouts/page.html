@@ -37,6 +37,15 @@
       {{ content }}
     
       <footer class="footer">
+        <div class="row align-middle">
+          {% for badge in site.footer-badges %}
+      		<div class="column medium-expand small-12">
+      			<a href="{{ badge.link }}" target="_blank" rel="noopener">
+      				<img src="{{ badge.image }}" alt="{% include image-alt.html alt=badge.image-alt file-path=badge.image %}" class="badge badge--small">
+      			</a>
+      		</div>
+      		{% endfor %}
+        </div>
         <div class="row">
           {% include footer-nav-section.html links=site.footer-nav.col-1 nav-classes="nav list-nav"%}
           
