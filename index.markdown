@@ -64,18 +64,25 @@ image-slider:
 - image: "/uploads/airstream%20studio.jpg"
   image-alt: 
 testimonials:
-- name: Enid
-  quote: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type and scrambled it to make a type
-    specimen book.
-- name: 'Rebecca '
-  quote: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-- name: 'Seymour '
-  quote: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-    when an unknown printer took a galley of type.
+- name: Mr & Mrs Hockley, 18th July 2019
+  quote: Wow… what can I say.. I knew the Airstream would look stunning and be a fun
+    addition to the day but I had no idea just how much it would make our wedding
+    day. Our friends are still raving about it weeks later. We absolutely loved the
+    attention to detail in every area of the booth from all the tasteful, unique and
+    stylish props to both of your kindness and warmth. Thank you so much for creating
+    such a stunning business that brings so much joy to everyone.
+- name: Mark Flannery , 26th August 2019
+  quote: |-
+    Your beautiful airstream exceeded our expectations and fitted in like a picture against the backdrop of the venue. Everybody there was a creative and so enjoyed all the tasteful props and decor. Sarah and Dan will have some lovely images of the day with their official photographs, but I think in the years to come they will cherish the photo booth pictures, as they capture the atmosphere and personalities of their guests.
+
+    Thank you so much for being so on point with everything, I loved the way you interacted with everyone. Easygoing, relaxed but very professional. Super impressed and extremely happy
+- name: Laura & Dan, 14th December 2019
+  quote: Em and Matt are the perfect hosts. They have created such an incredible,
+    unique business that no one could top. From the stylish props, to the stunning
+    velvet cocktail sofa surrounded by beautiful flowers, each guest left with photos
+    they were proud of. A hard thing to come by but the lighting and prints were all
+    so flattering! Thank you for coming and making the day so special. We will treasure
+    our guest book and messages from our friends and family for a lifetime.
 aspects:
 - title: Exterior
   image: "/uploads/exterior.jpg"
