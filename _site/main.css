@@ -1370,6 +1370,14 @@ button:focus {
   font-size: 21px;
   font-size: 1.3125rem; }
 
+.quote {
+  font-style: italic;
+  text-align: left; }
+
+.quote__name {
+  font-size: 16px;
+  font-size: 1rem; }
+
 .review-container {
   display: none; }
 

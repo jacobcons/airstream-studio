@@ -21,12 +21,12 @@ bodyClasses: index
 
 {% if page.testimonials %}
 <section class="section">
-	<div class="row align-middle">
+	<div class="row">
 		{% for testimonial in page.testimonials %}
-			<div class="column large-4 medium-6 small-12">
-				<div class="box">
-					<p>"{{ testimonial.quote }}"</p>
-					<p class="box__title">-{{ testimonial.name }}</p>
+			<div class="column large-4 medium-6 small-12 quote">
+				<div class="quote box">
+					<p class="quote__text box__text">"{{ testimonial.quote }}"</p>
+					<p class="quote__name">{{ testimonial.name }}</p>
 				</div>
 			</div>
 		{% endfor %}
