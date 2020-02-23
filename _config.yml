@@ -1,0 +1,111 @@
+---
+title: Airstream Studio
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+    page-title: ''
+    meta-desc: ''
+exclude:
+- notes
+- node_modules
+- aws
+permalink: date
+contact:
+  email: info@airstreamstudio.co.uk
+  tel: '07738590748'
+footer-badges:
+- link: "#"
+  image: "/uploads/UK_wedding_2018-01.png"
+- link: "#"
+  image: "/uploads/ukwa-2019-web-badge-shortlisted.png"
+- link: "#"
+  image: "/uploads/UKWA2020-winner-badge.png"
+- link: "#"
+  image: "/uploads/UK%20Wedding%20Award-01.png"
+- link: "#"
+  image: "/uploads/Tatler_badge-01.png"
+plugins:
+- jekyll-sitemap
+header-nav:
+  left:
+  - title: Home
+    url: "/"
+  - title: The airstream
+    url: javascript:void(0)
+    children:
+    - title: Interior
+      url: "/the-airstream/interior.html"
+    - title: Photo booth
+      url: "/the-airstream/photo-booth.html"
+    - title: Exterior
+      url: "/the-airstream/exterior.html"
+    - title: Guest books
+      url: "/the-airstream/guest-books.html"
+    - title: Props & features
+      url: "/the-airstream/props-and-features.html"
+    - title: Events
+      url: "/the-airstream/events.html"
+  - title: Pop up booth
+    url: "/pop-up-booth.html"
+  right:
+  - title: Pricing
+    url: "/pricing.html"
+  - title: Videos
+    url: "/videos.html"
+  - title: Social media
+    url: "/social-media.html"
+  - title: Contact
+    url: "/contact.html"
+footer-nav:
+  col-1:
+  - title: Home
+    url: "/"
+  - title: The airstream
+    url: javascript:void(0)
+    children:
+    - title: Interior
+      url: "/the-airstream/interior.html"
+    - title: Photo booth
+      url: "/the-airstream/photo-booth.html"
+    - title: Exterior
+      url: "/the-airstream/exterior.html"
+    - title: Guest books
+      url: "/the-airstream/guest-books.html"
+    - title: Props & features
+      url: "/the-airstream/props-and-features.html"
+    - title: Events
+      url: "/the-airstream/events.html"
+  - title: Pop up booth
+    url: "/pop-up-booth.html"
+  - title: Pricing
+    url: "/pricing.html"
+  - title: Videos
+    url: "/videos.html"
+  col-2:
+  - title: Social media
+    url: "/social-media.html"
+  - title: Vintage wedding suppliers
+    url: "/vintage-wedding-suppliers.html"
+  - title: Vintage shops sussex
+    url: "/vintage-shops-sussex.html"
+  - title: Vintage events
+    url: "/vintage-events.html"
+  - title: Contact
+    url: "/contact.html"

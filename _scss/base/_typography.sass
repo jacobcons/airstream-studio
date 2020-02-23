@@ -1,0 +1,88 @@
+.arrow-link
+  @include font-size(16px)
+  font-family: marketDeco
+  color: $black
+  text-decoration: none
+  padding: 0.6rem
+  transition: all 0.2s ease-out
+  @include breakpoint(medium down)
+    @include font-size(15px)
+  &:hover
+    color: $white
+    background-color: $black
+  i
+    padding-left: 6px
+
+.title
+  $spacing: 0.5em
+  text-align: center
+  font-family: marketDeco
+  font-weight: normal
+  letter-spacing: $spacing
+  padding-left: $spacing !important
+  line-height: 3rem
+  @include font-size(34px)
+  @include breakpoint(small down)
+    @include font-size(26px)
+
+.title--underline
+  display: inline-block
+  position: relative
+  padding: 2rem 0
+  margin: 1rem 0
+  &:after
+    $width: 34%
+    $max-width: 130px
+    content: ""
+    display: block
+    width: $width
+    max-width: $max-width
+    border-bottom: 1px solid $black
+    position: absolute
+    left: 50%
+    top: 100%
+    transform: translateX(-50%)
+  @include breakpoint(small down)
+    padding: 0 0 2rem
+
+.copy-link
+  color: $portage
+  cursor: pointer
+  display: inline-block
+  position: relative
+  &:hover
+    text-decoration: underline
+  &:after, &:before
+    transition: opacity 0.4s
+    opacity: 0
+  &:after
+    $width: 80px
+    content: 'Copied'
+    color: $white
+    background-color: $portage
+    width: $width
+    height: 40px
+    position: absolute
+    left: 50%
+    top: 100%
+    margin-left: -($width / 2)
+  &:before
+    $width: 20px
+    $height: $width / 2
+    content: ''
+    border-left: ($width / 2) solid transparent
+    border-right: ($width / 2) solid transparent
+    border-bottom: ($width / 2) solid $portage
+    font-size: 0
+    line-height: 0
+    width: 0
+    height: 0
+    z-index: 2
+    position: absolute
+    left: 50%
+    top: calc(100% - #{$height})
+    margin-left: -($width / 2)
+
+.copy-link--copied
+  &:after, &:before
+    opacity: 1
