@@ -14,11 +14,11 @@ image-slider:
   image-alt: 
 - image: "/uploads/Best%20Photo%20Booth%20Props-539ac4.jpg"
   image-alt: 
+- image: "/uploads/seating_area.jpg"
+  image-alt: 
 - image: "/uploads/15.%20Airstream%20Wedding.jpg"
   image-alt: 
 - image: "/uploads/guest_book_area.jpg"
-  image-alt: 
-- image: "/uploads/seating_area.jpg"
   image-alt: 
 - image: "/uploads/dupenny-01.png"
   image-alt: 
