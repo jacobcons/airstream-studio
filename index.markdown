@@ -65,28 +65,26 @@ image-slider:
   image-alt: 
 testimonials:
 - name: Mr & Mrs Hockley
-  quote: '"We absolutely loved the attention to detail in every area of the booth
-    from all the tasteful, unique and stylish props to both of your kindness and warmth."'
+  quote: We absolutely loved the attention to detail in every area of the booth from
+    all the tasteful, unique and stylish props to both of your kindness and warmth.
 - name: Hetty & Giles
-  quote: '"We absolutely loved the attention to detail in every area of the booth
-    from all the tasteful, and unique props to both of your kindness and warmth. Thank
-    you so much for creating such a stunning business that brings so much joy to everyone."'
-- name: Mark Flannery
-  quote: '"Your beautiful airstream exceeded our expectations and fitted in like a
-    picture against the backdrop of the venue. Everybody there was a creative and
-    so enjoyed all the tasteful props and decor. "'
+  quote: We absolutely loved the attention to detail in every area of the booth from
+    all the tasteful, and unique props to both of your kindness and warmth. Thank
+    you so much for creating such a stunning business that brings so much joy to everyone.
 - name: Sophie & Tim
-  quote: '"The lighting and prints were all so flattering! Thank you for coming and
+  quote: The lighting and prints were all so flattering! Thank you for coming and
     making the day so special. We will treasure our guest book and messages from our
-    friends and family for a lifetime."'
+    friends and family for a lifetime.
+- name: Mark Flannery
+  quote: 'Your beautiful airstream exceeded our expectations and fitted in like a
+    picture against the backdrop of the venue. '
 - name: Robert & Gareth
-  quote: '"Em and Matt are the perfect hosts. They have created such an incredible,
-    unique business that no one could top. From the stylish props, to the stunning
+  quote: 'Em and Matt are the perfect hosts. They have created such an incredible,
+    unique business that no one could top. From the tasteful props, to the stunning
     velvet cocktail sofa surrounded by beautiful flowers, each guest left with photos
-    they were proud of. "'
+    they were proud of. '
 - name: Laura & Dan
-  quote: '"Easygoing, relaxed but very professional. Super impressed and extremely
-    happy!"'
+  quote: Easygoing, relaxed but very professional. Super impressed and extremely happy!
 aspects:
 - title: Exterior
   image: "/uploads/exterior.jpg"
