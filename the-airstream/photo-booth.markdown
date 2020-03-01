@@ -38,12 +38,16 @@ image-slider:
 - image: "/uploads/dupenny-01-8b020b.png"
   image-alt: 
 heading: Luxury Photo Booth
-desc: We use professional lighting and beautiful floral backdrops to create stunning
-  photo memories. Guests love looking through our wide selection of fun, vintage and
-  creative props to choose just the right thing to wear for their photos. Many people
-  find the booth irresistible and return several times for more photos. Pictures are
-  printed almost instantly from a high speed printer and can be shared with social
-  media directly from the iPad.
+desc: Our professional lighting and stunning floral backdrops combine to create a
+  gorgeous collection of photographs recording your event, and our wide selection
+  of props ensures that each image is unique and fun. Your choice of props allows
+  us to capture the personality and individuality of each guest, as they embrace the
+  endless creativity we have to offer. The booth is irresistible to fun-loving guests,
+  and we are constantly busy throughout each event, instantly printing images from
+  our high-speed printer into the hands of guests eager to capture and preserve the
+  moment. The images are at your fingertips from the second we click the camera, and
+  can be instantly shared online from our iPad. The photos are also uploaded to your
+  own password-protected gallery the next day for everyone to view.
 layout: booth-aspect
 ---
 
