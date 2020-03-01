@@ -56,11 +56,14 @@ image-slider:
 - image: "/uploads/dupenny-01-a8d74a.png"
   image-alt: 
 heading: Vintage airstream
-desc: A rare vintage airstream “Betsie”, was built back in 1949 and was model number
-  15 of only 40 that were ever built. Betsie now sits on a new chassis and has been
-  lovingly restored inside and out. We spend hours polishing the outside panels to
-  a mirror finish so that the airstream looks great at your event. It makes a great
-  backdrop for wedding photos and looks stunning at venues.
+desc: "Built in 1949, and model number 15 out of 40 airstreams of her kind, our gorgeous
+  airstream “Betsie” has aged remarkably well! She sits on a new chassis and has been
+  lovingly restored inside and out. The shining aluminium panels on Betsie’s exterior
+  are polished to an immaculate mirror finish to ensure that Betsie is the perfect
+  gleaming backdrop for the occasion. \nThe retro ‘PHOTOS’ sign lights up beautifully
+  at night and draws people in from afar.\n\nFrom weddings to corporate events, and
+  fairgrounds to private parties, Betsie is guaranteed to be an elegant and exciting
+  addition to your chosen venue.  \n"
 layout: booth-aspect
 ---
 
