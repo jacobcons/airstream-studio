@@ -23,11 +23,13 @@ image-slider:
 - image: "/uploads/dupenny-01.png"
   image-alt: 
 heading: Airstream interior
-desc: Inside the highly polished airstream, is a lovingly crafted 1950’s inspired
-  interior. Guests can relax in a luxury seating booth surrounded by fairground lights
-  and add their photos to a your guest book. A converted 1950’s radio plays vintage
-  music. It’s not just a photo booth, it’s a whole extra venue for your event. Airstream
-  Studio is climate controlled for cool summers and warm winters.
+desc: 'Entering the gleaming, highly polished exterior of the airstream, you are immersed
+  into the spacious interior, boasting a plush cocktail sofa surrounded by cheerful
+  fairground lights, a wide variety of unique props, and a diner-style guestbook area,
+  where guests can add their photos to the collection of the day. The soundtrack for
+  the day is played through a stylish speaker, as we photograph you and your guests,
+  from glamorous to goofy! The airstream is climate controlled for your comfort on
+  the hottest summer days and chilliest winter nights. '
 layout: booth-aspect
 ---
 
