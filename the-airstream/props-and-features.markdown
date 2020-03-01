@@ -29,16 +29,15 @@ image-slider:
 - image: "/uploads/dupenny-01-624c7c.png"
   image-alt: 
 heading: Props & features
-desc: Inside the airstream is an abundance of fun, vintage, creative and entertaining
-  props. The floral photo set is lit by two professional beauty dish lights that produce
-  beautiful images all printed in high resolution from our high speed photo printer.
-  As part of our service we also edit your photos after the event before uploading
-  them to your private online gallery. We include a personalised photo template with
-  each booking so your can have your names or event branding on all of your digital
-  and printed photos. Two hosts are on hand to guide your guests and help them get
-  the most out of their experience. Kids love the vintage jelly bean dispenser (vegetarian
-  friendly), and the airstream is climate controlled for cool summers and warm winter
-  evenings.
+desc: 'Our stunning airstream offers an abundance of fun, including a range of unique
+  and stylish props, from our beautifully designed headpieces to our quirky sunglasses.
+  Equipped with professional dish lights, our booth provides high quality photos,
+  personalised and filtered which will be uploaded to your private online gallery.
+  As part of our service our friendly hosts are on hand to guide your guests catering
+  to individual needs. Our airstream temperature can be adapted throughout the seasons
+  making it perfect for all year round.
+
+'
 layout: booth-aspect
 ---
 
