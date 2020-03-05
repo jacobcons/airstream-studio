@@ -65,7 +65,9 @@ image-slider:
   image-alt: 
 testimonials:
 - name: Mr & Mrs Hockley
-  quote: Easygoing, relaxed but very professional. Super impressed and extremely happy.
+  quote: 'Wow… what can I say.. We knew the Airstream would look stunning and was
+    such a fun addition to the day.  We had no idea just how much it would make our
+    wedding day. '
 - name: Hetty & Giles
   quote: We absolutely loved the attention to detail in every area of the booth from
     all the tasteful, and unique props to both of your kindness and warmth. Thank
