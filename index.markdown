@@ -65,10 +65,7 @@ image-slider:
   image-alt: 
 testimonials:
 - name: Mr & Mrs Hockley
-  quote: 'Em and Matt are the perfect hosts. They have created such an incredible,
-    unique business that no one could top. From the stylish props, to the stunning
-    velvet cocktail sofa surrounded by beautiful flowers, each guest left with photos
-    they were proud of. '
+  quote: Easygoing, relaxed but very professional. Super impressed and extremely happy.
 - name: Hetty & Giles
   quote: We absolutely loved the attention to detail in every area of the booth from
     all the tasteful, and unique props to both of your kindness and warmth. Thank
