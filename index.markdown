@@ -65,8 +65,9 @@ image-slider:
   image-alt: 
 testimonials:
 - name: Mr & Mrs Hockley
-  quote: We absolutely loved the attention to detail in every area of the booth from
-    all the tasteful, unique and stylish props to both of your kindness and warmth.
+  quote: The lighting and prints were all so flattering! Thank you for coming and
+    making the day so special. We will treasure our guest book and messages from our
+    friends and family for a lifetime."
 - name: Hetty & Giles
   quote: We absolutely loved the attention to detail in every area of the booth from
     all the tasteful, and unique props to both of your kindness and warmth. Thank
