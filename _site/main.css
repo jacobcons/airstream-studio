@@ -878,6 +878,9 @@ button:focus {
   display: table;
   clear: both; }
 
+.full-width {
+  max-width: 100%; }
+
 .arrow-link {
   font-size: 16px;
   font-size: 1rem;
@@ -1097,7 +1100,7 @@ button:focus {
 
 .cross-fader__badge {
   margin: 0 0.625rem;
-  width: calc(24px + 6vw); }
+  width: calc(30px + 7vw); }
   @media screen and (max-width: 56.24875em) {
     .cross-fader__badge {
       margin: 0 0.3125rem; } }
@@ -1371,10 +1374,13 @@ button:focus {
   font-size: 1.3125rem; }
 
 .quote {
-  font-style: italic;
   text-align: left; }
 
+.quote__text {
+  font-style: italic; }
+
 .quote__name {
+  margin: 0;
   font-size: 16px;
   font-size: 1rem; }
 
@@ -1387,10 +1393,16 @@ button:focus {
 .social-icon {
   margin: 0 1rem 1.5625rem;
   transition: -webkit-transform 0.2s ease-out;
-  transition: transform 0.2s ease-out; }
+  transition: transform 0.2s ease-out;
+  text-decoration: none;
+  display: block; }
   .social-icon:hover {
     -webkit-transform: scale(1.2);
             transform: scale(1.2); }
+
+.star-rating__star {
+  font-size: 24px;
+  font-size: 1.5rem; }
 
 .service {
   padding: 1rem 0; }
@@ -1529,10 +1541,10 @@ button:focus {
             transform: scaleX(1); } }
 
 .primary-nav {
-  padding: 14.0625rem 0 10.9375rem 0; }
+  margin: 10rem 0 10rem 0; }
   @media screen and (max-width: 56.24875em) {
     .primary-nav {
-      padding: 3.75rem 0 0; } }
+      margin: 3.75rem 0 0; } }
 
 .primary-nav__section {
   display: -ms-flexbox;

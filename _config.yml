@@ -96,16 +96,12 @@ footer-nav:
     url: "/pop-up-booth.html"
   - title: Pricing
     url: "/pricing.html"
+  col-2:
   - title: Videos
     url: "/videos.html"
-  col-2:
   - title: Social media
     url: "/social-media.html"
-  - title: Vintage wedding suppliers
-    url: "/vintage-wedding-suppliers.html"
-  - title: Vintage shops sussex
-    url: "/vintage-shops-sussex.html"
-  - title: Vintage events
-    url: "/vintage-events.html"
   - title: Contact
     url: "/contact.html"
+  - title: Vintage wedding suppliers
+    url: "/vintage-wedding-suppliers.html"

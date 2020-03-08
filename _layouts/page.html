@@ -37,6 +37,18 @@
       {{ content }}
     
       <footer class="footer">
+        <div class="row">
+          {% include footer-nav-section.html links=site.footer-nav.col-1 nav-classes="nav list-nav"%}
+          
+          {% include footer-nav-section.html links=site.footer-nav.col-2 nav-classes="nav list-nav bottom-spacer" %}
+          
+          <div class="medium-4 small-12">
+            <a class="social-icon" href="https://www.instagram.com/airstream.studiophotobooth/" target="_blank" rel="noopener">{% include social-icons/instagram.svg %}</a>
+            <a class="social-icon" href="https://www.facebook.com/airstreamstudios/" target="_blank" rel="noopener">{% include social-icons/fb.svg %}</a>
+            <a class="social-icon" href="https://www.youtube.com/channel/UCiCBARvnYpPUxl-mtQEyKlA" target="_blank" rel="noopener">{% include social-icons/yt.svg %}</a>
+            </div>
+          </div>
+        
         <div class="row align-middle">
           {% for badge in site.footer-badges %}
       		<div class="column medium-expand small-12">
@@ -45,21 +57,6 @@
       			</a>
       		</div>
       		{% endfor %}
-        </div>
-        <div class="row">
-          {% include footer-nav-section.html links=site.footer-nav.col-1 nav-classes="nav list-nav"%}
-          
-          {% include footer-nav-section.html links=site.footer-nav.col-2 nav-classes="nav list-nav bottom-spacer" %}
-          
-          <div class="medium-4 small-12">
-            <div class="row align-center">
-              <a class="social-icon" href="https://www.instagram.com/airstream.studiophotobooth/" target="_blank" rel="noopener">{% include social-icons/instagram.svg %}</a>
-              <a class="social-icon" href="https://www.facebook.com/airstreamstudios/" target="_blank" rel="noopener">{% include social-icons/fb.svg %}</a>
-            </div>
-            <div class="row align-center">
-              <a class="social-icon" href="https://www.youtube.com/channel/UCiCBARvnYpPUxl-mtQEyKlA" target="_blank" rel="noopener">{% include social-icons/yt.svg %}</a>
-            </div>
-          </div>
         </div>
       </footer>
     </div>

@@ -5,6 +5,13 @@ body-classes: contact
 
 <section class="section">
 	<h1 class="title title--underline">Contact</h1>
+	
+	<div class="row align-center">
+		<div class="column small-12 medium-8">
+			<img class="full-width" src="images\52. Rosa Limonita.jpg">
+		</div>
+	</div>
+	
 	<div class="text-wrapper">
 		<p>{{ page.text | markdownify }}</p>
 		<p class="copy-link">{{ site.contact.email }}</p>
@@ -12,7 +19,7 @@ body-classes: contact
 	{% include contact-btn.html %} 
 </section>
 
-<section class="section section--padding-l">
+<section class="section">
 	<div class="row align-middle">
 		{% for badge in page.badges %}
 		<div class="column large-expand medium-6 small-12">
