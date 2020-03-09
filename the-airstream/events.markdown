@@ -10,7 +10,8 @@ boxes:
 - title: Weddings
   image: "/uploads/Wedding%20Entertainment-315520.jpg"
   image-alt: 
-  desc: A unique photo booth based in Sussex, great for vintage inspired weddings.
+  desc: 'A unique mobile photo booth based in Sussex and surrounding areas, specialising
+    in Vintage weddings and adaptable for many special occasions. '
   link: 
 - title: Parties
   image: "/uploads/parties.jpg"
@@ -20,14 +21,16 @@ boxes:
 - title: Corporate events
   image: "/uploads/corporate%20events-fbc8fb.jpg"
   image-alt: 
-  desc: We love corporate events, parties and team events. Your company logo and branding
-    can be added to photo prints.
+  desc: 'Airstream Studio is the ideal feature for any corporate event. Our high-quality
+    photo prints can include your companies branding and logos. Perfect for complementing
+    your companies'' image. '
   link: 
 - title: Grad Balls & Proms
   image: "/uploads/grad balls & proms.jpg"
   image-alt: 
-  desc: Pupils love having their photos taken in the airstream photo booth and sharing
-    them with social media.
+  desc: 'Our airstream adds a real wow factor helping your grad ball or prom stand
+    out from the crowd. Pupils can use our stylish props to create fun memorable photos
+    and can share with friends across social media channels using our #airstreamgrad. '
   link: 
 - title: Christmas
   image: "/uploads/Christmas%20Photo%20Booth.jpg"
