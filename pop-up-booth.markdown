@@ -5,27 +5,17 @@ position: 2
 page-title: Airstream Photo Booth
 body-classes: the-airstream
 image-slider:
-- image: "/uploads/DSC_0113.jpg"
+- image: "/uploads/Heart%202021.jpeg"
   image-alt: 
-- image: "/uploads/Love%20Photo%20Booth.jpg"
+- image: "/uploads/Heart%20Moroccan.jpg"
   image-alt: 
-- image: "/uploads/Valentine%20Photo%20Booth-58a4f7.jpg"
-  image-alt: 
-- image: "/uploads/20190708_153149_467.jpg"
-  image-alt: 
-- image: "/uploads/20190708_153213_928.jpg"
+- image: "/uploads/Heart%202021%202.jpeg"
   image-alt: 
 - image: "/uploads/Heart%20Booth%20Set%20Up.jpg"
   image-alt: 
-- image: "/uploads/20190708_153302_586.jpg"
+- image: "/uploads/20210807_205733_209.jpg"
   image-alt: 
-- image: "/uploads/20190708_153621_622.jpg"
-  image-alt: 
-- image: "/uploads/DSC_0128.jpg"
-  image-alt: 
-- image: "/uploads/DSC_0142.jpg"
-  image-alt: 
-- image: "/uploads/DSC_2752.jpg"
+- image: "/uploads/20210807_205714_670.jpg"
   image-alt: 
 heading: Pop Up Booth
 desc: |-
