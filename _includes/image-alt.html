@@ -1,1 +1,0 @@
-{% if include.alt %}{{ include.alt }}{% else %}{{ include.file-path | split: '/' | last | split: '.' | first | replace: '%20', ' ' }}{% endif %}
