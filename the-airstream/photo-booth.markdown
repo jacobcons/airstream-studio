@@ -43,8 +43,6 @@ image-slider:
   image-alt: 
 - image: "/uploads/dupenny-01-8b020b.png"
   image-alt: 
-- image: 
-  image-alt: 
 heading: Luxury Photo Booth
 desc: Our professional lighting and stunning floral backdrops combine to create a
   gorgeous collection of photographs recording your event, and our wide selection
