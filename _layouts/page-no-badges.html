@@ -48,16 +48,6 @@
             <a class="social-icon" href="https://www.youtube.com/channel/UCiCBARvnYpPUxl-mtQEyKlA" target="_blank" rel="noopener">{% include social-icons/yt.svg %}</a>
             </div>
           </div>
-        
-        <div class="row align-middle">
-          {% for badge in site.footer-badges %}
-      		<div class="column medium-expand small-12">
-      			<a href="{{ badge.link }}" target="_blank" rel="noopener">
-      				<img src="{{ badge.image }}" alt="{% include image-alt.html alt=badge.image-alt file-path=badge.image %}" class="badge badge--small">
-      			</a>
-      		</div>
-      		{% endfor %}
-        </div>
       </footer>
     </div>
     

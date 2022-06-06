@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-no-badges
 bodyClasses: index
 ---
 
@@ -16,6 +16,15 @@ bodyClasses: index
 				<img src="{{ image-obj.image }}" alt="{% include image-alt.html alt=image-obj.image-alt file-path=image-obj.image %}" class="cross-fader__image">
 			</div>
 		{% endfor %}
+	</div>
+	<div class="row align-middle">
+          {% for badge in site.footer-badges %}
+      		<div class="column medium-expand small-12">
+      			<a href="{{ badge.link }}" target="_blank" rel="noopener">
+      				<img src="{{ badge.image }}" alt="{% include image-alt.html alt=badge.image-alt file-path=badge.image %}" class="badge badge--small">
+      			</a>
+      		</div>
+      		{% endfor %}
 	</div>
 </section>
 

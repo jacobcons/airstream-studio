@@ -477,7 +477,7 @@ class Videos {
 	}
 
 	async init() {
-		const apiKey = 'AIzaSyCQFwzDyaunRwLLXw5HmGbtzU7kcXCBCwc';
+		const apiKey = 'AIzaSyCJSgr_3WXN02anrHK97YT1m-w3D_N0cPc';
 		const [featureVideoRes, playlistRes] = await Promise.all([this.fetchPlaylist({ apiKey, playlistId: 'PLPgiQYzddFtj1WFE-z8csoUBeWc6_ZqlZ' }), this.fetchPlaylist({ apiKey, playlistId: 'PLPgiQYzddFtiwHeR6XoCixKkVhVPhHP4z' })]);
 
 		const featureVideoId = featureVideoRes.items[0].snippet.resourceId.videoId;
