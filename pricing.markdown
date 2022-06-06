@@ -9,25 +9,25 @@ meta-desc: Hire prices, information and venue requirements. Early set up, all da
 body-classes: pricing
 airstream-prices:
 - title: 3 hours
-  price: 850
+  price: 950
 - title: 4 hours
-  price: 1050
+  price: 1150
 - title: 5 hours
-  price: 1250
+  price: 1350
 heart-booth-prices:
 - title: 3 hours
-  price: 600
-- title: 4 hours
-  price: 700
-- title: 5 hours
   price: 800
+- title: 4 hours
+  price: 950
+- title: 5 hours
+  price: 1100
 pop-up-booth-prices:
 - title: 3 hours
-  price: 500
-- title: 4 hours
   price: 600
+- title: 4 hours
+  price: 750
 - title: 5 hours
-  price: 700
+  price: 900
 additional-services:
 - title: Personalised guest book
   is-from: false
@@ -42,7 +42,7 @@ additional-services:
 - title: Video booth
   is-from: true
   is-currency: true
-  price: 200
+  price: 300
   is-airstream-only: true
 - title: Early set up
   is-from: false
@@ -61,7 +61,6 @@ additional-services:
   is-airstream-only: false
 included:
 - One photo print per group and a spare for your guest book
-- Sharing with social media
 - Personal photo template
 - Professionally lit photo set
 - 2 hosts to greet & guide guests (1 host for pop up booth)
@@ -77,10 +76,9 @@ information:
     extended hire, we are happy to speak with you about a bespoke hire package.
 - title: Video booth
   text: Your guests can record video messages with sound, these will then be edited
-    into a movie for you to cherish. Prices start from £200 depending on event duration.
+    into a movie for you to cherish. Prices start from £300 depending on event duration.
 - title: Premium photo printing
-  text: For an additional £80, your guests will receive a print each with the option
-    to print a large single 4x6 photo each.
+  text: For an additional £80, your guests will receive a one photo print each.
 - title: Boho Lounge
   text: Vintage seating area complete with a red velvet sofa, matching chairs and
     trunk table. A perfect addition to summer events, woodland and festival weddings.
@@ -101,8 +99,6 @@ information:
 - title: Information
   text: |-
     -Travel, set-up and pack away time is included within the hire cost
-
-    -To enable social media sharing there must be a stable wi-fi or 4G connection. If this is not available uploads will be queued until a signal is available
 
     -For early set up, the airstream will be in place but not open as a photo booth until the agreed hire time
 layout: pricing

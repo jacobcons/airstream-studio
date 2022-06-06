@@ -13,9 +13,15 @@ image-slider:
   image-alt: 
 - image: "/uploads/46.Amy%20Heart%20Photos%20fun.jpg"
   image-alt: 
+- image: "/uploads/20210828_192238_032.jpg"
+  image-alt: 
+- image: "/uploads/20210830_201236_914.jpg"
+  image-alt: 
 - image: "/uploads/51.%20Bride%20&%20groom%20wedding%20entertainment.jpg"
   image-alt: 
 - image: "/uploads/43.%20Bride%20photo%20booth.jpg"
+  image-alt: 
+- image: "/uploads/20210830_204926_107.jpg"
   image-alt: 
 - image: "/uploads/54.%20Photo%20booth%20glamour%20fun.jpg"
   image-alt: 
@@ -36,6 +42,8 @@ image-slider:
 - image: "/uploads/35.kids%20photo%20booth.jpg"
   image-alt: 
 - image: "/uploads/dupenny-01-8b020b.png"
+  image-alt: 
+- image: 
   image-alt: 
 heading: Luxury Photo Booth
 desc: Our professional lighting and stunning floral backdrops combine to create a
