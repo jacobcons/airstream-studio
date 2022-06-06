@@ -23,11 +23,11 @@ heart-booth-prices:
   price: 1100
 pop-up-booth-prices:
 - title: 3 hours
-  price: 600
+  price: 700
 - title: 4 hours
-  price: 750
+  price: 850
 - title: 5 hours
-  price: 900
+  price: 1000
 additional-services:
 - title: Personalised guest book
   is-from: false
