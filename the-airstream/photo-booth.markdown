@@ -10,7 +10,7 @@ meta-desc: A vintage inspired photo set surrounded by a beautiful archway of fai
 body-classes: the-airstream
 image-slider:
 - image-alt: 
-- image: "/uploads/46.Amy%20Heart%20Photos%20fun.jpg"
+- image: "/uploads/20190822_200104_661.jpg"
   image-alt: 
 - image: "/uploads/20190926_174320_655.jpg"
   image-alt: 
