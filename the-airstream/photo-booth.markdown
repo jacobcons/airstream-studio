@@ -28,7 +28,7 @@ image-slider:
   image-alt: 
 - image: "/uploads/20210830_205011_158.jpg"
   image-alt: 
-- image: "/uploads/20190914_233333_796.jpg"
+- image: "/uploads/20190914_233333_796-1a014e.jpg"
   image-alt: 
 - image: "/uploads/20190817_201337_693.jpg"
   image-alt: 
