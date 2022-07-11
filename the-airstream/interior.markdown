@@ -12,8 +12,6 @@ body-classes: the-airstream
 image-slider:
 - image: "/uploads/guest book.jpg"
   image-alt: 
-- image: "/uploads/Best%20Photo%20Booth%20Props-539ac4.jpg"
-  image-alt: 
 - image: "/uploads/seating_area.jpg"
   image-alt: 
 - image: "/uploads/15.%20Airstream%20Wedding.jpg"
