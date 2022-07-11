@@ -26,8 +26,6 @@ image-slider:
   image-alt: 
 - image: "/uploads/guest book table.jpg"
   image-alt: 
-- image: "/uploads/dupenny-01-fbf1f7.png"
-  image-alt: 
 heading: Guest Books
 desc: Wedding guest books are a perfect way to reminisce and remember your big day.
   Choose one of our beautifully bound photo albums, custom printed with your names
