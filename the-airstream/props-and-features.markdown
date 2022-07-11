@@ -10,23 +10,15 @@ body-classes: the-airstream
 image-slider:
 - image: "/uploads/9.%20wedding%20floral%20headwear.jpg"
   image-alt: 
-- image: "/uploads/Best%20Photo%20Booth%20Props.jpg"
-  image-alt: 
-- image: "/uploads/photo%20booth%20luxury.jpg"
-  image-alt: 
-- image: "/uploads/10.%20sunglasses%20props.jpg"
+- image: "/uploads/DSC_2922.jpg"
   image-alt: 
 - image: "/uploads/zedhead%20feather%20headwear.jpg"
-  image-alt: 
-- image: "/uploads/11.%20vintage%20props.jpg"
   image-alt: 
 - image: "/uploads/flower_crown-d512cc.jpg"
   image-alt: 
 - image: "/uploads/cine%20camera.jpg"
   image-alt: 
 - image: "/uploads/bellows%20camera-30ba92.jpg"
-  image-alt: 
-- image: "/uploads/dupenny-01-624c7c.png"
   image-alt: 
 heading: Props & features
 desc: 'Our stunning airstream offers an abundance of fun, including a range of unique
