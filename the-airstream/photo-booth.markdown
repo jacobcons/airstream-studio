@@ -20,13 +20,7 @@ image-slider:
   image-alt: 
 - image: "/uploads/20220604_203001_251.jpg"
   image-alt: 
-- image: "/uploads/43.%20Bride%20photo%20booth.jpg"
-  image-alt: 
 - image: "/uploads/54.%20Photo%20booth%20glamour%20fun.jpg"
-  image-alt: 
-- image: "/uploads/56.%20Kids%20photo%20booth%20.jpg"
-  image-alt: 
-- image: "/uploads/42.%20bride%20&%20grrom%20photo%20booth.jpg"
   image-alt: 
 - image: "/uploads/20220702_231251_824.jpg"
   image-alt: 
@@ -34,7 +28,15 @@ image-slider:
   image-alt: 
 - image: "/uploads/20210830_205011_158.jpg"
   image-alt: 
-- image: "/uploads/47.%2021st%20birthday%20photo%20booth.jpg"
+- image: "/uploads/20190914_233333_796.jpg"
+  image-alt: 
+- image: "/uploads/20190817_201337_693.jpg"
+  image-alt: 
+- image: "/uploads/20190428_173800_302.jpg"
+  image-alt: 
+- image: "/uploads/20191228_191532_242.jpg"
+  image-alt: 
+- image: "/uploads/20181214_202707_222.jpg"
   image-alt: 
 - image: "/uploads/dupenny-01.png"
   image-alt: 
