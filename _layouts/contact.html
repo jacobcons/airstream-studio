@@ -1,0 +1,33 @@
+---
+layout: page
+body-classes: contact
+---
+
+<section class="section">
+	<h1 class="title title--underline">Contact</h1>
+	
+	<div class="row align-center">
+		<div class="column small-12 medium-8">
+			<img class="full-width" src="images\52. Rosa Limonita.jpg">
+		</div>
+	</div>
+	
+	<div class="text-wrapper">
+		<p>{{ page.text | markdownify }}</p>
+		<p class="copy-link">{{ site.contact.email }}</p>
+	</div>
+	{% include contact-btn.html %} 
+</section>
+
+<section class="section">
+	<div class="row align-middle">
+		{% for badge in page.badges %}
+		<div class="column large-expand medium-6 small-12">
+			<a href="{{ badge.link }}" target="_blank" rel="noopener">
+				<img src="{{ badge.image }}" alt="{% include image-alt.html alt=badge.image-alt file-path=badge.image %}" class="badge">
+			</a>
+		</div>
+		{% endfor %}
+	</div>
+</section>
+

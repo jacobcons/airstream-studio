@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="{{ page.meta-desc }}">
+    
+    <title>{{ page.page-title }} </title>
+      
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" sizes="16x16">
+  </head>
+  <body class="{{ page.body-classes }}">
+    <div class="wrapper">
+      <nav class="nav primary-nav clearfix">
+        <div class="hamburger-menu">
+          <span class="hamburger-menu__line"></span>
+        </div>
+        <ul class="primary-nav__list">
+          {% include header-nav-section.html links=site.header-nav.left %}
+          
+          <div class="align-center">
+            <li class="nav__item primary-nav__item">
+              <a href="index.html">
+                <img class="primary-nav__logo" src="/images/airstream_studio_logo.png"/>
+              </a>
+            </li>
+          </div>
+          
+          {% include header-nav-section.html links=site.header-nav.right %}
+        </ul>
+      </nav>
+    
+      {{ content }}
+    
+      <footer class="footer">
+        <div class="row">
+          {% include footer-nav-section.html links=site.footer-nav.col-1 nav-classes="nav list-nav"%}
+          
+          {% include footer-nav-section.html links=site.footer-nav.col-2 nav-classes="nav list-nav bottom-spacer" %}
+          
+          <div class="medium-4 small-12">
+            <a class="social-icon" href="https://www.instagram.com/airstream.studiophotobooth/" target="_blank" rel="noopener">{% include social-icons/instagram.svg %}</a>
+            <a class="social-icon" href="https://www.facebook.com/airstreamstudios/" target="_blank" rel="noopener">{% include social-icons/fb.svg %}</a>
+            <a class="social-icon" href="https://www.youtube.com/channel/UCiCBARvnYpPUxl-mtQEyKlA" target="_blank" rel="noopener">{% include social-icons/yt.svg %}</a>
+            </div>
+          </div>
+      </footer>
+    </div>
+    
+    <script src="/main.js"></script>
+    </body>
+</html>

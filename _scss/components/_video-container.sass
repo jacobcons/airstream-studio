@@ -1,0 +1,17 @@
+.video-container
+  position: relative
+  display: inline-block
+
+
+
+.video-container--play-btn
+  cursor: pointer
+  &:after
+    content: '\f04b'
+    font-family: fontAwesome
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    font-size: calc(40px + 4vw)
+    color: #fff
