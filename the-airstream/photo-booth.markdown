@@ -9,7 +9,8 @@ meta-desc: A vintage inspired photo set surrounded by a beautiful archway of fai
   props to choose just the right thing to wear for their photos.
 body-classes: the-airstream
 image-slider:
-- image-alt: 
+- image: "/uploads/20181008_204116_562.jpg"
+  image-alt: 
 - image: "/uploads/20190822_200104_661.jpg"
   image-alt: 
 - image: "/uploads/20190926_174320_655.jpg"
