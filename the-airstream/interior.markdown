@@ -16,6 +16,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/15.%20Airstream%20Wedding.jpg"
   image-alt: 
+- image: "/uploads/DSC_2922-1a57bb.jpg"
+  image-alt: 
 - image: "/uploads/guest_book_area.jpg"
   image-alt: 
 - image: "/uploads/dupenny-01.png"
