@@ -9,7 +9,7 @@ body-classes: index
 image-slider:
 - image: "/uploads/39.%20Festival%20Bride.jpg"
   image-alt: 
-- image: "/uploads/47.%20Wedding%20Photo%20Booth%20Sussex.jpg"
+- image: "/uploads/20220604_214243_157.jpg"
   image-alt: 
 - image: "/uploads/49.%20Airstream%20Hire.jpg"
   image-alt: 
@@ -17,7 +17,7 @@ image-slider:
   image-alt: 
 - image: "/uploads/36.sunset%20airstream.jpg"
   image-alt: 
-- image: "/uploads/48.%20Sussex%20Photo%20Booth.jpg"
+- image: "/uploads/20220604_203924_340.jpg"
   image-alt: 
 - image: "/uploads/46.%20Event%20Hire.jpg"
   image-alt: 
