@@ -21,7 +21,7 @@ image-slider:
   image-alt: 
 - image: "/uploads/20220604_203001_251.jpg"
   image-alt: 
-- image: "/uploads/54.%20Photo%20booth%20glamour%20fun.jpg"
+- image: "/uploads/20210827_202518_609.jpg"
   image-alt: 
 - image: "/uploads/20220702_231251_824.jpg"
   image-alt: 
