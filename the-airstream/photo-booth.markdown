@@ -23,7 +23,6 @@ image-slider:
 - 
 - image: "/uploads/43.%20Bride%20photo%20booth.jpg"
   image-alt: 
-- image-alt: 
 - image: "/uploads/54.%20Photo%20booth%20glamour%20fun.jpg"
   image-alt: 
 - image: "/uploads/56.%20Kids%20photo%20booth%20.jpg"
@@ -35,6 +34,10 @@ image-slider:
 - image: "/uploads/20220604_191014_151.jpg"
   image-alt: 
 - image: "/uploads/20210830_205011_158.jpg"
+  image-alt: 
+- image: "/uploads/47.%2021st%20birthday%20photo%20booth.jpg"
+  image-alt: 
+- image: "/uploads/dupenny-01.png"
   image-alt: 
 heading: Luxury Photo Booth
 desc: Our professional lighting and stunning floral backdrops combine to create a
