@@ -20,7 +20,6 @@ image-slider:
   image-alt: 
 - image: "/uploads/20220604_203001_251.jpg"
   image-alt: 
-- 
 - image: "/uploads/43.%20Bride%20photo%20booth.jpg"
   image-alt: 
 - image: "/uploads/54.%20Photo%20booth%20glamour%20fun.jpg"
