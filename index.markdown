@@ -13,8 +13,6 @@ image-slider:
   image-alt: 
 - image: "/uploads/49.%20Airstream%20Hire.jpg"
   image-alt: 
-- image: "/uploads/45.%20Luxury%20Photo%20Booth.jpg"
-  image-alt: 
 - image: "/uploads/36.sunset%20airstream.jpg"
   image-alt: 
 - image: "/uploads/20220604_203924_340.jpg"
@@ -32,10 +30,6 @@ image-slider:
 - image: "/uploads/wedding%20entertainment.jpg"
   image-alt: 
 - image: "/uploads/37.summer%20airstream%20wedding.jpg"
-  image-alt: 
-- image: "/uploads/25.flower%20girl%20wedding.jpg"
-  image-alt: 
-- image: "/uploads/airstream%20studio%20wide%20shot.jpg"
   image-alt: 
 - image: "/uploads/001.Woodland%20Airstream.jpg"
   image-alt: 
