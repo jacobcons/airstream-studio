@@ -7,7 +7,7 @@ meta-desc: Hire prices, information and venue requirements. Early set up, all da
   and bespoke hire packages available as well as location hire of photography and
   film.
 body-classes: pricing
-airstream-prices:
+airstream-local prices:
 - title: 3 hours
   price: 950
 - title: 4 hours
