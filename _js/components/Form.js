@@ -19,6 +19,7 @@ export default class Form {
     this.elStatus = this.elForm.querySelector('.contact-form__status');
     this.elEmailInput = this.elForm.querySelector('input[name="email"]');
     this.elsRequiredInput = this.elForm.querySelectorAll('.input-field__text--required');
+    this.elVerificationInput = this.elForm.querySelector('input[name="_usrans"]');
     this.errors = {}
     
     this.elSendBtn.addEventListener('click', async (e) => {
@@ -28,6 +29,7 @@ export default class Form {
       
       this.validateEmail()
       this.validateRequired()
+      this.validateVerification()
       
 			const erroneousInputs = Object.keys(this.errors)
 			if (!erroneousInputs.length) {
@@ -72,6 +74,15 @@ export default class Form {
       }
     })
   }
+
+  validateVerification() {
+    if (this.elVerificationInput.value != "AIRSTREAM STUDIO") {
+      this.errors.verification = {
+        label: 'Please enter the correct text',
+        elInput: this.elVerificationInput
+      }
+    }
+  }
   
   async sendEmail() {
     try {
@@ -111,6 +122,8 @@ export default class Form {
     erroneousInputs.forEach((name) => {
       const {elInput, label} = this.errors[name]
       const elLabel = elInput.nextElementSibling
+      console.log(elInput)
+      console.log(elLabel)
       this.addErrorLabel(elInput, elLabel, label)
     })
   }
