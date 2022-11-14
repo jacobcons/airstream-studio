@@ -5,7 +5,7 @@ position: 5
 page-title: Airstream Studio - Unique Photo Booth Hire for Weddings, Parties, Proms,
   Corporate & Charity Events
 meta-desc: A unique photo booth available to hire for weddings,  parties, grad Balls
-  & proms, corporate events and film locations in Sussex, Surrey and Kent.
+  & proms, corporate events and film locations in Kent, London, Surrey and Sussex.
 boxes:
 - title: Weddings
   image: "/uploads/Wedding%20Entertainment-315520.jpg"
@@ -14,7 +14,7 @@ boxes:
     in Vintage weddings and adaptable for many special occasions. '
   link: 
 - title: Parties
-  image: "/uploads/parties.jpg"
+  image: "/uploads/Valentine%20Photo%20Booth.jpg"
   image-alt: 
   desc: Airstream Studio is perfect for party entertainment and fun photo memories.
   link: 
