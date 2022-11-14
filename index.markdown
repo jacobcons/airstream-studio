@@ -103,4 +103,4 @@ aspects:
 layout: index
 ---
 
-Welcome to our website, Airstream studio.. the perfect photobooth for any occasion..
+Welcome to our website, Airstream studio.. the perfect Kent based luxury photobooth for any occasion x
