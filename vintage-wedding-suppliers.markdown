@@ -11,7 +11,7 @@ boxes:
   image-alt: Rosie Red Corsetry & Couture
   desc: "Bespoke bridal wear and corsets. \n\nUnique designs as worn by Helen Bonham-carter."
 - title: 'Contemporary Flowers '
-  image: "/uploads/IMG_0623%20(1).JPG"
+  image: "/uploads/IMG_0627.JPG"
   image-alt: www.contemporaryflowers.co.uk
   desc: Florist & floral designer. Bespoke displays for Weddings, Funerals, Events.
     Canterbury based shop. Floral Workshops. Open for all Occasions & Deliveries.
