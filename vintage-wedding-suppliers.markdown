@@ -15,10 +15,11 @@ boxes:
   image-alt: www.contemporaryflowers.co.uk
   desc: Florist & floral designer. Bespoke displays for Weddings, Funerals, Events.
     Canterbury based shop. Floral Workshops. Open for all Occasions & Deliveries.
+    www.contemporaryflowers.co.uk
 - title: 'Victoria Grace Bridal '
   image: "/uploads/front_4_256309-167498300063275-69c3e7.webp"
-  desc: 'A beautiful Bridal Boutique with stunning dresses by Essence of Australia,
-    Kenneth Winston Couture and Victoria Kay '
+  desc: A beautiful Bridal Boutique with stunning dresses by Essence of Australia,
+    Kenneth Winston Couture and Victoria Kay www.victoriagracebridal.co.uk
   image-alt: " "
 layout: 3-col-boxes
 ---
