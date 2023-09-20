@@ -74,12 +74,17 @@ testimonials:
   quote: 'Your beautiful airstream exceeded our expectations and fitted in like a
     picture against the backdrop of the venue. '
 - name: Robert & Gareth
-  quote: 'Em and Matt are the perfect hosts. They have created such an incredible,
-    unique business that no one could top. From the tasteful props, to the stunning
-    velvet cocktail sofa surrounded by beautiful flowers, each guest left with photos
-    they were proud of. '
+  quote: 'Absolute perfect hosts! They have created such an incredible, unique business
+    that no one could top. From the tasteful props, to the stunning velvet cocktail
+    sofa surrounded by beautiful flowers, each guest left with photos they were proud
+    of. '
 - name: Laura & Dan
   quote: Easygoing, relaxed but very professional. Super impressed and extremely happy!
+- name: 'Sophie & Hayden '
+  quote: Such great fun for everyone!  A very unique photobooth with amazing props!
+    We had this for our wedding in June 2023 and it was literally perfect, everything
+    we hoped for and more! We even had a couple of celebs in the booth!! Thank you
+    so much x
 aspects:
 - title: Exterior
   image: "/uploads/exterior.jpg"

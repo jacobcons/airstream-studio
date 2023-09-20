@@ -1,20 +1,20 @@
 ---
-title: Vintage wedding suppliers
+title: Wedding suppliers in Kent we love working with
 date: 2018-08-14 13:20:00 Z
 position: 6
-page-title: Airstream Studio - Recommended Vintage Wedding Suppliers in Sussex
-meta-desc: Vintage weddings supplier links for Sussex. Wedding dresses, flowers, food,
+page-title: 'Airstream Studio - Recommended Wedding Suppliers in Kent '
+meta-desc: Vintage weddings supplier links for Kent. Wedding dresses, flowers, food,
   transport.
 boxes:
 - title: Rosie Red Corsetry
   image: "/uploads/collections10-2.jpg"
   image-alt: Rosie Red Corsetry & Couture
   desc: "Bespoke bridal wear and corsets. \n\nUnique designs as worn by Helen Bonham-carter."
-- title: Kate Langdale Florist
-  image: "/uploads/kate%20langdale%20florist.jpg"
-  image-alt: 
+- title: 'Contemporary Flowers '
+  image: "/uploads/IMG_0623%20(1).JPG"
+  image-alt: www.contemporaryflowers.co.uk
   desc: Florist & floral designer. Bespoke displays for Weddings, Funerals, Events.
-    Central Brighton Studio/shop. Floral Workshops. Open for Occasions & Deliveries.
+    Canterbury based shop. Floral Workshops. Open for all Occasions & Deliveries.
 layout: 3-col-boxes
 ---
 
