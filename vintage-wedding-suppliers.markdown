@@ -19,7 +19,7 @@ boxes:
 - title: 'Victoria Grace Bridal '
   image: "/uploads/front_4_256309-167498300063275-69c3e7.webp"
   desc: A beautiful Bridal Boutique with stunning dresses by Essence of Australia,
-    Kenneth Winston Couture and Victoria Kay www.victoriagracebridal.co.uk
+    Kenneth Winston Couture and Victoria Kay  Canterbury Based Shop.
   image-alt: " "
 layout: 3-col-boxes
 ---
