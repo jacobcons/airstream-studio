@@ -1,7 +1,7 @@
 # airstream-studio
-[https://www.airstreamstudio.uk/](https://www.airstreamstudio.uk/)
-
 ![screenshot](./airstreamstudio_crop.jpg)
+
+[https://www.airstreamstudio.uk/](https://www.airstreamstudio.uk/)
 
 This is a site I made for a photo booth company. The planning phase consisted of discussing the content and design they wanted, making reference to existing sites for the things they'd like to draw from. Then designs in sketch were sent over, feedback was given and finals tweaks were made.
 
