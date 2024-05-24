@@ -3,7 +3,7 @@
 
 [https://www.airstreamstudio.uk/](https://www.airstreamstudio.uk/)
 
-Airstream studio's jekyll static site
+A static site built with Jekyll for Airstream Studio, a photo booth company.
 
 ## Todo
 - [x] Plan content and design, with client
