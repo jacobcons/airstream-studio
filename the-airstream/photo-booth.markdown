@@ -43,6 +43,8 @@ image-slider:
   image-alt: 
 - image: "/uploads/sophie.jpg"
   image-alt: 
+- image: "/uploads/stavros.jpg"
+  image-alt: 
 heading: Luxury Photo Booth
 desc: Our professional lighting and stunning floral backdrops combine to create a
   gorgeous collection of photographs recording your event, and our wide selection
